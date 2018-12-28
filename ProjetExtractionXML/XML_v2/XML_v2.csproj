@@ -42,10 +42,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseMontarArquivo.cs" />
+    <Compile Include="Constantes.cs" />
     <Compile Include="ContratosTecnologia.cs" />
-    <Compile Include="DesenhosIndustriais.cs" />
+    <Compile Include="DesenhosIndustriais_old.cs" />
+    <Compile Include="DesenIndustrial.cs" />
+    <Compile Include="MontarArquivoDistritoIndustrial.cs" />
+    <Compile Include="OrquestradorArquivo.cs" />
+    <Compile Include="OrquestradorTipos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestHarness.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -57,6 +64,9 @@
     <Content Include="Arquivos\DesenhoIndustrial_2502.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Saida\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

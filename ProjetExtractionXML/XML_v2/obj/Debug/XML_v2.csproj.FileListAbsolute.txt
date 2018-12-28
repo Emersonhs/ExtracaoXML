@@ -7,3 +7,11 @@ D:\Freela\Nova pasta\XML_v2\XML_v2\obj\Debug\XML_v2.csprojAssemblyReference.cach
 D:\Freela\Nova pasta\XML_v2\XML_v2\obj\Debug\XML_v2.csproj.CoreCompileInputs.cache
 D:\Freela\Nova pasta\XML_v2\XML_v2\bin\Debug\Arquivos\Contratos_2495.xml
 D:\Freela\Nova pasta\XML_v2\XML_v2\bin\Debug\Arquivos\DesenhoIndustrial_2502.xml
+D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\Arquivos\Contratos_2495.xml
+D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\Arquivos\DesenhoIndustrial_2502.xml
+D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\XML_v2.exe.config
+D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\XML_v2.exe
+D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\XML_v2.pdb
+D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.csproj.CoreCompileInputs.cache
+D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.exe
+D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.pdb

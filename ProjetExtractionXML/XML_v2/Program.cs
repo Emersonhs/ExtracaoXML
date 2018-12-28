@@ -10,14 +10,15 @@ namespace XML_v2
     {
         static void Main(string[] args)
         {
-            DesenhosIndustriais ct = new DesenhosIndustriais();
+            //DesenhosIndustriais_old ct = new DesenhosIndustriais_old();
 
-            ct.LerArquivo();
+            //ct.LerArquivo();
 
+            OrquestradorTipos orquestrador = new OrquestradorTipos();
+            orquestrador.Orquestrar<revista>();
+            //DesenhosIndustriais_old di = new DesenhosIndustriais_old();
 
-            DesenhosIndustriais di = new DesenhosIndustriais();
-
-            di.LerArquivo();
+            //di.LerArquivo();
 
             Console.WriteLine("arquivo pronto");
 
