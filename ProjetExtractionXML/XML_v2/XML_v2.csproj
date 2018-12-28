@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D06CB12C-F41F-4792-8B36-71A49EB4AEC7}</ProjectGuid>
+    <ProjectGuid>{566DB746-941E-4CA7-B69C-483357B7A40C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>XML_v1</RootNamespace>
-    <AssemblyName>XML_v1</AssemblyName>
+    <RootNamespace>XML_v2</RootNamespace>
+    <AssemblyName>XML_v2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,11 +42,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContratosTecnologia.cs" />
+    <Compile Include="DesenhosIndustriais.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Arquivos\Contratos_2495.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Arquivos\DesenhoIndustrial_2502.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -6,22 +6,40 @@ using System.Threading.Tasks;
 using System.Xml;
 using System.IO;
 
-namespace XML_v1
+namespace XML_v2
 {
-    class Program
+    class ContratosTecnologia
     {
-        static void Main(string[] args)
+
+        /////////               CONTRATOS DE TECNOLOGIA               /////////
+
+        //caminho lendo arquivo diretamente da pasta BIN
+
+        private string sCaminhoDoArquivo = ("Arquivos/Contratos_2495.xml");
+        private string codINID = "", valorINID = "", no = "";
+
+
+        //Criação do arquivo
+        StreamWriter arquivo = new StreamWriter("arquivo.txt");
+
+        List<XmlAttribute> elementos = new List<XmlAttribute>();
+
+        public ContratosTecnologia(string cINID, string vINID)
         {
-            /////////               CONTRATOS DE TECNOLOGIA               /////////
+            this.codINID = cINID;
+            this.valorINID = vINID;
+        }
 
-            //caminho lendo arquivo diretamente da pasta BIN
-            string sCaminhoDoArquivo = ("Contratos_2495.xml");
+        public ContratosTecnologia()
+        {
 
-            //Criação do arquivo
-            StreamWriter arquivo = new StreamWriter("arquivo.txt");
+        }
+
+        public void LerArquivo()
+        {
 
             ////Lendo XML
-            using (XmlTextReader xml = new XmlTextReader(sCaminhoDoArquivo))
+            XmlTextReader xml = new XmlTextReader(sCaminhoDoArquivo);
             {
                 while (xml.Read())
                 {
@@ -49,7 +67,9 @@ namespace XML_v1
                                 // imprime na tela: (Np) BR 70 2018 000335-9
                                 if (xml.HasAttributes == true)
                                 {
-                                    //escrita no arquivo
+                                    //ContratosTecnologia CT = new ContratosTecnologia(xml.GetAttribute(0), xml.Value);
+                                    //elementos.Add(CT);
+                                    ////escrita no arquivo
                                     arquivo.Write("(" + xml.GetAttribute(0) + ") ");
                                     xml.Read();
                                     arquivo.WriteLine(xml.Value);
@@ -59,11 +79,6 @@ namespace XML_v1
                     }
                 }
             }
-
-            arquivo.Close();
-            Console.Clear();
-            Console.WriteLine("Arquivo criado com sucesso.");
-            Console.ReadKey();
         }
     }
 }
