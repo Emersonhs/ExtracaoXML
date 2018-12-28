@@ -28,32 +28,38 @@ namespace XML_v2
                         arquivo.WriteLine("(" + ItemDespacho.processopatente.datadeposito.inid + ") " + ItemDespacho.processopatente.datadeposito.Value);
                 }
                 foreach (var item in ItemDespacho.processopatente.titularlista)
-                    arquivo.WriteLine("(" + item.titular.inid + ") " + item.titular.nomecompleto + " (" + item.titular.endereco.pais.sigla + "/" + item.titular.endereco.uf + ") ");
+                {
+                    string strEndereco = string.Empty;
+                    strEndereco = "(" + item.titular.inid + ") " + item.titular.nomecompleto;
+                    if (item.titular.endereco.pais.sigla != null)
+                        strEndereco += " (" + item.titular.endereco.pais.sigla;
+                    else
+                    strEndereco += " ("; 
+                    if (item.titular.endereco.uf != null)
+                        strEndereco +="/" + item.titular.endereco.uf + ") ";
+                    else
+                        strEndereco += ") ";
+                    arquivo.WriteLine(strEndereco);
+
+                }
 
                 if (ItemDespacho.processopatente.inventorlista != null)
                 {
                     var NovaLista = ItemDespacho.processopatente.inventorlista.GroupBy(O => O.inid).ToList();
-
-                    if (NovaLista.Count > 1)
+                    string StrInventor = string.Empty; ;
+                    StrInventor = string.Empty;
+                    foreach (var item in NovaLista)
                     {
-                        foreach (var item in NovaLista)
-                        {
-                            string StrInventor = string.Empty;
-                            
-                            var InventorList = ItemDespacho.processopatente.inventorlista.Where(o => o.inid == item.Key).ToList();
-                            StrInventor += "(" + item.Key + ") ";
-                            foreach (var inventor in InventorList)
-                            {
-                                StrInventor  += inventor.nomecompleto + "; ";
-                            }
+                        var InventorList = ItemDespacho.processopatente.inventorlista.Where(o => o.inid == item.Key).ToList();
+                        StrInventor += "(" + item.Key + ") ";
+                        foreach (var inventor in InventorList)
+                            StrInventor += inventor.nomecompleto + "; ";
 
-                        }
+                        arquivo.WriteLine(StrInventor.Substring(0, StrInventor.Trim().Length - 1));
+                        StrInventor = string.Empty;
                     }
-                    foreach (var item in ItemDespacho.processopatente.inventorlista)
-                    {
 
-                        arquivo.WriteLine("(" + item.inid + ") " + item.nomecompleto);
-                    }
+
                 }
                 if (ItemDespacho.processopatente.procuradorlista != null)
                     foreach (var item in ItemDespacho.processopatente.procuradorlista)
