@@ -15,3 +15,11 @@ D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\XML_v2.pdb
 D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.csproj.CoreCompileInputs.cache
 D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.exe
 D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.pdb
+C:\Users\Bsi91030\Desktop\Emerson\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\XML_v2.exe.config
+C:\Users\Bsi91030\Desktop\Emerson\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.exe
+C:\Users\Bsi91030\Desktop\Emerson\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.pdb
+C:\Users\Bsi91030\Desktop\Emerson\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\Arquivos\Contratos_2495.xml
+C:\Users\Bsi91030\Desktop\Emerson\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\XML_v2.exe
+C:\Users\Bsi91030\Desktop\Emerson\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\XML_v2.pdb
+C:\Users\Bsi91030\Desktop\Emerson\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\Arquivos\DesenhoIndustrial_2502.xml
+C:\Users\Bsi91030\Desktop\Emerson\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.csprojResolveAssemblyReference.cache

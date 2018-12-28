@@ -85,7 +85,7 @@ public partial class revistaDespacho
 
     private string tituloField;
 
-    private revistaDespachoProcessopatente processopatenteField;
+    private processopatente processopatenteField;
 
     private revistaDespachoComentario comentarioField;
 
@@ -115,9 +115,9 @@ public partial class revistaDespacho
         }
     }
 
-    /// <remarks/>
+    ///<remarks/>
     [System.Xml.Serialization.XmlElementAttribute("processo-patente")]
-    public revistaDespachoProcessopatente processopatente
+    public processopatente processopatente
     {
         get
         {
@@ -144,39 +144,40 @@ public partial class revistaDespacho
 }
 
 /// <remarks/>
-[System.SerializableAttribute()]
-[System.ComponentModel.DesignerCategoryAttribute("code")]
-[System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-public partial class revistaDespachoProcessopatente
-{
+//[System.SerializableAttribute()]
+//[System.ComponentModel.DesignerCategoryAttribute("code")]
+//[System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+//public partial class revistaDespachoProcessopatente
+//{
 
-    private object[] itemsField;   
-    /// <remarks/>
-    [System.Xml.Serialization.XmlElementAttribute("classificacao-nacional-lista", typeof(revistaDespachoProcessopatenteClassificacaonacionallista))]
-    [System.Xml.Serialization.XmlElementAttribute("complemento-figura-rosto", typeof(revistaDespachoProcessopatenteComplementofigurarosto))]
-    [System.Xml.Serialization.XmlElementAttribute("concessao", typeof(revistaDespachoProcessopatenteConcessao))]
-    [System.Xml.Serialization.XmlElementAttribute("data-deposito", typeof(revistaDespachoProcessopatenteDatadeposito))]
-    [System.Xml.Serialization.XmlElementAttribute("data-registro-prorrogacao", typeof(revistaDespachoProcessopatenteDataregistroprorrogacao))]
-    [System.Xml.Serialization.XmlElementAttribute("divisao-pedido", typeof(revistaDespachoProcessopatenteDivisaopedido))]
-    [System.Xml.Serialization.XmlElementAttribute("inventor-lista", typeof(revistaDespachoProcessopatenteInventorlista))]
-    [System.Xml.Serialization.XmlElementAttribute("numero", typeof(revistaDespachoProcessopatenteNumero))]
-    [System.Xml.Serialization.XmlElementAttribute("prioridade-unionista-lista", typeof(revistaDespachoProcessopatentePrioridadeunionistalista))]
-    [System.Xml.Serialization.XmlElementAttribute("procurador-lista", typeof(revistaDespachoProcessopatenteProcuradorlista))]
-    [System.Xml.Serialization.XmlElementAttribute("publicacao-nacional", typeof(revistaDespachoProcessopatentePublicacaonacional))]
-    [System.Xml.Serialization.XmlElementAttribute("titular-lista", typeof(revistaDespachoProcessopatenteTitularlista))]
-    [System.Xml.Serialization.XmlElementAttribute("titulo", typeof(revistaDespachoProcessopatenteTitulo))]
-    public object[] Items
-    {
-        get
-        {
-            return this.itemsField;
-        }
-        set
-        {
-            this.itemsField = value;
-        }
-    }
-}
+//    private object[] itemsField;   
+//    /// <remarks/>
+//    [System.Xml.Serialization.XmlElementAttribute("classificacao-nacional-lista", typeof(revistaDespachoProcessopatenteClassificacaonacionallista))]
+//    [System.Xml.Serialization.XmlElementAttribute("complemento-figura-rosto", typeof(revistaDespachoProcessopatenteComplementofigurarosto))]
+//    [System.Xml.Serialization.XmlElementAttribute("concessao", typeof(revistaDespachoProcessopatenteConcessao))]
+//    [System.Xml.Serialization.XmlElementAttribute("data-deposito", typeof(revistaDespachoProcessopatenteDatadeposito))]
+//    [System.Xml.Serialization.XmlElementAttribute("data-registro-prorrogacao", typeof(revistaDespachoProcessopatenteDataregistroprorrogacao))]
+//    [System.Xml.Serialization.XmlElementAttribute("divisao-pedido", typeof(revistaDespachoProcessopatenteDivisaopedido))]
+//    [System.Xml.Serialization.XmlElementAttribute("inventor-lista", typeof(revistaDespachoProcessopatenteInventorlista))]
+//    [System.Xml.Serialization.XmlElementAttribute("numero", typeof(revistaDespachoProcessopatenteNumero))]
+//    [System.Xml.Serialization.XmlElementAttribute("prioridade-unionista-lista", typeof(revistaDespachoProcessopatentePrioridadeunionistalista))]
+//    [System.Xml.Serialization.XmlElementAttribute("procurador-lista", typeof(revistaDespachoProcessopatenteProcuradorlista))]
+//    [System.Xml.Serialization.XmlElementAttribute("publicacao-nacional", typeof(revistaDespachoProcessopatentePublicacaonacional))]
+//    [System.Xml.Serialization.XmlElementAttribute("titular-lista", typeof(revistaDespachoProcessopatenteTitularlista))]
+//    [System.Xml.Serialization.XmlElementAttribute("titulo", typeof(revistaDespachoProcessopatenteTitulo))]
+//    public object[] Items
+//    {
+//        get
+//        {
+//            return this.itemsField;
+//        }
+//        set
+//        {
+//            this.itemsField = value;
+//        }
+//    }
+//}
+
 
 /// <remarks/>
 [System.SerializableAttribute()]
@@ -1170,3 +1171,443 @@ namespace XML_v2
         public revista revista { get; set; }
     }
 }
+
+/// <remarks/>
+[System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+[System.Xml.Serialization.XmlRootAttribute("processo-patente", Namespace = "", IsNullable = false)]
+public partial class processopatente
+{
+
+    private processopatenteNumero numeroField;
+
+    private processopatenteDatadeposito datadepositoField;
+
+    private processopatenteTitularlista[] titularlistaField;
+
+    private processopatenteInventor[] inventorlistaField;
+
+    private processopatenteProcuradorlista[] procuradorlistaField;
+
+    /// <remarks/>
+    public processopatenteNumero numero
+    {
+        get
+        {
+            return this.numeroField;
+        }
+        set
+        {
+            this.numeroField = value;
+        }
+    }
+
+    /// <remarks/>
+    [System.Xml.Serialization.XmlElementAttribute("data-deposito")]
+    public processopatenteDatadeposito datadeposito
+    {
+        get
+        {
+            return this.datadepositoField;
+        }
+        set
+        {
+            this.datadepositoField = value;
+        }
+    }
+
+    /// <remarks/>
+    [System.Xml.Serialization.XmlElementAttribute("titular-lista")]
+    public processopatenteTitularlista[] titularlista
+    {
+        get
+        {
+            return this.titularlistaField;
+        }
+        set
+        {
+            this.titularlistaField = value;
+        }
+    }
+
+    /// <remarks/>
+    [System.Xml.Serialization.XmlArrayAttribute("inventor-lista")]
+    [System.Xml.Serialization.XmlArrayItemAttribute("inventor", IsNullable = false)]
+    public processopatenteInventor[] inventorlista
+    {
+        get
+        {
+            return this.inventorlistaField;
+        }
+        set
+        {
+            this.inventorlistaField = value;
+        }
+    }
+
+    /// <remarks/>
+    [System.Xml.Serialization.XmlElementAttribute("procurador-lista")]
+    public processopatenteProcuradorlista[] procuradorlista
+    {
+        get
+        {
+            return this.procuradorlistaField;
+        }
+        set
+        {
+            this.procuradorlistaField = value;
+        }
+    }
+}
+
+/// <remarks/>
+[System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+public partial class processopatenteNumero
+{
+
+    private byte inidField;
+
+    private string valueField;
+
+    /// <remarks/>
+    [System.Xml.Serialization.XmlAttributeAttribute()]
+    public byte inid
+    {
+        get
+        {
+            return this.inidField;
+        }
+        set
+        {
+            this.inidField = value;
+        }
+    }
+
+    /// <remarks/>
+    [System.Xml.Serialization.XmlTextAttribute()]
+    public string Value
+    {
+        get
+        {
+            return this.valueField;
+        }
+        set
+        {
+            this.valueField = value;
+        }
+    }
+}
+
+/// <remarks/>
+[System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+public partial class processopatenteDatadeposito
+{
+
+    private byte inidField;
+
+    private string valueField;
+
+    /// <remarks/>
+    [System.Xml.Serialization.XmlAttributeAttribute()]
+    public byte inid
+    {
+        get
+        {
+            return this.inidField;
+        }
+        set
+        {
+            this.inidField = value;
+        }
+    }
+
+    /// <remarks/>
+    [System.Xml.Serialization.XmlTextAttribute()]
+    public string Value
+    {
+        get
+        {
+            return this.valueField;
+        }
+        set
+        {
+            this.valueField = value;
+        }
+    }
+}
+
+/// <remarks/>
+[System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+public partial class processopatenteTitularlista
+{
+
+    private processopatenteTitularlistaTitular titularField;
+
+    /// <remarks/>
+    public processopatenteTitularlistaTitular titular
+    {
+        get
+        {
+            return this.titularField;
+        }
+        set
+        {
+            this.titularField = value;
+        }
+    }
+}
+
+/// <remarks/>
+[System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+public partial class processopatenteTitularlistaTitular
+{
+
+    private string nomecompletoField;
+
+    private processopatenteTitularlistaTitularEndereco enderecoField;
+
+    private byte inidField;
+
+    private byte sequenciaField;
+
+    /// <remarks/>
+    [System.Xml.Serialization.XmlElementAttribute("nome-completo")]
+    public string nomecompleto
+    {
+        get
+        {
+            return this.nomecompletoField;
+        }
+        set
+        {
+            this.nomecompletoField = value;
+        }
+    }
+
+    /// <remarks/>
+    public processopatenteTitularlistaTitularEndereco endereco
+    {
+        get
+        {
+            return this.enderecoField;
+        }
+        set
+        {
+            this.enderecoField = value;
+        }
+    }
+
+    /// <remarks/>
+    [System.Xml.Serialization.XmlAttributeAttribute()]
+    public byte inid
+    {
+        get
+        {
+            return this.inidField;
+        }
+        set
+        {
+            this.inidField = value;
+        }
+    }
+
+    /// <remarks/>
+    [System.Xml.Serialization.XmlAttributeAttribute()]
+    public byte sequencia
+    {
+        get
+        {
+            return this.sequenciaField;
+        }
+        set
+        {
+            this.sequenciaField = value;
+        }
+    }
+}
+
+/// <remarks/>
+[System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+public partial class processopatenteTitularlistaTitularEndereco
+{
+
+    private string ufField;
+
+    private processopatenteTitularlistaTitularEnderecoPais paisField;
+
+    /// <remarks/>
+    public string uf
+    {
+        get
+        {
+            return this.ufField;
+        }
+        set
+        {
+            this.ufField = value;
+        }
+    }
+
+    /// <remarks/>
+    public processopatenteTitularlistaTitularEnderecoPais pais
+    {
+        get
+        {
+            return this.paisField;
+        }
+        set
+        {
+            this.paisField = value;
+        }
+    }
+}
+
+/// <remarks/>
+[System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+public partial class processopatenteTitularlistaTitularEnderecoPais
+{
+
+    private string siglaField;
+
+    /// <remarks/>
+    public string sigla
+    {
+        get
+        {
+            return this.siglaField;
+        }
+        set
+        {
+            this.siglaField = value;
+        }
+    }
+}
+
+/// <remarks/>
+[System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+public partial class processopatenteInventor
+{
+
+    private string nomecompletoField;
+
+    private byte inidField;
+
+    private byte sequenciaField;
+
+    /// <remarks/>
+    [System.Xml.Serialization.XmlElementAttribute("nome-completo")]
+    public string nomecompleto
+    {
+        get
+        {
+            return this.nomecompletoField;
+        }
+        set
+        {
+            this.nomecompletoField = value;
+        }
+    }
+
+    /// <remarks/>
+    [System.Xml.Serialization.XmlAttributeAttribute()]
+    public byte inid
+    {
+        get
+        {
+            return this.inidField;
+        }
+        set
+        {
+            this.inidField = value;
+        }
+    }
+
+    /// <remarks/>
+    [System.Xml.Serialization.XmlAttributeAttribute()]
+    public byte sequencia
+    {
+        get
+        {
+            return this.sequenciaField;
+        }
+        set
+        {
+            this.sequenciaField = value;
+        }
+    }
+}
+
+/// <remarks/>
+[System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+public partial class processopatenteProcuradorlista
+{
+
+    private processopatenteProcuradorlistaProcurador procuradorField;
+
+    /// <remarks/>
+    public processopatenteProcuradorlistaProcurador procurador
+    {
+        get
+        {
+            return this.procuradorField;
+        }
+        set
+        {
+            this.procuradorField = value;
+        }
+    }
+}
+
+/// <remarks/>
+[System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+public partial class processopatenteProcuradorlistaProcurador
+{
+
+    private string nomecompletoField;
+
+    private byte inidField;
+
+    private byte sequenciaField;
+
+    /// <remarks/>
+    [System.Xml.Serialization.XmlElementAttribute("nome-completo")]
+    public string nomecompleto
+    {
+        get
+        {
+            return this.nomecompletoField;
+        }
+        set
+        {
+            this.nomecompletoField = value;
+        }
+    }
+
+    /// <remarks/>
+    [System.Xml.Serialization.XmlAttributeAttribute()]
+    public byte inid
+    {
+        get
+        {
+            return this.inidField;
+        }
+        set
+        {
+            this.inidField = value;
+        }
+    }
+
+    /// <remarks/>
+    [System.Xml.Serialization.XmlAttributeAttribute()]
+    public byte sequencia
+    {
+        get
+        {
+            return this.sequenciaField;
+        }
+        set
+        {
+            this.sequenciaField = value;
+        }
+    }
+}
+
