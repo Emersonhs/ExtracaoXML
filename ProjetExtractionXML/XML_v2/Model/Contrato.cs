@@ -8,6 +8,9 @@ namespace XML_v2.Model
 {
     public class Contrato
     {
+        public object numero { get; internal set; }
+        public string dataPublicacao { get; internal set; }
+        public IEnumerable<object> despacho { get; internal set; }
 
 
         // NOTE: Generated code may require at least .NET Framework 4.5 or .NET Core/Standard 2.0.
