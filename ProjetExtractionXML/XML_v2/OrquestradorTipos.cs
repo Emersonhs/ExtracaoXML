@@ -20,7 +20,13 @@ namespace XML_v2
         {
             xmlInputData = File.ReadAllText(Constantes.Arquivos.Contrato);
             T Retorno = ser.Deserialize<T>(xmlInputData);
+<<<<<<< HEAD
+
+            GerarArquivo.Gerar<revista>(Retorno);
+           
+=======
             GerarArquivo.Gerar<Contrato>(Retorno);
+>>>>>>> a8656393ceaba9e4a8b21ff6a0f4b8e2bec14e01
         }
     }
 }
