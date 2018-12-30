@@ -13,14 +13,14 @@ namespace XML_v2
         {
         }
 
-        public void MonatarAquivo(revista revista)
+        public void MonatarAquivo(DesenhoIndustrial revista)
         {
             arquivo.WriteLine("No " + revista.numero + " de " + revista.dataPublicacao);
             arquivo.WriteLine("|");
             arquivo.WriteLine("No " + revista.numero + " de " + revista.dataPublicacao);
             foreach (var ItemDespacho in revista.despacho)
             {
-                arquivo.WriteLine("(Cd) " + ItemDespacho.codigo);
+                arquivo.WriteLine("(Cd) " + ItemDespacho.codigo.ToString().Replace('.',','));
                 if (ItemDespacho.processopatente != null)
                 {
                     arquivo.WriteLine("(" + ItemDespacho.processopatente.numero.inid + ") " + ItemDespacho.processopatente.numero.Value);
@@ -58,8 +58,6 @@ namespace XML_v2
                         arquivo.WriteLine(StrInventor.Substring(0, StrInventor.Trim().Length - 1));
                         StrInventor = string.Empty;
                     }
-
-
                 }
                 if (ItemDespacho.processopatente.procuradorlista != null)
                     foreach (var item in ItemDespacho.processopatente.procuradorlista)

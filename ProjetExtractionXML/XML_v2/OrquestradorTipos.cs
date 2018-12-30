@@ -19,7 +19,7 @@ namespace XML_v2
         {
             xmlInputData = File.ReadAllText(Constantes.Arquivos.DesenhoIndustrial);
             T Retorno = ser.Deserialize<T>(xmlInputData);
-            GerarArquivo.Gerar<revista>(Retorno);
+            GerarArquivo.Gerar<DesenhoIndustrial>(Retorno);
         }
     }
 }

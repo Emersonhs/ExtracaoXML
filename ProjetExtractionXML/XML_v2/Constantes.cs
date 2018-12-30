@@ -20,7 +20,7 @@ namespace XML_v2
         }
         public abstract class Arquivos
         {
-            public const string DesenhoIndustrial = "Arquivos/DesenhoIndustrial_2502.xml";
+            public const string DesenhoIndustrial = "Arquivos/DesenhoIndustrial_2503.xml";
             public const string DesenhoIndustrialSaida = "Saida/Desenho_Industrial.txt"; 
 
         }
