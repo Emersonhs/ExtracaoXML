@@ -20,7 +20,7 @@ namespace XML_v2
             else if (typeof(T).Name == typeof(Contrato).Name)
             {
                 MontarArquivoContrato MontarArquivo = new MontarArquivoContrato();
-                MontarArquivo.MonatarAquivo((Contrato)Dados);
+                MontarArquivo.MontarAquivo((Contrato)Dados);
             }
         }
     }
