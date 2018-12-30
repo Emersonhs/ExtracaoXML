@@ -6,7 +6,7 @@
 [System.ComponentModel.DesignerCategoryAttribute("code")]
 [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
 [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-public partial class DesenhoIndustrial
+public partial class revista
 {
 
     private revistaDespacho[] despachoField;
@@ -1132,7 +1132,7 @@ namespace XML_v2
 {
     public class DesenIndustrial
     {
-        public DesenhoIndustrial revista { get; set; }
+        public revista revista { get; set; }
     }
 }
 

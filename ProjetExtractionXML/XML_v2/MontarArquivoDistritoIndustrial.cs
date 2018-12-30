@@ -13,7 +13,7 @@ namespace XML_v2
         {
         }
 
-        public void MonatarAquivo(DesenhoIndustrial revista)
+        public void MonatarAquivo(revista revista)
         {
             arquivo.WriteLine("No " + revista.numero + " de " + revista.dataPublicacao);
             arquivo.WriteLine("|");

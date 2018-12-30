@@ -4,19 +4,24 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using XML_v2.Model;
 
 namespace XML_v2
 {
     public class OrquestradorArquivo
     {
         public void Gerar<T>(object Dados)
-        {            
-            if (typeof(T).Name == typeof(DesenhoIndustrial).Name)
+        {
+            if (typeof(T).Name == typeof(revista).Name)
             {
                 MontarArquivoDistritoIndustrial MontarArquivo = new MontarArquivoDistritoIndustrial();
-                MontarArquivo.MonatarAquivo((DesenhoIndustrial)Dados);
-            }           
-           
-        }      
+                MontarArquivo.MonatarAquivo((revista)Dados);
+            }
+            else if (typeof(T).Name == typeof(Contrato).Name)
+            {
+                MontarArquivoContrato MontarArquivo = new MontarArquivoContrato();
+                MontarArquivo.MonatarAquivo((Contrato)Dados);
+            }
+        }
     }
 }

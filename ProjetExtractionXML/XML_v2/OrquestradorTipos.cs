@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using XML_v2.Model;
 using static XML_v2.TestHarness;
 
 namespace XML_v2
@@ -17,9 +18,9 @@ namespace XML_v2
       
         public void Orquestrar<T>() where T : class
         {
-            xmlInputData = File.ReadAllText(Constantes.Arquivos.DesenhoIndustrial);
+            xmlInputData = File.ReadAllText(Constantes.Arquivos.Contrato);
             T Retorno = ser.Deserialize<T>(xmlInputData);
-            GerarArquivo.Gerar<DesenhoIndustrial>(Retorno);
+            GerarArquivo.Gerar<Contrato>(Retorno);
         }
     }
 }
