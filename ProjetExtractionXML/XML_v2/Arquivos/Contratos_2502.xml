@@ -1,0 +1,2458 @@
+<revista numero="2502" dataPublicacao="18/12/2018" diretoria="Contratos">
+  <despacho>
+    <codigo>135</codigo>
+    <titulo>Petição indeferida</titulo>
+    <processo-contrato>
+      <numero inid="Np">000442</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052850</numero>
+          <requerente>
+            <nomeCompleto inid="Rq">NAL DO BRASIL INDÚSTRIA E COMÉRCIO DE COMPONENTES DE ILUMINAÇÃO LTDA.</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+    <comentario inid="Cp"></comentario>
+  </despacho>
+  <despacho>
+    <codigo>135</codigo>
+    <titulo>Petição indeferida</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000391-0</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052696</numero>
+          <requerente>
+            <nomeCompleto inid="Rq">PERLATOP S.A.</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+    <comentario inid="Cp"></comentario>
+  </despacho>
+  <despacho>
+    <codigo>140</codigo>
+    <titulo>Pedido inexistente</titulo>
+    <processo-contrato>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052849</numero>
+          <dataProtocolo inid="De">11/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">ADATA INTEGRATION BRAZIL S.A.</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>145</codigo>
+    <titulo>Exigência</titulo>
+    <processo-contrato>
+      <numero inid="Np">090947</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">CLOSURE SYSTEMS INTERNATIONAL, INC</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">CLOSURE SYSTEMS INTERNATIONAL (BRAZIL) SISTEMAS DE VEDAÇÃO LTDA</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>145</codigo>
+    <titulo>Exigência</titulo>
+    <processo-contrato>
+      <numero inid="Np">111183</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">LUCAS INDUSTRIES LIMITED</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">ZF DO BRASIL LTDA.</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>145</codigo>
+    <titulo>Exigência</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2017 000597-9</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">MONSANTO DO BRASIL LTDA</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">LIMAGRAIN BRASIL S.A.</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>145</codigo>
+    <titulo>Exigência</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2017 000598-7</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">MONSANTO DO BRASIL LTDA</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">LIMAGRAIN BRASIL S.A.</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>145</codigo>
+    <titulo>Exigência</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2017 000635-5</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">OURO FINO SAÚDE ANIMAL PARTICIPAÇÕES S.A</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">OURO FINO SAÚDE ANIMAL LTDA</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>145</codigo>
+    <titulo>Exigência</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000095-3</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">FRAMBOISE HOLDINGS INC.</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">CAREX INDÚSTRIA DE COSMÉTICOS LTDA</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>145</codigo>
+    <titulo>Exigência</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000195-0</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">ATHENAS MEDICAL IMPORTADORA E DISTRIBUIDORA DE PRODUTOS MÉDICOS LTDA</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">VITA FRANCHISING, COMERCIO DE MAQUINAS E PRODUTOS PARA ESTETICA LTDA EPP</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>145</codigo>
+    <titulo>Exigência</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000263-8</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">EDUCATION TRADEMARK BV</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">SODECAM - SOCIEDADE DE DESENVOLVIMENTO CULTURAL DO AMAZONAS LTDA</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>145</codigo>
+    <titulo>Exigência</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000268-9</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">EDUCATION TRADEMARK BV</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">SOCIEDADE DE CULTURA E ENSINO LTDA</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>145</codigo>
+    <titulo>Exigência</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000484-3</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">ALOE VERA OF AMERICA, INC.</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">FOREVER LIVING PRODUCTS BRASIL LTDA.</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>145</codigo>
+    <titulo>Exigência</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050504-4</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">WD-40 COMPANY</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">THERON MARKETING LTDA</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>145</codigo>
+    <titulo>Exigência</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050540-0</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">TOXSTRATEGIES, INC</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">ARCELORMITTAL BRASIL S/A</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>145</codigo>
+    <titulo>Exigência</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050662-8</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">PIZZA HUT INTERNATIONAL LLC</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">PHSR MASTER FRANQUIA LTDA.</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>145</codigo>
+    <titulo>Exigência</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050663-6</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">PIZZA HUT INTERNATIONAL LLC</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">PHSR MASTER FRANQUIA LTDA.</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>145</codigo>
+    <titulo>Exigência</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050664-4</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">PIZZA HUT INTERNATIONAL LLC</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">PHSR MASTER FRANQUIA LTDA.</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>145</codigo>
+    <titulo>Exigência</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050672-5</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">KERALTY S.A.S</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">MEDISANITAS BRASIL ASSISTÊNCIA INTEGRAL À SAÚDE S.A.</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>145</codigo>
+    <titulo>Exigência</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050673-3</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">UNIVERSIDADE TÉCNICA DE LULEA</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">ASSOCIAÇÃO INSTITUTO TECNOLOGICO VALE - ITV</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>145</codigo>
+    <titulo>Exigência</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050687-3</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">NHS, INC.</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">LOGOS CONSULTORIA LTDA</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>145</codigo>
+    <titulo>Exigência</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050699-7</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">IMPORIENTE COMÉRCIO EXTERIOR LTDA</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">COMERCIAL L&amp;Y IMPORTAÇÃO E EXPORTAÇÃO DE ARTIGOS DE BAZAR LTDA</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>145</codigo>
+    <titulo>Exigência</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050700-4</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">SUOMY INTERNATIONAL PTE LTD.</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">J2M S.R.L.</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>145</codigo>
+    <titulo>Exigência</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050701-2</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">HYUNDAI CONSTRUCTION EQUIPMENT CO., LTD</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">HYUNDAI HEAVY INDUSTRIES BRASIL INDÚSTRIA E COMÉRCIO DE EQUIPAMENTOS DE CONSTRUCAO S.A. (HHI BRASIL)</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>145</codigo>
+    <titulo>Exigência</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050702-0</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">RISE INNVENTIA AB</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">KLABIN S/A</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">000442</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052850</numero>
+          <dataProtocolo inid="De">11/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">NAL DO BRASIL INDÚSTRIA E COMÉRCIO DE COMPONENTES DE ILUMINAÇÃO LTDA.</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">111183</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052809</numero>
+          <dataProtocolo inid="De">06/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">ZF DO BRASIL LTDA.</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">140003</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052855</numero>
+          <dataProtocolo inid="De">12/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">NV BEKAERT S.A.</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">140085</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052831</numero>
+          <dataProtocolo inid="De">07/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">PAYPAL DO BRASIL SERVIÇOS DE PAGAMENTOS LTDA</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">140109</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052817</numero>
+          <dataProtocolo inid="De">07/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">CPW BRASIL LTDA</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">140306</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052812</numero>
+          <dataProtocolo inid="De">06/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">DILLY NORDESTE INDÚSTRIA DE CALÇADOS LTDA.</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">140440</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052827</numero>
+          <dataProtocolo inid="De">07/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">ALCOA ALUMÍNIO S/A</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">140441</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052826</numero>
+          <dataProtocolo inid="De">07/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">ALCOA ALUMINIO S/A</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">140756</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052839</numero>
+          <dataProtocolo inid="De">10/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">WEDO DO BRASIL SOLUÇÕES INFORMÁTICAS LTDA.</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2015 000268-0</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052840</numero>
+          <dataProtocolo inid="De">10/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">OUTBACK STEAKHOUSE RESTAURANTES BRASIL S.A.</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2015 000268-0</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052841</numero>
+          <dataProtocolo inid="De">10/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">OUTBACK STEAKHOUSE RESTAURANTES BRASIL S.A.</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2015 000268-0</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052851</numero>
+          <dataProtocolo inid="De">11/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">OUTBACK STEAKHOUSE RESTAURANTES BRASIL S.A.</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2017 000442-5</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052865</numero>
+          <dataProtocolo inid="De">12/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">NAL DO BRASIL INDÚSTRIA E COMÉRCIO DE COMPONENTES DE ILUMINAÇÃO LTDA.</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2017 000597-9</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052842</numero>
+          <dataProtocolo inid="De">10/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">LIMAGRAIN BRASIL S.A.</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2017 000598-7</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052843</numero>
+          <dataProtocolo inid="De">10/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">LIMAGRAIN BRASIL S.A.</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2017 000635-5</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052821</numero>
+          <dataProtocolo inid="De">07/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">OURO FINO SAÚDE ANIMAL LTDA</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000095-3</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052836</numero>
+          <dataProtocolo inid="De">10/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">CAREX INDÚSTRIA DE COSMÉTICOS LTDA</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000097-0</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052829</numero>
+          <dataProtocolo inid="De">07/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">TEXTOR INDÚSTRIA DE COSMÉTICOS LTDA</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000100-3</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052828</numero>
+          <dataProtocolo inid="De">07/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">AQUARIUS INDÚSTRIA E COMÉRCIO DE COSMÉTICOS LTDA</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000263-8</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052845</numero>
+          <dataProtocolo inid="De">10/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">EDUCATION TRADEMARK BV</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000266-2</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052832</numero>
+          <dataProtocolo inid="De">07/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">ORKIN SYSTEMS INC.</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000268-9</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052846</numero>
+          <dataProtocolo inid="De">10/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">EDUCATION TRADEMARK BV</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000376-6</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052862</numero>
+          <dataProtocolo inid="De">12/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">L&apos;ORÉAL BRASIL COMERCIAL DE COSMÉTICOS LTDA.</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000441-0</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052816</numero>
+          <dataProtocolo inid="De">07/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">GESTAMP BRASIL INDUSTRIA DE AUTOPEÇAS S/A</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000466-5</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052815</numero>
+          <dataProtocolo inid="De">06/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">GERDAU S.A.</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000484-3</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052822</numero>
+          <dataProtocolo inid="De">07/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">FOREVER LIVING PRODUCTS BRASIL LTDA.</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050508-7</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052844</numero>
+          <dataProtocolo inid="De">10/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">IVI SALVADOR MEDICINA REPRODUTIVA S/A</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050517-6</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052852</numero>
+          <dataProtocolo inid="De">11/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">KLABIN S/A</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050521-4</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052830</numero>
+          <dataProtocolo inid="De">07/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">GRID SOLUTIONS TRANSMISSÃO DE ENERGIA LTDA.</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050540-0</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052820</numero>
+          <dataProtocolo inid="De">07/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">ARCELORMITTAL BRASIL S/A</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050550-8</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052811</numero>
+          <dataProtocolo inid="De">06/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">GENERAL MOTORS DO BRASIL LTDA.</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050557-5</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052818</numero>
+          <dataProtocolo inid="De">07/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">TEIXEIRA DUARTE - ENGENHARIA E CONSTRUÇÕES S/A</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050626-1</numero>
+      <peticoes>
+        <peticao>
+          <numero inid="Pt">880180052808</numero>
+          <dataProtocolo inid="De">06/12/2018</dataProtocolo>
+          <requerente>
+            <nomeCompleto inid="Rq">INDORAMA VENTURES POLIMEROS S.A.</nomeCompleto>
+          </requerente>
+        </peticao>
+      </peticoes>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050702-0</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">RISE INNVENTIA AB</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">KLABIN S/A</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">06/12/2018</dataProtocolo>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050703-9</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">MG LICENCIAMENTO DE MARCAS E PROPRIEDADE INTELECTUAL EIRELI</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">GG EDUCACIONAL LTDA</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">06/12/2018</dataProtocolo>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050704-7</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">HURLEY INTERNATIONAL LLC</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">NACIONAL COMPANY INDÚSTRIA E COMÉRCIO DE ROUPAS EIRELI</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">07/12/2018</dataProtocolo>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050705-5</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">L&apos;ORÉAL</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">L&apos;ORÉAL BRASIL COMERCIAL DE COSMÉTICOS LTDA.</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">10/12/2018</dataProtocolo>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050706-3</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">RIO DOCE COMÉRCIO ATACADISTA LTDA EPP</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">GUARAPARI COMERCIO DE CONFECCOES EIRELI - EPP</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">10/12/2018</dataProtocolo>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050707-1</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">VELUM LIMITED</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">RONTEK TECNOLOGIA LTDA ME</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">12/12/2018</dataProtocolo>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050708-0</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">L&apos;ORÉAL</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">L&apos;ORÉAL BRASIL COMERCIAL DE COSMÉTICOS LTDA.</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">12/12/2018</dataProtocolo>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050709-8</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">L?ORÉAL (UK) LTD.</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">L&apos;ORÉAL BRASIL COMERCIAL DE COSMÉTICOS LTDA.</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">12/12/2018</dataProtocolo>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050710-1</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">LANCOME PARFUMS ET BEAUTE &amp; CIE</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">L&apos;ORÉAL BRASIL COMERCIAL DE COSMÉTICOS LTDA.</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">12/12/2018</dataProtocolo>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050711-0</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">LA ROCHE-POSAY LABORATOIRE DERMATOLOGIQUE</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">L&apos;ORÉAL BRASIL COMERCIAL DE COSMÉTICOS LTDA.</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">12/12/2018</dataProtocolo>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050712-8</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">SPORT CLUB CORINTHIANS PAULISTA</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">SPR INDUSTRIA DE CONFECCAO S.A.</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">12/12/2018</dataProtocolo>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050713-6</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">STANLEY ELECTRIC CO. LTD.</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">STANLEY ELECTRIC DO BRASIL LTDA</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">12/12/2018</dataProtocolo>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>150</codigo>
+    <titulo>Notificado o Requerimento de Averbação/Registro ou Petição</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050714-4</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">AGC GLASS EUROPE</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">AGC VIDROS DO BRASIL LTDA.</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">12/12/2018</dataProtocolo>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>184</codigo>
+    <titulo>Arquivamento de Processo</titulo>
+    <processo-contrato>
+      <numero inid="Np">121021</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">CHRISTIANE GIRON - ME</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">DCG ARTEFATOS DE COURO LTDA  - ME</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>184</codigo>
+    <titulo>Arquivamento de Processo</titulo>
+    <processo-contrato>
+      <numero inid="Np">121065</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">CHRISTIANE GIRON - ME</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">TCB COMÉRCIO DE ARTIGOS DE COURO LTDA - EPP</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>184</codigo>
+    <titulo>Arquivamento de Processo</titulo>
+    <processo-contrato>
+      <numero inid="Np">130965</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">M.G.S. SRL</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">NEWTON INDÚSTRIA E COMÉRCIO LTDA</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>184</codigo>
+    <titulo>Arquivamento de Processo</titulo>
+    <processo-contrato>
+      <numero inid="Np">140129</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">G-TEKT CORPORATION</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">G-KT DO BRASIL LTDA.</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>184</codigo>
+    <titulo>Arquivamento de Processo</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2015 000534</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">C&amp;CAS COMÉRCIO, IMPORTAÇÃO E EXPORTAÇÃO LTDA</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">BIOCUTHIS - INDÚSTRIA E COMÉRCIO DE COSMÉTICOS EIRELI - ME</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>184</codigo>
+    <titulo>Arquivamento de Processo</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2016 000377</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">CAMARGO CORRÊA S/A</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">FAZENDA GCSJ LTDA.</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>184</codigo>
+    <titulo>Arquivamento de Processo</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2017 000088</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">THE ARMOR ALL/STP PRODUCTS COMPANY</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">PETROPLUS SUL COMÉRCIO EXTERIOR LTDA</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>184</codigo>
+    <titulo>Arquivamento de Processo</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000072</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">J. R. SIMPLOT COMPANY</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">SIMPLOT DO BRASIL ALIMENTOS LTDA</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>184</codigo>
+    <titulo>Arquivamento de Processo</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050499</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">CEVA SANTÉ ANIMALE S.A</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">CEVA SAÚDE ANIMAL LTDA</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>185</codigo>
+    <titulo>Processo Arquivado</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000097-0</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">FRAMBOISE HOLDINGS INC.</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">TEXTOR INDÚSTRIA DE COSMÉTICOS LTDA</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>185</codigo>
+    <titulo>Processo Arquivado</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000100-3</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">FRAMBOISE HOLDINGS INC.</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">AQUARIUS INDÚSTRIA E COMÉRCIO DE COSMÉTICOS LTDA</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>185</codigo>
+    <titulo>Processo Arquivado</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050522-2</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">ELIZÁRIO ADMINISTRAÇÃO E PARTICIPAÇÕES LTDA.</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">MAG PIZZARIA EIRELI</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>295</codigo>
+    <titulo>Anulação de publicação</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050535-4</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">MAGNA MIRRORS ENGINEERING GMBH</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">METAGAL INDUSTRIA E COMÉRCIO LTDA.</nomeCompleto>
+        </cessionaria>
+      </cessionarias>
+    </processo-contrato>
+    <comentario inid="Cp">Cancelamento da publicação da RPI 2493 de 16/10/2018.</comentario>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">130230</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">HYUNDAI MOTOR COMPANY</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">REPÚBLICA DA CORÉIA</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">CAOA MONTADORA DE VEÍCULOS LTDA.</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Fabricação de automóveis, camionetas e utilitários</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">13/09/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">130230/02</numero>
+          <naturezaDocumento inid="Nd">1º Aditivo de 01/09/2018 ao Contrato de 01/09/2012.</naturezaDocumento>
+          <textoObjeto inid="Ob">FT - Fabricação/montagem de todas as variações do veículo modelo ix35  (código &quot;LM&quot;), incluindo entre outros: ix35 (código:LM) 2.0 Litros Flex tração  4x2 M/T. e ix35(código LM) 2.0 Litros Flex tração 4x2 A/T, conforme Anexo  A. Alteração dos itens &quot;Valor&quot; e &quot;Prazo&quot;.</textoObjeto>
+          <siglaCategoria inid="Mc">FORNECIMENTO DE TECNOLOGIA;SERVIÇO DE ASSISTÊNCIA TÉCNICA E CIENTÍFICA</siglaCategoria>
+          <descricaoMoeda inid="Mo">DOLAR DOS ESTADOS UNIDOS</descricaoMoeda>
+          <valorContrato inid="Va">1- - 2- US$ 110,00, por unidade produzida; 3- Pela Assistência Técnica -  Até US$ 735.000,00</valorContrato>
+          <formaPagamento inid="Pg">Taxas/dia de US$ 250,00 e US$ 350,00---</formaPagamento>
+          <prazoContrato inid="Pz">De 11/09/2018 até 11/09/2022.</prazoContrato>
+          <prazoVigenciaPI inid="Pv"></prazoVigenciaPI>
+          <observacao inid="Oc">O presente altera e complementa o Certificado de Averbação nº 130230/01.</observacao>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">130814</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">GROUPE ADEO</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">FRANÇA</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">LEROY MERLIN COMPANHIA BRASILEIRA DE BRICOLAGEM</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Comércio varejista de materiais de construção em geral</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">01/10/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">130814/04</numero>
+          <naturezaDocumento inid="Nd">Contrato de 27/12/2000 e Aditivo de 23/12/2015.</naturezaDocumento>
+          <textoObjeto inid="Ob">UM - Licença exclusiva para os Registros de Marca mencionados no item &quot;Prazo&quot; - Alteração do item &quot;Prazo&quot;.</textoObjeto>
+          <siglaCategoria inid="Mc">USO DE MARCA</siglaCategoria>
+          <descricaoMoeda inid="Mo">EURO</descricaoMoeda>
+          <valorContrato inid="Va">0,3% (zero virgula três por cento) sobre a receita líquida calculada para cada loja.</valorContrato>
+          <formaPagamento inid="Pg">.</formaPagamento>
+          <prazoContrato inid="Pz">De 01/10/2018 até 27/12/2020.</prazoContrato>
+          <prazoVigenciaPI inid="Pv">De 01/10/2018 até: 27/01/2019 para os Registros 822005832, 822005816; 21/09/2019 para o Registro 820449008; 23/11/2019 para os Registros 820448982, 820448990, 820449016, 820449024; 16/11/2020 para o Registro 821183516; 20/02/2021 para os Registros 820427586, 820427594 e 820427608; 19/06/2021 para o Registro 821005464, 23/08/2021 para o Registro 819162043, 26/12/2021 para o Registro 821220977, 23/04/2022 para o Registro 821181343, 08/07/2023 para o Registro 820427624, 02/09/2023 para os Registros 819162019 e 819162060, 28/12/2024 para os Registros 822005824 e 820984647, 15/09/2028 para os Registros 819162051, 819162027, 819162353, 819162000, 819161985, 819161993; 22/09/2028 para o Registro 819161950; 10/11/2028 para o Registro 819161969; 29/12/2028 para o Regsitro 819161977.</prazoVigenciaPI>
+          <observacao inid="Oc">1- A validade deste Certificado de Averbação está condicionada à regular situação das marcas licenciadas; 2- O presente altera e complementa os Certificados de Averbação nºs 130814/01; 130814/02 e 130814/03.</observacao>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2016 000573-9</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">GALLUP B.V.</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">HOLANDA</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">THE GALLUP ORGANIZATION DO BRASIL LTDA.</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Pesquisas de mercado e de opinião pública</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">03/12/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702016000573/03</numero>
+          <naturezaDocumento inid="Nd">Contrato de 01/01/2016.</naturezaDocumento>
+          <textoObjeto inid="Ob">UM - Sublicença exclusiva para os Registros de Marca relacionados no item &quot;Prazo de Vigência dos Direitos de Propriedade Industrial&quot; - Ateração dos itens &quot;Prazo de Vigência Declarado do Contrato e &quot;Prazo de Vigência dos Direitos de Propriedade Industrial&quot;.</textoObjeto>
+          <siglaCategoria inid="Mc">USO DE MARCA</siglaCategoria>
+          <descricaoMoeda inid="Mo">EURO</descricaoMoeda>
+          <valorContrato inid="Va">1% (um por cento) sobre o valor das vendas líquidas.</valorContrato>
+          <prazoContrato inid="Pz">De  01/01/2019 até 31/12/2019 .</prazoContrato>
+          <prazoVigenciaPI inid="Pv">De 03/12/2018 até: 25/03/2020 para o registro 007095198, 007095201, 02/08/2021 para o registro 827122390 07/05/2022 para o registro 821145452 01/04/2023 para o registro 821583450 08/11/2025 para o registro 820106453 15/08/2026 para o registro 821448064 08/04/2028 para os registros 827122373, 827122381, 827122403, 827122411,</prazoVigenciaPI>
+          <observacao inid="Oc">1- A validade deste Certificado de  Averbação está condicionada à regular situação das marcas Licenciadas; 2- O presente altera e complementa os Certificados de Averbação nºs 702016000573/01 e 702016000573/02.</observacao>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2017 000022-5</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">L&apos;OREAL S.A.</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">FRANÇA</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">PROCOSA PRODUTOS DE BELEZA LTDA</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Fabricação de cosméticos, produtos de perfumaria e de higiene pessoal</setor>
+        </cessionaria>
+        <cessionaria>
+          <nomeCompleto inid="Cs">L&apos;ORÉAL BRASIL COMERCIAL DE COSMÉTICOS LTDA.</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Comércio atacadista de cosméticos e produtos de perfumaria</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">27/11/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702017000022/04</numero>
+          <naturezaDocumento inid="Nd">3º Aditivo de 27/09/2018 ao Contrato de 10/11/2016; 1º Aditivo de 19/06/2018 e 2º Aditivo de 22/08/2018</naturezaDocumento>
+          <textoObjeto inid="Ob">FT - Fabricação de produtos de cuidados com a pele (limpadores, esfoliantes,  tonificante, bio-estimulantes, nutrientes, protetores solares) e desodorantes,  conforme Anexo 1 do Contrato - Cancelamento do Certificado de Registro nº  702017000022/03 e  Alteração do item &quot;Valor Declarado do Contrato&quot;.</textoObjeto>
+          <siglaCategoria inid="Mc">FORNECIMENTO DE TECNOLOGIA</siglaCategoria>
+          <descricaoMoeda inid="Mo">EURO</descricaoMoeda>
+          <valorContrato inid="Va">De 01/01/2018 até 31/12/2018:  1% (um por cento) e 5% (cinco por cento) sobre o valor das vendas líquidas  dos Produtos que utilizam as tecnologias listadas no Anexo I do Terceiro Aditivo.  De 01/01/2019 até 31/12/2019:  2% (dois por cento) e 5% (cinco por cento) sobre o valor das vendas líquidas  dos Produtos que utilizam as tecnologias listadas no Anexo I do Terceiro Aditivo.  A partir de 01/01/2020: 3% (três por cento) e 5% (cinco por cento) sobre o valor das vendas líquidas  dos Produtos que utilizam as tecnologias listadas no Anexo I do Terceiro Aditivo.</valorContrato>
+          <prazoContrato inid="Pz">De 19/01/2017 até 19/01/2022.</prazoContrato>
+          <prazoVigenciaPI inid="Pv"></prazoVigenciaPI>
+          <observacao inid="Oc">O presente cancela e substitui o Certificado de Registro nº 702017000022/03 e altera e complementa os Certificados de Registro nºs702017000022/01 e  702017000022/02.</observacao>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2017 000460-3</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">PIONEER CORPORATION</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">JAPÃO</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">PIONEER DO BRASIL LTDA</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Fabricação de aparelhos de recepção, reprodução, gravação e amplificação de áudio e vídeo</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">17/10/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702017000460/02</numero>
+          <naturezaDocumento inid="Nd">Primeiro Aditivo de 10/05/2018 ao Contrato de 27/04/2017.</naturezaDocumento>
+          <textoObjeto inid="Ob">FT - Fabricação de equipamentos de som e de sistemas de navegação para  veículos automotivos no território brasileiro, listados no anexo A do Contrato,  incluída assistência técnica nos termos do artigo 3 e do anexo B do Contrato -  Alteração do item “Prazo de Vigência Declarado do Contrato”.</textoObjeto>
+          <siglaCategoria inid="Mc">FORNECIMENTO DE TECNOLOGIA</siglaCategoria>
+          <descricaoMoeda inid="Mo">IEN JAPONES</descricaoMoeda>
+          <valorContrato inid="Va">3% (três por cento) das vendas líquidas dos produtos contratuais, incluída assistência técnica.</valorContrato>
+          <formaPagamento inid="Pg">Taxa/dia de USD 447,00 para o primeiro ano; Taxa/dia de USD 893,00 para os anos subsequentes.</formaPagamento>
+          <prazoContrato inid="Pz">De 27/04/2017 até 27/04/2022</prazoContrato>
+          <prazoVigenciaPI inid="Pv"></prazoVigenciaPI>
+          <observacao inid="Oc">O presente altera e complementa o Certificado de Registro nº 702017000460/01.</observacao>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000194-1</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">WEIR ENGINEERING SERVICES LIMITED</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">REINO UNIDO</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">WEIR DO BRASIL LTDA.</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Fabricação de equipamentos hidráulicos e pneumáticos, peças e acessórios, exceto válvulas</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">17/09/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702018000194/02</numero>
+          <naturezaDocumento inid="Nd">Aditivo de 19/07/2018 ao Contrato de 01/01/2018.</naturezaDocumento>
+          <textoObjeto inid="Ob">UM - Licença não exclusiva para os Registros de Marca e Pedido de Registro  de Marca listados no item &quot;Prazo de Vigência dos Direitos de Propriedade  Industrial&quot;. - Alteração dos itens &quot; Objeto &quot; e  “Prazo de Vigência dos Direitos  de Propriedade Industrial” .</textoObjeto>
+          <siglaCategoria inid="Mc">USO DE MARCA</siglaCategoria>
+          <descricaoMoeda inid="Mo">LIBRA ESTERLINA</descricaoMoeda>
+          <valorContrato inid="Va">1% ( um por cento ) do valor líquido de venda, observada a taxa mínima de £ 1.000,00/ano.</valorContrato>
+          <prazoContrato inid="Pz">De 01/01/2018 até 14/08/2028.</prazoContrato>
+          <prazoVigenciaPI inid="Pv">De 29/05/2018 até 29/05/2028 para os Registros 828057605 e 828057630; De 14/08/2018 até 14/08/2028 para o Registro 831299347; De 17/09/2018 até: 27/01/2025 para o Registro 831299339; 06/12/2026 para os Registros 831299479, 831299533, 831299401; 31/01/2027 para o Registro 823796760; 20/03/2027 para os Registros 823692949, 823692930; 21/10/2027 para os Registros 818637501, 818637536; 11/11/2027 para os Registros 818637510, 818637528; 09/01/2028 para os Registros 831299363, 831299517, 831299460; 16/01/2028 para o Registro 828057583; 11/03/2028 para o Registro 828057591; 13/05/2028 para o Registro 823692957; a concessão do Certificado de Registro para o Pedido de Registro de Marca 828057613, desde que não ultrapasse a data de 14/08/2018.</prazoVigenciaPI>
+          <observacao inid="Oc">1- A validade deste Certificado de Averbação está condicionada à regular situação das marcas licenciadas; 2- Tão logo seja expedido o Certificado de Registro da Marca referente ao Pedido de Registro, a empresa deverá solicitar a alteração deste Certificado de Averbação; 3- O presente altera e complementa o Certificado de Averbação Nº 702018000194/01; 4- Faz parte do presente a CARTA/INPI/CGTEC/Nº 1548/2018.</observacao>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000246-8</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">MITSUBISHI MOTORS CORPORATION</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">JAPÃO</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">HPE AUTOMOTORES DO BRASIL LTDA</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Fabricação de automóveis, camionetas e utilitários</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">05/12/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702018000246/02</numero>
+          <naturezaDocumento inid="Nd">Contrato de 23/03/2018.</naturezaDocumento>
+          <textoObjeto inid="Ob">SAT - Serviços de Assistência Técnica relacionados ao Veículo Utilitário  Esportivo ( SUV - Sport Utility Vehicle ) de 5 portas, direção à esquerda,  Modelo NS, conforme previsto no item 2.1 do Anexo - Descrição do Trabalho  Básico - Alteração dos itens &quot; Objeto &quot;; &quot;Valor &quot; e &quot; Cancelamento da Carta/INPI/CGTEC/Nº 1440/2018 &quot;.</textoObjeto>
+          <siglaCategoria inid="Mc">SERVIÇO DE ASSISTÊNCIA TÉCNICA E CIENTÍFICA</siglaCategoria>
+          <descricaoMoeda inid="Mo">IEN JAPONES</descricaoMoeda>
+          <valorContrato inid="Va">Até JPY 849.700.000</valorContrato>
+          <formaPagamento inid="Pg">Taxa/dia de JPY 70.000.</formaPagamento>
+          <prazoContrato inid="Pz">De 27/11/2018 até 05/062023.</prazoContrato>
+          <prazoVigenciaPI inid="Pv"></prazoVigenciaPI>
+          <observacao inid="Oc">O presente altera e complementa o Certificado de Registro nº 702018000246/01.</observacao>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000451-7</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">SHOWA CORPORATION</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">JAPÃO</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">SHOWA DO BRASIL LTDA</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Fabricação de peças e acessórios para motocicletas</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">30/11/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702018000451/02</numero>
+          <naturezaDocumento inid="Nd">Termo Aditivo de 24/10/2018 ao Contrato de 17/07/2018</naturezaDocumento>
+          <textoObjeto inid="Ob">FT - Fabricação das seguintes peças para veículos de duas rodas: (1) Amortecedores dianteiros modelos HK991-0(com final) BR, HKWT1- 6(com final) BR, HK971-0(com final) 07 e HK971-0(com final) 08;  (2) Amortecedores traseiros modelos HK992 (código variável neste  campo) BR (final do código variável), HKWT2-6(com final) BR, e HK972-0 (com final) 03; (3) Coluna de direção completa (under BKT S/Comp) modelos HK990-0 (com final) BR e HK970-0(com final) 02; (4) Mesa superior (upper bracket) modelo HK990-500-0(com final) BR. - Alteração do item “Objeto, nomenclatura do HK992&quot;.</textoObjeto>
+          <siglaCategoria inid="Mc">FORNECIMENTO DE TECNOLOGIA</siglaCategoria>
+          <descricaoMoeda inid="Mo">IEN JAPONES</descricaoMoeda>
+          <valorContrato inid="Va">5% (cinco por cento) do faturamento líquido dos produtos, conforme Cláusula 18ª &quot;c&quot; do Contrato.</valorContrato>
+          <prazoContrato inid="Pz">De 11/09/2018 até 11/09/2023.</prazoContrato>
+          <prazoVigenciaPI inid="Pv"></prazoVigenciaPI>
+          <observacao inid="Oc">O presente altera e complementa o Certificado de Registro Nº 702018000451/01.</observacao>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000466-5</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">THE JAPAN STEEL WORKS, LTD.</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">JAPÃO</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">GERDAU S.A.</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Produção de laminados longos de aço, exceto tubos</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">15/08/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702018000466/01</numero>
+          <naturezaDocumento inid="Nd">Contrato de 01/04/2018.</naturezaDocumento>
+          <textoObjeto inid="Ob">FT - Tecnologia de Fluxo Superior visando melhorias na produção de (i)  lingotes para produtos de geração de energia eólica, (ii) o método de  lingotamento indireto, (iii) o método de tecnologia de lingotamento de aço sob  vácuo com previsão de assitência técnica prevista nos item (2.1- iv) e Anexo 6.2.</textoObjeto>
+          <siglaCategoria inid="Mc">FORNECIMENTO DE TECNOLOGIA</siglaCategoria>
+          <descricaoMoeda inid="Mo">DOLAR DOS ESTADOS UNIDOS</descricaoMoeda>
+          <valorContrato inid="Va">US$ 150.000,00, incluida assistência técnica.</valorContrato>
+          <formaPagamento inid="Pg">Taxa /dia de US$ 500,00</formaPagamento>
+          <prazoContrato inid="Pz">De 01/04/2018 até 31/12/2018.</prazoContrato>
+          <prazoVigenciaPI inid="Pv"></prazoVigenciaPI>
+          <observacao inid="Oc">Faz parte do presente a Carta/INPI/CGTEC/Nº1564/2018.</observacao>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050526-5</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">MANN+HUMMEL FILTER (SHANGHAI) CO., LTD.</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">REPÚBLICA POPULAR DA CHINA</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">MANN+HUMMEL BRASIL LTDA.</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Fabricação de peças e acessórios para o sistema motor de veículos automotores</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">17/09/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702018050526/01</numero>
+          <naturezaDocumento inid="Nd">Contrato de 01/09/2016</naturezaDocumento>
+          <textoObjeto inid="Ob">SAT - Serviços de desenvolvimento de sistemas de indução de ar, em especial  filtros de ar, óleo, combustíveis e filtros de cabine; bem como peças de plástico  para fabricação de motores, tais como coletores de admissão, galerias de  distribuição de combustíveis, ressonadores, reguladores e válvulas, tampas de  comando de válvulas e cárteres de óleo, incluindo testes, consultoria técnica,  gerenciamento de projetos, supervisão de atividades e cursos de orientação  técnica para o projeto GEM da montadora General Motors.</textoObjeto>
+          <siglaCategoria inid="Mc">SERVIÇO DE ASSISTÊNCIA TÉCNICA E CIENTÍFICA</siglaCategoria>
+          <descricaoMoeda inid="Mo">EURO</descricaoMoeda>
+          <valorContrato inid="Va">Até EUR 500.000,00 / ano</valorContrato>
+          <formaPagamento inid="Pg">Taxa/ hora variando de EUR 30,00 à EUR 65,00</formaPagamento>
+          <prazoContrato inid="Pz">De 01/07/2016 até 01/07/2021</prazoContrato>
+          <prazoVigenciaPI inid="Pv"></prazoVigenciaPI>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050535-4</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">MAGNA MIRRORS ENGINEERING GMBH</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">ALEMANHA</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">METAGAL INDUSTRIA E COMÉRCIO LTDA.</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Fabricação de outras peças e acessórios para veículos automotores não especificadas anteriormente</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">20/09/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702018050535/01</numero>
+          <naturezaDocumento inid="Nd">Contrato de 10/09/2010 e Aditivo de 11/04/2018</naturezaDocumento>
+          <textoObjeto inid="Ob">FT - Fornecimento de tecnologia para fabricação de espelhos retrovisores externos, para veículos do Programa Pick-Up Compacta Global ano modelo 2011, Ford P375 e Mazda J26E.</textoObjeto>
+          <siglaCategoria inid="Mc">FORNECIMENTO DE TECNOLOGIA</siglaCategoria>
+          <descricaoMoeda inid="Mo">EURO</descricaoMoeda>
+          <valorContrato inid="Va">1 - € 0,30 por produto fabricado, na quantidade de 1 a 500.00; 2 - € 0,25 por produto fabricado, na quantidade de 500.001 a 1.500.000; 3 - € 0,20 por produto fabricado, na quantidade que exceder 1.500.000.</valorContrato>
+          <prazoContrato inid="Pz">De 31/12/2017 até 31/12/2021</prazoContrato>
+          <prazoVigenciaPI inid="Pv"></prazoVigenciaPI>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050550-8</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">LANDOLL CORPORATION</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">ESTADOS UNIDOS</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">GENERAL MOTORS DO BRASIL LTDA.</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Fabricação de automóveis, camionetas e utilitários</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">04/10/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702018050550/01</numero>
+          <naturezaDocumento inid="Nd">Contrato nº 5000062354 de 10/09/2018.</naturezaDocumento>
+          <textoObjeto inid="Ob">SAT - Serviço de treinamento para a manutenção de empilhadeira modelo EX (prova de explosão) para certificação de qualificação técnica de manutenção preventiva em conformidade com a certificação EX na empilhadeira Landoll, modelo FL60EX/AC.</textoObjeto>
+          <siglaCategoria inid="Mc">SERVIÇO DE ASSISTÊNCIA TÉCNICA E CIENTÍFICA</siglaCategoria>
+          <descricaoMoeda inid="Mo">DOLAR DOS ESTADOS UNIDOS</descricaoMoeda>
+          <valorContrato inid="Va">Até USD 10.650,00.</valorContrato>
+          <formaPagamento inid="Pg">Taxa/hora de USD 665,63.</formaPagamento>
+          <prazoContrato inid="Pz">De 31/08/2018 até 31/08/2019.</prazoContrato>
+          <prazoVigenciaPI inid="Pv"></prazoVigenciaPI>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050626-1</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">LOHIA GLOBAL HOLDINGS LIMITED</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">HONG-KONG</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">INDORAMA VENTURES POLIMEROS S.A.</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Fabricação de resinas termoplásticas</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">31/10/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702018050626/01</numero>
+          <naturezaDocumento inid="Nd">Contrato de 05/10/2018.</naturezaDocumento>
+          <textoObjeto inid="Ob">UM - Sublicença exclusiva para os Pedidos de Registro de Marca relacionados no item “Prazo de Vigência dos Direitos de Propriedade Industrial”.</textoObjeto>
+          <siglaCategoria inid="Mc">USO DE MARCA</siglaCategoria>
+          <descricaoMoeda inid="Mo">DOLAR DOS ESTADOS UNIDOS</descricaoMoeda>
+          <valorContrato inid="Va">&quot;NIHIL&quot;, conforme Art 14 inciso IV do Anexo da Resolução 0199/2017.</valorContrato>
+          <prazoContrato inid="Pz">De 05/10/2018 até a concessão dos Certificados de Registro de Marca para os Pedidos de Registro de Marca nºs 915982978, 915982846, 915983044, 915982919, 914985841, 914985922, 914986058 e 914986112.</prazoContrato>
+          <prazoVigenciaPI inid="Pv">De 31/10/2018 até a concessão dos Certificados de Registro de Marca para os Pedidos de Registro de Marca nºs 915982978, 915982846, 915983044, 915982919, 914985841, 914985922, 914986058 e 914986112.</prazoVigenciaPI>
+          <observacao inid="Oc">1) A validade deste Certificado de Averbação esta condicionada a regular situação de cada Pedido de Registro de Marca licenciado; 2) Após a Publicação dos Certificados de Registro de Marca, referentes aos Pedidos de Registro de Marca, a empresa deverá solicitar a alteração deste Certificado de Averbação no prazo de até 60 (sessenta) dias, a contar da data de publicação na Revista da Propriedadea Inudstrial, nos termos do Art 13, §2º do Anexo da Resolução INPI/PR Nº 199/2017.</observacao>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050685-7</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">MABA COMERCIAL LTDA ME</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">BRASIL</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">CARNES E MERCEARIA BÚFALO - EIRELI</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Restaurantes e similares</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">29/11/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702018050685/01</numero>
+          <naturezaDocumento inid="Nd">Contrato de 13/11/2018</naturezaDocumento>
+          <textoObjeto inid="Ob">UM- Licença não exclusiva para os Registros de Marca e Pedidos de Registro de Marca relacionados no item, &quot;Prazo de Vigência dos Direitos de Propriedade Industrial&quot;.</textoObjeto>
+          <siglaCategoria inid="Mc">USO DE MARCA</siglaCategoria>
+          <descricaoMoeda inid="Mo">REAL</descricaoMoeda>
+          <valorContrato inid="Va">R$ 58.000,00/ mês.</valorContrato>
+          <prazoContrato inid="Pz">De 13/11/2018 até 09/10/2028.</prazoContrato>
+          <prazoVigenciaPI inid="Pv">De 29/11/2018 até: 11/06/2023 para os Registros 902781707, 902781804 e 902781901 16/12/2024 para o Registro 904183203 23/12/2024 para os Registros 904176240 e 904192253 26/07/2026 para o Registro 903435730 25/04/2027 para o Registro 904176533 06/05/2028 para o Registro 827973470 08/05/2028 para o Registro 910623597 09/10/2028 para o Registro 912497486  A concessão dos Registros de Marca para os Pedidos de Registro de Marca 913737313, 914551779, 913736694 e 913736457, desde que não ultrapasse 09/10/2028.</prazoVigenciaPI>
+          <observacao inid="Oc">1- A validade deste Certificado de Averbação está condicionada à regular situação das marcas licenciadas; 2- Faz parte do presente  a CARTA/INPI/CGTEC/N°1543/2018.</observacao>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050686-5</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">TGI FRIDAYS FRANCHISOR LLC</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">ESTADOS UNIDOS</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">AMERICANA FRANQUIA S.A.</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Restaurantes e similares</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">29/11/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702018050686/01</numero>
+          <naturezaDocumento inid="Nd">Contrato de 19/11/2018</naturezaDocumento>
+          <textoObjeto inid="Ob">FRA - Franquia não exclusiva para operação de restaurante da rede &quot;TGI  Friday&apos;s&quot;, localizado na Travessa Casalbuono, 120, SUC 025 - Vila Guilherme,  São Paulo/SP, relacionada aos Registros de Marca listados no item &quot;Prazo de  Vigência dos Direitos de Propriedade Industrial&quot;.</textoObjeto>
+          <siglaCategoria inid="Mc">FRANQUIA</siglaCategoria>
+          <descricaoMoeda inid="Mo">DOLAR DOS ESTADOS UNIDOS</descricaoMoeda>
+          <valorContrato inid="Va">Taxa Inicial de Franquia: US$ 40.000,00; Royalties: Variando de 3% (três por cento) a 4% (quatro por cento), conforme Cláusula 1 do Contrato.</valorContrato>
+          <prazoContrato inid="Pz">De 19/11/2018 até 02/01/2028.</prazoContrato>
+          <prazoVigenciaPI inid="Pv">De 19/11/2018 até:  27/07/2019 para o Registro 819478032; 25/09/2020 para o Registro 814572588; 20/11/2021 para o Registro 819012394; 12/12/2025 para os Registros 817773380 e 817773398; 28/06/2026 para os Registros 840657951 e 840658117; 19/08/2027 para os Registros 818313250 e 818313269; 25/09/2027 para o Registro 827218109; 02/01/2028 para os Registros 908638159 e 908638230.</prazoVigenciaPI>
+          <observacao inid="Oc">1- A validade deste Certificado de Registro está condicionada a regular situação das Marcas licenciadas; 2- O prazo final de Registro foi determinado pela vigência do Registro de Marca mais longêvo, conforme Art 13, inciso VI do Anexo da Resolução INPI/PR N° 199/2017; 3- Faz parte do presente  a Carta/INPI/CGTE/N°1565/2018.</observacao>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050689-0</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">DENSO CORPORATION</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">JAPÃO</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">DENSO INDUSTRIAL DA AMAZÔNIA LTDA.</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Fabricação de peças e acessórios para motocicletas</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">30/11/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702018050689/01</numero>
+          <naturezaDocumento inid="Nd">Contrato de 06/08/2018.</naturezaDocumento>
+          <textoObjeto inid="Ob">FT – Fabricação de Motor ECU e Ar Condicionado ECU bem como peças e  componentes para os veículos Toyota Hillus identificados  pelo código de  modelo 144B, 338B e 519B fabricados pela Toyota do Brasil Ltda, Toyota  Argentina S.A e Toyota de Venezuela Compania Anonima com assistência técnica prevista no Artigo IV.</textoObjeto>
+          <siglaCategoria inid="Mc">FORNECIMENTO DE TECNOLOGIA</siglaCategoria>
+          <descricaoMoeda inid="Mo">IEN JAPONES</descricaoMoeda>
+          <valorContrato inid="Va">5% (cinco por cento) do preço de venda líquido dos produtos contratuais, incluida a assistência técnica.</valorContrato>
+          <formaPagamento inid="Pg">Taxa/dia de JPY 65.000.</formaPagamento>
+          <prazoContrato inid="Pz">5 (cinco) anos, a contar de 11/12/2018.</prazoContrato>
+          <prazoVigenciaPI inid="Pv"></prazoVigenciaPI>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050690-3</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">DENSO CORPORATION</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">JAPÃO</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">DENSO INDUSTRIAL DA AMAZÔNIA LTDA.</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Fabricação de peças e acessórios para motocicletas</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">30/11/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702018050690/01</numero>
+          <naturezaDocumento inid="Nd">Contrato de 06/08/2018.</naturezaDocumento>
+          <textoObjeto inid="Ob">FT – Fabricação de Motor ECU; Ar Condicionado ECU e EPS-ECU bem  como peças e componentes para os veículos Toyota Corolla identificados pelo  código de modelo  204B e 641B fabricados pela Toyota do Brasil Ltda e  Toyota  de Venezuela Compania Anonima com assistência técnica prevista no Artigo IV.</textoObjeto>
+          <siglaCategoria inid="Mc">FORNECIMENTO DE TECNOLOGIA</siglaCategoria>
+          <descricaoMoeda inid="Mo">IEN JAPONES</descricaoMoeda>
+          <valorContrato inid="Va">5% (cinco por cento) do preço de venda líquido dos produtos contratuais, incluida a assistência técnica.</valorContrato>
+          <formaPagamento inid="Pg">Taxa/dia de JPY 65.000.</formaPagamento>
+          <prazoContrato inid="Pz">5 (cinco) anos, a contar da data de 18/12/2018.</prazoContrato>
+          <prazoVigenciaPI inid="Pv"></prazoVigenciaPI>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050691-1</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">DENSO CORPORATION</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">JAPÃO</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">DENSO INDUSTRIAL DA AMAZÔNIA LTDA.</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Fabricação de peças e acessórios para motocicletas</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">30/11/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702018050691/01</numero>
+          <naturezaDocumento inid="Nd">Contrato de 07/11/2018.</naturezaDocumento>
+          <textoObjeto inid="Ob">FT – Fabricação de Motor ECU; Ar Condicionado ECU e EPS-ECU bem como peças e compontentes para os veículos Toyota EFC-Core identificados pelo código de modelo 230B, fabricados pela Toyota do Brasil Ltda com assistência técnica prevista no Artigo IV.</textoObjeto>
+          <siglaCategoria inid="Mc">FORNECIMENTO DE TECNOLOGIA</siglaCategoria>
+          <descricaoMoeda inid="Mo">IEN JAPONES</descricaoMoeda>
+          <valorContrato inid="Va">5% (cinco por cento) do preço de venda líquido dos produtos contratuais, incluida assistência técnica.</valorContrato>
+          <formaPagamento inid="Pg">Taxa/dia de JPY 65.000.</formaPagamento>
+          <prazoContrato inid="Pz">5 (cinco), anos a contar de 18/12/2018.</prazoContrato>
+          <prazoVigenciaPI inid="Pv"></prazoVigenciaPI>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050692-0</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">ICONIX LATIN AMERICA, LLC</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">ESTADOS UNIDOS</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">PRISCILLA YUMI YOKOI ME</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Comércio atacadista de artigos do vestuário e acessórios, exceto profissionais e de segurança</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">30/11/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702018050692/01</numero>
+          <naturezaDocumento inid="Nd">Contrato de 16/11/2017</naturezaDocumento>
+          <textoObjeto inid="Ob">UM - Licença não exclusiva dos Registros de Marca relacionados no item &quot;Prazo de Vigência dos Direitos de Propriedade Industrial&quot;.</textoObjeto>
+          <siglaCategoria inid="Mc">USO DE MARCA</siglaCategoria>
+          <descricaoMoeda inid="Mo">DOLAR DOS ESTADOS UNIDOS</descricaoMoeda>
+          <valorContrato inid="Va">8% (oito por cento) das vendas líquidas, respeitados os Royalties mínimos conforme cláusula 7 e Anexo 1 do Contrato.</valorContrato>
+          <prazoContrato inid="Pz">De 01/10/2017 À 31/12/2020.</prazoContrato>
+          <prazoVigenciaPI inid="Pv">De 30/11/2018 até: 27/11/2022 para os registros 830534270 e 830534261; 26/08/2027 para o registro 810887223.</prazoVigenciaPI>
+          <observacao inid="Oc">1- A validade deste Certificado de Averbação está condicionada a regular situiação das marcas licenciadas; 2- Faz parte do presente a CARTA/INPI/CGTEC/N°1554/2018.</observacao>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050694-6</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">AJINOMOTO CO., INC.</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">JAPÃO</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">AJINOMOTO DO BRASIL INDÚSTRIA E COMÉRCIO DE ALIMENTOS LTDA</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">FABRICAÇÃO DE OUTROS PRODUTOS ALIMENTÍCIOS</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">03/12/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702018050694/01</numero>
+          <naturezaDocumento inid="Nd">Contrato de 15/11/2018.</naturezaDocumento>
+          <textoObjeto inid="Ob">UM - Licença não exclusiva para os Registros de Marca e Pedido de Registro de Marca relacionados no item &quot;Prazo de Vigência dos Direitos de Propriedade Industrial&quot;.</textoObjeto>
+          <siglaCategoria inid="Mc">USO DE MARCA</siglaCategoria>
+          <valorContrato inid="Va">&quot;NIHIL&quot;, conforme Artigo 4.2, do Contrato.</valorContrato>
+          <prazoContrato inid="Pz">De 03/12/2018 até 11/12/2028.</prazoContrato>
+          <prazoVigenciaPI inid="Pv">De 03/12/2018 até: 17/01/2026 para o Registro de Marca 822166127; 21/11/2028 para o Registro de Marca 913238562.  a concessão do Registro de Marca para o Pedido nº 913238465, desde que não ultrapasse a data de 11/12/2028.  De 11/12/2018 até 11/12/2028 para o Registro de Marca 913048860.</prazoVigenciaPI>
+          <observacao inid="Oc">1) A validade deste Certificado de Averbação está condicionada à regular situação das marcas licenciadas. 2) O Pedido de Registro de Marca nº 913238465 está em situação de Recurso no INPI, nos termos do § 1º, do Artigo 212, da Lei n° 9.279/1996.</observacao>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050695-4</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">AJINOMOTO CO., INC.</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">JAPÃO</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">AJINOMOTO DO BRASIL INDÚSTRIA E COMÉRCIO DE ALIMENTOS LTDA</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">FABRICAÇÃO DE OUTROS PRODUTOS ALIMENTÍCIOS</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">03/12/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702018050695/01</numero>
+          <naturezaDocumento inid="Nd">Contrato de 15/11/2018.</naturezaDocumento>
+          <textoObjeto inid="Ob">FT - Fabricação de temperos de misturas em pó para preparações industriais, conforme definição da Cláusula 1.1 “e”, com previsão de assistência técnica.</textoObjeto>
+          <siglaCategoria inid="Mc">FORNECIMENTO DE TECNOLOGIA</siglaCategoria>
+          <descricaoMoeda inid="Mo">IEN JAPONES</descricaoMoeda>
+          <valorContrato inid="Va">4% (quatro por cento) do agregado das vendas líquidas do produto.</valorContrato>
+          <formaPagamento inid="Pg">Taxa/dia de JPY 60.000 .</formaPagamento>
+          <prazoContrato inid="Pz">De 03/12/2018 até 03/12/2023.</prazoContrato>
+          <prazoVigenciaPI inid="Pv"></prazoVigenciaPI>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050697-0</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">KOPESS BIOMASS SOLUTIONS, LLC</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">ESTADOS UNIDOS</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">FIBRIA CELULOSE S/A</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Fabricação de celulose e outras pastas para a fabricação de papel</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">03/12/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702018050697/01</numero>
+          <naturezaDocumento inid="Nd">Contrato de 24/09/2018.</naturezaDocumento>
+          <textoObjeto inid="Ob">FT - Tecnologia relacionada a genes de plantas denominada “Elite Tree Technology” em pesquisas de biotecnologia associadas a eucaliptos.</textoObjeto>
+          <siglaCategoria inid="Mc">FORNECIMENTO DE TECNOLOGIA</siglaCategoria>
+          <descricaoMoeda inid="Mo">DOLAR DOS ESTADOS UNIDOS</descricaoMoeda>
+          <valorContrato inid="Va">USD 25.000,00.</valorContrato>
+          <prazoContrato inid="Pz">De 31/10/2018 até 31/10/2023.</prazoContrato>
+          <prazoVigenciaPI inid="Pv"></prazoVigenciaPI>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 050698-9</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">NISHIKAWA RUBBER CO., LTD.</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">JAPÃO</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">HONDA AUTOMÓVEIS DO BRASIL LTDA</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Fabricação de automóveis, camionetas e utilitários</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">03/12/2018</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702018050698/01</numero>
+          <naturezaDocumento inid="Nd">Contrato de 03/12/2018.</naturezaDocumento>
+          <textoObjeto inid="Ob">FT - Fabricação de peças de borracha de vedação de carrocerias para veículos.</textoObjeto>
+          <siglaCategoria inid="Mc">FORNECIMENTO DE TECNOLOGIA</siglaCategoria>
+          <descricaoMoeda inid="Mo">IEN JAPONES</descricaoMoeda>
+          <valorContrato inid="Va">JPY 2.400.000</valorContrato>
+          <prazoContrato inid="Pz">De 03/12/2018 até 03/12/2023.</prazoContrato>
+          <prazoVigenciaPI inid="Pv"></prazoVigenciaPI>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>350</codigo>
+    <titulo>Certificado expedido</titulo>
+    <processo-contrato>
+      <numero inid="Np">802978</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">TAKEDA GMBH</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Pe">ALEMANHA</nome>
+            </pais>
+          </endereco>
+        </cedente>
+      </cedentes>
+      <cessionarias>
+        <cessionaria>
+          <nomeCompleto inid="Cs">TAKEDA PHARMA LTDA.</nomeCompleto>
+          <endereco>
+            <pais>
+              <nome inid="Ps">BRASIL</nome>
+            </pais>
+          </endereco>
+          <setor inid="Se">Fabricação de medicamentos alopáticos para uso humano</setor>
+        </cessionaria>
+      </cessionarias>
+      <dataProtocolo inid="De">19/07/2017</dataProtocolo>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">802978/17</numero>
+          <naturezaDocumento inid="Nd">Contrato de 04/10/1979 e Aditivos de 29/06/1981, 20/10/1983, 03/04/1984, 13/02/1986, 12/12/1991 e 08/09/2010.</naturezaDocumento>
+          <textoObjeto inid="Ob">UM - Licença exclusiva dos Registros de Marca relacionados no item “Prazo  de vigência dos Direitos de Propriedade Industrial” - Alteração dos itens  &quot;Cedente, anteriormente denominada Nycomed GMBH em decorrência de  alteração de Razão Social e Fusões &quot; e &quot; Prazo &quot;. EDI- Licença exclusiva do Registro de Desenho Industrial DI 67023126.</textoObjeto>
+          <siglaCategoria inid="Mc">USO DE MARCA</siglaCategoria>
+          <valorContrato inid="Va">&quot;NIHIL&quot;</valorContrato>
+          <prazoContrato inid="Pz">De 19/07/2017 até 30/12/2028.</prazoContrato>
+          <prazoVigenciaPI inid="Pv">De 19/07/2017 até: 04/08/2019 para o registro 828807019; 22/12/2019 para o registro 828597391; 02/02/2020 para o registro 826351999; 09/02/2020 para o registro 826352006; 08/09/2020 para o registro 829700072; 24/05/2021 para os registros 829511113, 829511105; 28/06/2021 para o registro 829619372; 26/07/2021 para o registro 829700080; 04/12/2021 para o registro 819806943; 15/05/2022 para o registro 830356738; 19/06/2022 para o registro 901348775; 21/08/2022 para os registros 830386149, 830386130; 03/09/2024 para o registro 003043460; 14/10/2024 para o registro 830449680; 31/03/2025 para o registro 830547878; 19/04/2025 para o registro 003119068; 10/05/2025 para o registro 006078052; 07/11/2025 para o registro 817717056; 12/03/2026 para o registro 817886966; 11/09/2027 para os registros 827090480, 827090498; 30/10/2027 para o registro 827509162; 06/02/2028 para o registro 828013837; 12/02/2028 para o registro 828060126; 23/05/2028 para o registro 002995611; 02/12/2028 para o registro 827210558; 30/12/2028 para os registros 828013942, 828013900.  De 02/01/2018 até 02/01/2028 para os registros 902303279, 902303163. De 14/02/2018 até 14/02/2028 para o registro 827460988.  De 19/07/2017 até 25/07/2022 para o DI 67023126</prazoVigenciaPI>
+          <observacao inid="Oc">1- A validade deste Certificado de Averbação está condicionada à regular situação dos Direitos de Propriedade Industrial licenciados; 2- O presente altera e complementa os Certificados de Averbação nºs 802978/01 até 802978/16; 3- Faz parte do presente a CARTA/INPI/CGTEC/N°1550/2018.</observacao>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>800</codigo>
+    <titulo>Certificado cancelado</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000097-0</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">FRAMBOISE HOLDINGS INC.</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702018000097/01</numero>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+  <despacho>
+    <codigo>800</codigo>
+    <titulo>Certificado cancelado</titulo>
+    <processo-contrato>
+      <numero inid="Np">BR 70 2018 000100-3</numero>
+      <cedentes>
+        <cedente>
+          <nomeCompleto inid="Ce">FRAMBOISE HOLDINGS INC.</nomeCompleto>
+        </cedente>
+      </cedentes>
+      <certificados>
+        <certificado>
+          <numero inid="Ca">702018000100/01</numero>
+        </certificado>
+      </certificados>
+    </processo-contrato>
+  </despacho>
+</revista>

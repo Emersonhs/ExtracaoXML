@@ -13,24 +13,21 @@ namespace XML_v2
         {
         }
 
-<<<<<<< HEAD
-        public void MonatarAquivo(revista desenho)
-=======
         public void MonatarAquivo(revista revista)
->>>>>>> a8656393ceaba9e4a8b21ff6a0f4b8e2bec14e01
         {
-            arquivo.WriteLine("No " + desenho.numero + " de " + desenho.dataPublicacao);
+            arquivo.WriteLine("No " + revista.numero + " de " + revista.dataPublicacao);
             arquivo.WriteLine("|");
-            arquivo.WriteLine("No " + desenho.numero + " de " + desenho.dataPublicacao);
-            foreach (var ItemDespacho in desenho.despacho)
+            arquivo.WriteLine("No " + revista.numero + " de " + revista.dataPublicacao);
+            foreach (var ItemDespacho in revista.despacho)
             {
-                arquivo.WriteLine("(Cd) " + ItemDespacho.codigo.ToString().Replace('.',','));
+                arquivo.WriteLine("(Cd) " + ItemDespacho.codigo.ToString().Replace('.', ','));
                 if (ItemDespacho.processopatente != null)
                 {
                     arquivo.WriteLine("(" + ItemDespacho.processopatente.numero.inid + ") " + ItemDespacho.processopatente.numero.Value);
                     if (ItemDespacho.processopatente.datadeposito != null)
                         arquivo.WriteLine("(" + ItemDespacho.processopatente.datadeposito.inid + ") " + ItemDespacho.processopatente.datadeposito.Value);
                 }
+
                 foreach (var item in ItemDespacho.processopatente.titularlista)
                 {
                     string strEndereco = string.Empty;
@@ -38,9 +35,9 @@ namespace XML_v2
                     if (item.titular.endereco.pais.sigla != null)
                         strEndereco += " (" + item.titular.endereco.pais.sigla;
                     else
-                    strEndereco += " ("; 
+                        strEndereco += " (";
                     if (item.titular.endereco.uf != null)
-                        strEndereco +="/" + item.titular.endereco.uf + ") ";
+                        strEndereco += "/" + item.titular.endereco.uf + ") ";
                     else
                         strEndereco += ") ";
                     arquivo.WriteLine(strEndereco);

@@ -16,13 +16,15 @@ namespace XML_v2
             public const string codigo = "codigo";
             public const string despacho = "despacho";
             public const string titulo = "titulo";
+            }
 
-        }
+
+
         public abstract class Arquivos
         {
             public const string DesenhoIndustrial = "Arquivos/DesenhoIndustrial_2502.xml";
             public const string DesenhoIndustrialSaida = "Saida/Desenho_Industrial.txt";
-            public const string Contrato = "Arquivos/Contratos_2495.xml";
+            public const string Contrato = "Arquivos/Contratos_2502.xml";
             public const string ContratoSaida = "Saida/ContratoSaida.txt";
         }
     }

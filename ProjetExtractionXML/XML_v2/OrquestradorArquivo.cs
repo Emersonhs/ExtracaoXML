@@ -11,27 +11,19 @@ namespace XML_v2
     public class OrquestradorArquivo
     {
         public void Gerar<T>(object Dados)
-<<<<<<< HEAD
-        {            
-=======
         {
->>>>>>> a8656393ceaba9e4a8b21ff6a0f4b8e2bec14e01
-            if (typeof(T).Name == typeof(revista).Name)
             {
-                MontarArquivoDistritoIndustrial MontarArquivo = new MontarArquivoDistritoIndustrial();
-                MontarArquivo.MonatarAquivo((revista)Dados);
-<<<<<<< HEAD
-            }           
-           
-        }      
-=======
-            }
-            else if (typeof(T).Name == typeof(Contrato).Name)
-            {
-                MontarArquivoContrato MontarArquivo = new MontarArquivoContrato();
-                MontarArquivo.MontarAquivo((Contrato)Dados);
+                if (typeof(T).Name == typeof(revista).Name)
+                {
+                    MontarArquivoDistritoIndustrial MontarArquivo = new MontarArquivoDistritoIndustrial();
+                    MontarArquivo.MonatarAquivo((revista)Dados);
+                }
+                else if (typeof(T).Name == typeof(Contrato).Name)
+                {
+                    MontarArquivoContrato MontarArquivo = new MontarArquivoContrato();
+                    MontarArquivo.MontarAquivo((Contrato)Dados);
+                }
             }
         }
->>>>>>> a8656393ceaba9e4a8b21ff6a0f4b8e2bec14e01
     }
 }

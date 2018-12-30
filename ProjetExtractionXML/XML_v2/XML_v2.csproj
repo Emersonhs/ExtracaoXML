@@ -62,6 +62,9 @@
     <Content Include="Arquivos\Contratos_2495.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Arquivos\Contratos_2502.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Arquivos\DesenhoIndustrial_2502.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
