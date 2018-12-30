@@ -11,10 +11,10 @@ namespace XML_v2
     {
         public void Gerar<T>(object Dados)
         {            
-            if (typeof(T).Name == typeof(DesenhoIndustrial).Name)
+            if (typeof(T).Name == typeof(revista).Name)
             {
                 MontarArquivoDistritoIndustrial MontarArquivo = new MontarArquivoDistritoIndustrial();
-                MontarArquivo.MonatarAquivo((DesenhoIndustrial)Dados);
+                MontarArquivo.MonatarAquivo((revista)Dados);
             }           
            
         }      

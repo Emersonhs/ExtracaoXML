@@ -13,12 +13,12 @@ namespace XML_v2
         {
         }
 
-        public void MonatarAquivo(DesenhoIndustrial revista)
+        public void MonatarAquivo(revista desenho)
         {
-            arquivo.WriteLine("No " + revista.numero + " de " + revista.dataPublicacao);
+            arquivo.WriteLine("No " + desenho.numero + " de " + desenho.dataPublicacao);
             arquivo.WriteLine("|");
-            arquivo.WriteLine("No " + revista.numero + " de " + revista.dataPublicacao);
-            foreach (var ItemDespacho in revista.despacho)
+            arquivo.WriteLine("No " + desenho.numero + " de " + desenho.dataPublicacao);
+            foreach (var ItemDespacho in desenho.despacho)
             {
                 arquivo.WriteLine("(Cd) " + ItemDespacho.codigo.ToString().Replace('.',','));
                 if (ItemDespacho.processopatente != null)
