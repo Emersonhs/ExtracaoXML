@@ -12,8 +12,13 @@ namespace XML_v2
         static void Main(string[] args)
         {
             OrquestradorTipos orquestrador = new OrquestradorTipos();
+<<<<<<< HEAD
             orquestrador.Orquestrar<revista>();
            // orquestrador.Orquestrar<Contrato>();
+=======
+            orquestrador.Orquestrar<Contrato>();
+            //orquestrador.Orquestrar<revista>();
+>>>>>>> a8656393ceaba9e4a8b21ff6a0f4b8e2bec14e01
         }
     }
 }

@@ -24,4 +24,17 @@ C:\Users\Bsi91030\Desktop\Emerson\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\
 C:\Users\Bsi91030\Desktop\Emerson\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\Arquivos\DesenhoIndustrial_2502.xml
 C:\Users\Bsi91030\Desktop\Emerson\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.csprojResolveAssemblyReference.cache
 D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\Arquivos\DesenhoIndustrial_2503.xml
+<<<<<<< HEAD
 D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.csprojAssemblyReference.cache
+=======
+C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\Arquivos\Contratos_2495.xml
+C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\Arquivos\DesenhoIndustrial_2502.xml
+C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\Arquivos\DesenhoIndustrial_2503.xml
+C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\XML_v2.exe.config
+C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\XML_v2.exe
+C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\XML_v2.pdb
+C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.csprojAssemblyReference.cache
+C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.csproj.CoreCompileInputs.cache
+C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.exe
+C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.pdb
+>>>>>>> a8656393ceaba9e4a8b21ff6a0f4b8e2bec14e01

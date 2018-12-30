@@ -13,7 +13,11 @@ namespace XML_v2
         {
         }
 
+<<<<<<< HEAD
         public void MonatarAquivo(revista desenho)
+=======
+        public void MonatarAquivo(revista revista)
+>>>>>>> a8656393ceaba9e4a8b21ff6a0f4b8e2bec14e01
         {
             arquivo.WriteLine("No " + desenho.numero + " de " + desenho.dataPublicacao);
             arquivo.WriteLine("|");
