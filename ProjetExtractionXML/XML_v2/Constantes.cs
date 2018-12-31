@@ -26,6 +26,8 @@ namespace XML_v2
             public const string DesenhoIndustrialSaida = "Saida/Desenho_Industrial.txt";
             public const string Contrato = "Arquivos/Contratos_2502.xml";
             public const string ContratoSaida = "Saida/ContratoSaida.txt";
+            public const string Patente = "Arquivos/Patente_2500.xml";
+            public const string PatenteSaida = "Saida/PatenteSaida.txt";
         }
     }
 }

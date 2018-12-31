@@ -16,9 +16,14 @@ namespace XML_v2
                 if (typeof(T).Name == typeof(revista).Name)
                 {
                     MontarArquivoDistritoIndustrial MontarArquivo = new MontarArquivoDistritoIndustrial();
-                    MontarArquivo.MonatarAquivo((revista)Dados);
+                    MontarArquivo.MontarArquivo((revista)Dados);
                 }
                 else if (typeof(T).Name == typeof(Contrato).Name)
+                {
+                    MontarArquivoContrato MontarArquivo = new MontarArquivoContrato();
+                    MontarArquivo.MontarAquivo((Contrato)Dados);
+                }
+                else if (typeof(T).Name == typeof(Patente).Name)
                 {
                     MontarArquivoContrato MontarArquivo = new MontarArquivoContrato();
                     MontarArquivo.MontarAquivo((Contrato)Dados);

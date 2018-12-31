@@ -13,7 +13,7 @@ namespace XML_v2
         {
         }
 
-        public void MonatarAquivo(revista revista)
+        public void MontarArquivo(revista revista)
         {
             arquivo.WriteLine("No " + revista.numero + " de " + revista.dataPublicacao);
             arquivo.WriteLine("|");
@@ -26,6 +26,7 @@ namespace XML_v2
                     arquivo.WriteLine("(" + ItemDespacho.processopatente.numero.inid + ") " + ItemDespacho.processopatente.numero.Value);
                     if (ItemDespacho.processopatente.datadeposito != null)
                         arquivo.WriteLine("(" + ItemDespacho.processopatente.datadeposito.inid + ") " + ItemDespacho.processopatente.datadeposito.Value);
+                    //if(ItemDespacho.processopatente)
                 }
 
                 foreach (var item in ItemDespacho.processopatente.titularlista)

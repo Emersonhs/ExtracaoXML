@@ -11,6 +11,7 @@
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -49,6 +50,7 @@
     <Compile Include="Model\DesenhoIndustrial.cs" />
     <Compile Include="MontarArquivoContrato.cs" />
     <Compile Include="MontarArquivoDistritoIndustrial.cs" />
+    <Compile Include="MontarArquivoPatentes.cs" />
     <Compile Include="OrquestradorArquivo.cs" />
     <Compile Include="OrquestradorTipos.cs" />
     <Compile Include="Program.cs" />
@@ -69,6 +71,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Arquivos\DesenhoIndustrial_2503.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Arquivos\Patente_2500.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
