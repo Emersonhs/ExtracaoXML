@@ -20,17 +20,18 @@ namespace XML_v2
 
             foreach (var ItemDespacho in programaComputador.despacho)
             {
+                //CÓDIGO inicial de cada despacho
                 arquivo.WriteLine("(Cd) " + ItemDespacho.codigo.ToString());
                 if (ItemDespacho.processoprograma != null)
                 {
+                    //"cabeçalho" de cada processo programa número + título + titular (pode ter + de 1)
                     arquivo.WriteLine("(" + ItemDespacho.processoprograma.numero.inid + ") " + ItemDespacho.processoprograma.numero.Value);
                     arquivo.WriteLine("(" + ItemDespacho.processoprograma.titulo.inid + ") " + ItemDespacho.processoprograma.titulo.Value);
-                    arquivo.WriteLine("(" + ItemDespacho.processoprograma.dataCriacao.inid + ") " + ItemDespacho.processoprograma.dataCriacao.Value);
+                    foreach (var itemTitulares in ItemDespacho.processoprograma.titularLista)
+                    {
+                        arquivo.WriteLine("(" + itemTitulares.inid + ") " + itemTitulares.nome);
+                    }
                 }
-
-
-                // ************************   TEM DE CONCATENAR QUANDO TIVER 2 NOMES IGUAIS - falta fazer
-
 
                 if (ItemDespacho.processoprograma.campoAplicacaoLista != null)
                 {
@@ -46,57 +47,21 @@ namespace XML_v2
                         arquivo.WriteLine("(" + itemLinguagem.inid + ") " + itemLinguagem.Value);
                     }
 
-
-                    // ***************** ver se está certo
-
+                    //lista do campo de aplicação
                     foreach (var itemCampoAplicacao in ItemDespacho.processoprograma.campoAplicacaoLista)
                     {
-                        arquivo.WriteLine("(" + itemCampoAplicacao.codigo + ") " + itemCampoAplicacao.codigo.Value);
+                        arquivo.WriteLine("(" + itemCampoAplicacao.inid + ") " + itemCampoAplicacao.inid.Value);
                     }
 
+                    //lista do tipo de programas
                     foreach (var itemTipoPrograma in ItemDespacho.processoprograma.tipoProgramaLista)
                     {
-                        arquivo.WriteLine("(" + itemTipoPrograma.codigo + ") " + itemTipoPrograma.codigo.Value);
+                        arquivo.WriteLine("(" + itemTipoPrograma.inid + ") " + itemTipoPrograma.inid.Value);
                     }
-
                 }
-                //foreach (var item in ItemDespacho.processoprograma.campoAplicacaoLista)
-                //{
-                //    string strEndereco = string.Empty;
-                //    strEndereco = "(" + item.titular.inid + ") " + item.titular.nomecompleto;
-                //    if (item.titular.endereco.pais.sigla != null)
-                //        strEndereco += " (" + item.titular.endereco.pais.sigla;
-                //    else
-                //        strEndereco += " (";
-                //    if (item.titular.endereco.uf != null)
-                //        strEndereco += "/" + item.titular.endereco.uf + ") ";
-                //    else
-                //        strEndereco += ") ";
-                //    arquivo.WriteLine(strEndereco);
+                //data da criação
+                arquivo.WriteLine("(" + ItemDespacho.processoprograma.dataCriacao.inid + ") " + ItemDespacho.processoprograma.dataCriacao.Value);
 
-                //}
-
-                //    if (ItemDespacho.processopatente.inventorlista != null)
-                //    {
-                //        var NovaLista = ItemDespacho.processopatente.inventorlista.GroupBy(O => O.inid).ToList();
-                //        string StrInventor = string.Empty; ;
-                //        StrInventor = string.Empty;
-                //        foreach (var item in NovaLista)
-                //        {
-                //            var InventorList = ItemDespacho.processopatente.inventorlista.Where(o => o.inid == item.Key).ToList();
-                //            StrInventor += "(" + item.Key + ") ";
-                //            foreach (var inventor in InventorList)
-                //                StrInventor += inventor.nomecompleto + "; ";
-
-                //            arquivo.WriteLine(StrInventor.Substring(0, StrInventor.Trim().Length - 1));
-                //            StrInventor = string.Empty;
-                //        }
-                //    }
-                //    if (ItemDespacho.processopatente.procuradorlista != null)
-                //        foreach (var item in ItemDespacho.processopatente.procuradorlista)
-                //            arquivo.WriteLine("(" + item.procurador.inid + ") " + item.procurador.nomecompleto);
-                //    if (ItemDespacho.comentario != null)
-                //        arquivo.WriteLine("(" + ItemDespacho.comentario.inid + ") " + ItemDespacho.comentario.Value);
             }
             arquivo.Close();
         }

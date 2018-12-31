@@ -403,6 +403,7 @@ public partial class revistaDespachoProcessoprogramaCampoAplicacao
 {
 
     private revistaDespachoProcessoprogramaCampoAplicacaoCodigo codigoField;
+    private revistaDespachoProcessoprogramaCampoAplicacaoCodigo inidField;
 
     /// <remarks/>
     public revistaDespachoProcessoprogramaCampoAplicacaoCodigo codigo
@@ -416,6 +417,20 @@ public partial class revistaDespachoProcessoprogramaCampoAplicacao
             this.codigoField = value;
         }
     }
+
+    /// <remarks/>
+    public revistaDespachoProcessoprogramaCampoAplicacaoCodigo inid
+    {
+        get
+        {
+            return this.inidField;
+        }
+        set
+        {
+            this.inidField = value;
+        }
+    }
+
 }
 
 /// <remarks/>
@@ -506,6 +521,7 @@ public partial class revistaDespachoProcessoprogramaTipoPrograma
 {
 
     private revistaDespachoProcessoprogramaTipoProgramaCodigo codigoField;
+    private revistaDespachoProcessoprogramaTipoProgramaCodigo inidField;
 
     /// <remarks/>
     public revistaDespachoProcessoprogramaTipoProgramaCodigo codigo
@@ -519,6 +535,22 @@ public partial class revistaDespachoProcessoprogramaTipoPrograma
             this.codigoField = value;
         }
     }
+
+    /// <remarks/>
+    public revistaDespachoProcessoprogramaTipoProgramaCodigo inid
+    {
+        get
+        {
+            return this.inidField;
+        }
+        set
+        {
+            this.inidField = value;
+        }
+    }
+
+
+
 }
 
 /// <remarks/>
