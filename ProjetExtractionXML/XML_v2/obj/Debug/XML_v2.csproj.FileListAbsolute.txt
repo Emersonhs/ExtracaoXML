@@ -9,3 +9,7 @@ C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\
 C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.csproj.CoreCompileInputs.cache
 C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.exe
 C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.pdb
+D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.csprojAssemblyReference.cache
+D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.csproj.CoreCompileInputs.cache
+D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.exe
+D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.pdb
