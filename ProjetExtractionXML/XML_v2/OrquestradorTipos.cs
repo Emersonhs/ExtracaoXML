@@ -16,22 +16,12 @@ namespace XML_v2
         string xmlInputData = string.Empty;
         OrquestradorArquivo GerarArquivo = new OrquestradorArquivo();
 
-        public void OrquestrarRevista<T>() where T : class
+        public void Orquestrar<T>() where T : class
         {
-
             xmlInputData = File.ReadAllText(Constantes.Arquivos.DesenhoIndustrial);
             T Retorno = ser.Deserialize<T>(xmlInputData);
-            GerarArquivo.Gerar<revista>(Retorno);
-
+            GerarArquivo.Gerar<T>(Retorno);
         }
-
-
-        public void OrquestrarContrato<T>() where T : class
-        {
-            xmlInputData = File.ReadAllText(Constantes.Arquivos.Contrato);
-            T Retorno = ser.Deserialize<T>(xmlInputData);
-            GerarArquivo.Gerar<Contrato>(Retorno);
-
-        }
+        
     }
 }
