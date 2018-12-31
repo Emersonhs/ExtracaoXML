@@ -26,7 +26,6 @@ namespace XML_v2
                     arquivo.WriteLine("(" + ItemDespacho.processopatente.numero.inid + ") " + ItemDespacho.processopatente.numero.Value);
                     if (ItemDespacho.processopatente.datadeposito != null)
                         arquivo.WriteLine("(" + ItemDespacho.processopatente.datadeposito.inid + ") " + ItemDespacho.processopatente.datadeposito.Value);
-                    //if(ItemDespacho.processopatente)
                 }
 
                 foreach (var item in ItemDespacho.processopatente.titularlista)
@@ -48,7 +47,7 @@ namespace XML_v2
                 if (ItemDespacho.processopatente.inventorlista != null)
                 {
                     var NovaLista = ItemDespacho.processopatente.inventorlista.GroupBy(O => O.inid).ToList();
-                    string StrInventor = string.Empty; ;
+                    string StrInventor = string.Empty;
                     StrInventor = string.Empty;
                     foreach (var item in NovaLista)
                     {
