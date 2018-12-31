@@ -26,7 +26,7 @@ namespace XML_v2
                     arquivo.WriteLine("(" + ItemDespacho.processopatente.numero.inid + ") " + ItemDespacho.processopatente.numero.Value);
                     if (ItemDespacho.processopatente.datadeposito != null)
                         arquivo.WriteLine("(" + ItemDespacho.processopatente.datadeposito.inid + ") " + ItemDespacho.processopatente.datadeposito.Value);
-                    //if(ItemDespacho.processopatente)
+                    
                 }
 
                 foreach (var item in ItemDespacho.processopatente.titularlista)
@@ -63,7 +63,23 @@ namespace XML_v2
                 }
                 if (ItemDespacho.processopatente.procuradorlista != null)
                     foreach (var item in ItemDespacho.processopatente.procuradorlista)
-                        arquivo.WriteLine("(" + item.procurador.inid + ") " + item.procurador.nomecompleto);
+                    {
+                        var NovaLista = ItemDespacho.processopatente.procuradorlista.GroupBy(O => O.procurador.inid).ToList();
+                        string StrProcuradoer = string.Empty; ;
+                        StrProcuradoer = string.Empty;
+                        foreach (var itemNovo in NovaLista)
+                        {
+                            if (ItemDespacho.processopatente.inventorlista != null)
+                            {
+                                var InventorList = ItemDespacho.processopatente.inventorlista.Where(o => o.inid == itemNovo.Key).ToList();
+                                StrProcuradoer += "(" + itemNovo.Key + ") ";
+                                foreach (var inventor in InventorList)
+                                    StrProcuradoer += inventor.nomecompleto + "; ";
+                                arquivo.WriteLine(StrProcuradoer);
+                                StrProcuradoer = string.Empty;
+                            }
+                        }
+                    }
                 if (ItemDespacho.comentario != null)
                     arquivo.WriteLine("(" + ItemDespacho.comentario.inid + ") " + ItemDespacho.comentario.Value);
 
