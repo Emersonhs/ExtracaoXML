@@ -23,7 +23,7 @@ namespace XML_v2
                     MontarArquivoContrato MontarArquivo = new MontarArquivoContrato();
                     MontarArquivo.MontarAquivo((Contrato)Dados);
                 }
-                else if (typeof(T).Name == typeof(Patente).Name)
+                else if (typeof(T).Name == typeof(Patentes).Name)
                 {
                     MontarArquivoPatentes MontarArquivo = new MontarArquivoPatentes();
                     MontarArquivo.MontarArquivo((Patente)Dados);
