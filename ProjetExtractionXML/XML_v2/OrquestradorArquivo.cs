@@ -25,8 +25,8 @@ namespace XML_v2
                 }
                 else if (typeof(T).Name == typeof(Patente).Name)
                 {
-                    MontarArquivoContrato MontarArquivo = new MontarArquivoContrato();
-                    MontarArquivo.MontarAquivo((Contrato)Dados);
+                    MontarArquivoPatentes MontarArquivo = new MontarArquivoPatentes();
+                    MontarArquivo.MontarAquivo((Patentes)Dados);
                 }
             }
         }

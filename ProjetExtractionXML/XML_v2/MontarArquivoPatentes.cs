@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
+using XML_v2.Model;
 
 namespace XML_v2
 {
@@ -17,13 +13,13 @@ namespace XML_v2
         /* ALTERAR DAQUI PRA BAIXO  ***************************************************/
 
 
-        public void MontarArquivo(revista revista)
+        public void MontarArquivo(Patentes patente)
         {
-            arquivo.WriteLine("No " + revista.numero + " de " + revista.dataPublicacao);
+            arquivo.WriteLine("No " + patente.numero + " de " + patente.dataPublicacao);
             arquivo.WriteLine("|");
-            arquivo.WriteLine("No " + revista.numero + " de " + revista.dataPublicacao);
+            arquivo.WriteLine("No " + patente.numero + " de " + patente.dataPublicacao);
 
-            foreach (var ItemDespacho in revista.despacho)
+            foreach (var ItemDespacho in patente.despacho)
             {
                 arquivo.WriteLine("(Cd) " + ItemDespacho.codigo.ToString());
                 if (ItemDespacho.processopatente != null)
@@ -57,7 +53,7 @@ namespace XML_v2
 
                 if (ItemDespacho.processopatente.inventorlista != null)
                 {
-                    var NovaLista = ItemDespacho.processopatente.inventorlista.GroupBy(O => O.inid).ToList();
+                    var NovaLista = ItemDespacho.processopatente.inventorlista.GroupBy(O => O.inventor).ToList();
                     string StrInventor = string.Empty; ;
                     StrInventor = string.Empty;
                     foreach (var item in NovaLista)

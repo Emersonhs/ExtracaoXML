@@ -48,6 +48,7 @@
     <Compile Include="Model\Contrato.cs" />
     <Compile Include="Model\ContratosTecnologia_old.cs" />
     <Compile Include="Model\DesenhoIndustrial.cs" />
+    <Compile Include="Model\Patente.cs" />
     <Compile Include="MontarArquivoContrato.cs" />
     <Compile Include="MontarArquivoDistritoIndustrial.cs" />
     <Compile Include="MontarArquivoPatentes.cs" />

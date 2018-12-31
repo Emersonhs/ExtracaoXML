@@ -16,6 +16,7 @@ namespace XML_v2
             OrquestradorTipos orquestrador = new OrquestradorTipos();
             orquestrador.OrquestrarRevista<revista>(); //DesenhoIndustrial
             orquestrador.OrquestrarContrato<Contrato>();
+            orquestrador.OrquestrarContrato<Patente>();
 
             //  orquestrador.Orquestrar<Contrato>();
             //orquestrador.Orquestrar<revista>();
