@@ -13,7 +13,7 @@ namespace XML_v2.Model
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
     [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public partial class Patentes
+    public partial class Patente
     {
 
         private PatentesDespacho[] despachoField;

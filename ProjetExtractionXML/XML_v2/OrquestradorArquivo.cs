@@ -21,17 +21,12 @@ namespace XML_v2
                 else if (typeof(T).Name == typeof(Contrato).Name)
                 {
                     MontarArquivoContrato MontarArquivo = new MontarArquivoContrato();
-                    MontarArquivo.MontarArquivo((Contrato)Dados);
+                    MontarArquivo.MontarAquivo((Contrato)Dados);
                 }
                 else if (typeof(T).Name == typeof(Patentes).Name)
                 {
                     MontarArquivoPatentes MontarArquivo = new MontarArquivoPatentes();
-                    MontarArquivo.MontarArquivo((Patentes)Dados);
-                }
-                else if (typeof(T).Name == typeof(ProgramaComputador).Name)
-                {
-                    MontarArquivoProgramaComputador MontarArquivo = new MontarArquivoProgramaComputador();
-                    MontarArquivo.MontarArquivo((ProgramaComputador)Dados);
+                    MontarArquivo.MontarArquivo((Patente)Dados);
                 }
             }
         }
