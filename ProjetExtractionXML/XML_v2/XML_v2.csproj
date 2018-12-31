@@ -49,9 +49,11 @@
     <Compile Include="Model\ContratosTecnologia_old.cs" />
     <Compile Include="Model\DesenhoIndustrial.cs" />
     <Compile Include="Model\Patente.cs" />
+    <Compile Include="Model\ProgramaComputador.cs" />
     <Compile Include="MontarArquivoContrato.cs" />
     <Compile Include="MontarArquivoDistritoIndustrial.cs" />
     <Compile Include="MontarArquivoPatentes.cs" />
+    <Compile Include="MontarArquivoProgramaComputador.cs" />
     <Compile Include="OrquestradorArquivo.cs" />
     <Compile Include="OrquestradorTipos.cs" />
     <Compile Include="Program.cs" />

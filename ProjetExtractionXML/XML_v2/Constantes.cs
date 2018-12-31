@@ -28,6 +28,8 @@ namespace XML_v2
             public const string ContratoSaida = "Saida/ContratoSaida.txt";
             public const string Patente = "Arquivos/Patente_2500.xml";
             public const string PatenteSaida = "Saida/PatenteSaida.txt";
+            public const string ProgramaComputador = "Arquivos/Programa_2500.xml";
+            public const string ProgramaComputadorSaida = "Saida/ProgramaSaida.txt";
         }
     }
 }
