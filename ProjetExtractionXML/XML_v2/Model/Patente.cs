@@ -16,7 +16,7 @@ namespace XML_v2.Model
     public partial class Patentes
     {
 
-        private revistaDespacho[] despachoField;
+        private PatentesDespacho[] despachoField;
 
         private ushort numeroField;
 
@@ -26,7 +26,7 @@ namespace XML_v2.Model
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("despacho")]
-        public revistaDespacho[] despacho
+        public PatentesDespacho[] despacho
         {
             get
             {
@@ -85,7 +85,7 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespacho
+    public partial class PatentesDespacho
     {
 
         private string codigoField;
@@ -94,7 +94,7 @@ namespace XML_v2.Model
 
         private processopatente processopatenteField;
 
-        private revistaDespachoComentario comentarioField;
+        private PatentesDespachoComentario comentarioField;
 
         /// <remarks/>
         public string codigo
@@ -137,7 +137,7 @@ namespace XML_v2.Model
         }
 
         /// <remarks/>
-        public revistaDespachoComentario comentario
+        public PatentesDespachoComentario comentario
         {
             get
             {
@@ -166,7 +166,7 @@ namespace XML_v2.Model
         private processopatenteDivisaopedido divisaopedidoField;
 
         private processopatenteTitularlista[] titularlistaField;
-        private revistaDespachoProcessopatenteInventorlista[] inventorlistaField;
+        private PatentesDespachoProcessopatenteInventorlistaInventor[] inventorlistaField;
 
         /// <remarks/>
         public processopatenteNumero numero
@@ -223,8 +223,9 @@ namespace XML_v2.Model
             }
         }
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("inventor-lista")]
-        public revistaDespachoProcessopatenteInventorlista[] inventorlista
+        [System.Xml.Serialization.XmlArrayAttribute("inventor-lista")]
+        [System.Xml.Serialization.XmlArrayItemAttribute("inventor", IsNullable = false)]
+        public PatentesDespachoProcessopatenteInventorlistaInventor[] Inventorlista
         {
             get
             {
@@ -629,14 +630,14 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatenteClassificacaointernacionallista
+    public partial class PatentesDespachoProcessopatenteClassificacaointernacionallista
     {
 
-        private revistaDespachoProcessopatenteClassificacaointernacionallistaClassificacaointernacional[] classificacaointernacionalField;
+        private PatentesDespachoProcessopatenteClassificacaointernacionallistaClassificacaointernacional[] classificacaointernacionalField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("classificacao-internacional")]
-        public revistaDespachoProcessopatenteClassificacaointernacionallistaClassificacaointernacional[] classificacaointernacional
+        public PatentesDespachoProcessopatenteClassificacaointernacionallistaClassificacaointernacional[] classificacaointernacional
         {
             get
             {
@@ -653,7 +654,7 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatenteClassificacaointernacionallistaClassificacaointernacional
+    public partial class PatentesDespachoProcessopatenteClassificacaointernacionallistaClassificacaointernacional
     {
 
         private byte inidField;
@@ -725,14 +726,14 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatenteClassificacaonacionallista
+    public partial class PatentesDespachoProcessopatenteClassificacaonacionallista
     {
 
-        private revistaDespachoProcessopatenteClassificacaonacionallistaClassificacaonacional[] classificacaonacionalField;
+        private PatentesDespachoProcessopatenteClassificacaonacionallistaClassificacaonacional[] classificacaonacionalField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("classificacao-nacional")]
-        public revistaDespachoProcessopatenteClassificacaonacionallistaClassificacaonacional[] classificacaonacional
+        public PatentesDespachoProcessopatenteClassificacaonacionallistaClassificacaonacional[] classificacaonacional
         {
             get
             {
@@ -749,7 +750,7 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatenteClassificacaonacionallistaClassificacaonacional
+    public partial class PatentesDespachoProcessopatenteClassificacaonacionallistaClassificacaonacional
     {
 
         private byte inidField;
@@ -805,7 +806,7 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatenteComplementofigurarosto
+    public partial class PatentesDespachoProcessopatenteComplementofigurarosto
     {
 
         private string inidField;
@@ -829,7 +830,7 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatenteConcessao
+    public partial class PatentesDespachoProcessopatenteConcessao
     {
 
         private string dataField;
@@ -868,7 +869,7 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatenteDatadeposito
+    public partial class PatentesDespachoProcessopatenteDatadeposito
     {
 
         private byte inidField;
@@ -908,7 +909,7 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatenteDatafasenacional
+    public partial class PatentesDespachoProcessopatenteDatafasenacional
     {
 
         private byte inidField;
@@ -948,7 +949,7 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatenteDivisaopedido
+    public partial class PatentesDespachoProcessopatenteDivisaopedido
     {
 
         private string datadepositoField;
@@ -1003,14 +1004,14 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatenteInventorlista
+    public partial class PatentesDespachoProcessopatenteInventorlista
     {
 
-        private revistaDespachoProcessopatenteInventorlistaInventor[] inventorField;
+        private PatentesDespachoProcessopatenteInventorlistaInventor inventorField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("inventor")]
-        public revistaDespachoProcessopatenteInventorlistaInventor[] inventor
+        public PatentesDespachoProcessopatenteInventorlistaInventor inventor
         {
             get
             {
@@ -1027,7 +1028,7 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatenteInventorlistaInventor
+    public partial class PatentesDespachoProcessopatenteInventorlistaInventor
     {
 
         private string nomecompletoField;
@@ -1083,7 +1084,7 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatenteNumero
+    public partial class PatentesDespachoProcessopatenteNumero
     {
 
         private byte inidField;
@@ -1139,7 +1140,7 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatentePedidointernacional
+    public partial class PatentesDespachoProcessopatentePedidointernacional
     {
 
         private string numeropctField;
@@ -1195,7 +1196,7 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatentePedidoprincipal
+    public partial class PatentesDespachoProcessopatentePedidoprincipal
     {
 
         private string datadepositoField;
@@ -1250,14 +1251,14 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatentePrioridadeinternalista
+    public partial class PatentesDespachoProcessopatentePrioridadeinternalista
     {
 
-        private revistaDespachoProcessopatentePrioridadeinternalistaPrioridadeinterna prioridadeinternaField;
+        private PatentesDespachoProcessopatentePrioridadeinternalistaPrioridadeinterna prioridadeinternaField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("prioridade-interna")]
-        public revistaDespachoProcessopatentePrioridadeinternalistaPrioridadeinterna prioridadeinterna
+        public PatentesDespachoProcessopatentePrioridadeinternalistaPrioridadeinterna prioridadeinterna
         {
             get
             {
@@ -1274,7 +1275,7 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatentePrioridadeinternalistaPrioridadeinterna
+    public partial class PatentesDespachoProcessopatentePrioridadeinternalistaPrioridadeinterna
     {
 
         private string dataprioridadeField;
@@ -1346,14 +1347,14 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatentePrioridadeunionistalista
+    public partial class PatentesDespachoProcessopatentePrioridadeunionistalista
     {
 
-        private revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionista[] prioridadeunionistaField;
+        private PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionista[] prioridadeunionistaField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("prioridade-unionista")]
-        public revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionista[] prioridadeunionista
+        public PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionista[] prioridadeunionista
         {
             get
             {
@@ -1370,14 +1371,14 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionista
+    public partial class PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionista
     {
 
-        private revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaSiglapais siglapaisField;
+        private PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaSiglapais siglapaisField;
 
-        private revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaNumeroprioridade numeroprioridadeField;
+        private PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaNumeroprioridade numeroprioridadeField;
 
-        private revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaDataprioridade dataprioridadeField;
+        private PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaDataprioridade dataprioridadeField;
 
         private byte inidField;
 
@@ -1385,7 +1386,7 @@ namespace XML_v2.Model
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("sigla-pais")]
-        public revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaSiglapais siglapais
+        public PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaSiglapais siglapais
         {
             get
             {
@@ -1399,7 +1400,7 @@ namespace XML_v2.Model
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("numero-prioridade")]
-        public revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaNumeroprioridade numeroprioridade
+        public PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaNumeroprioridade numeroprioridade
         {
             get
             {
@@ -1413,7 +1414,7 @@ namespace XML_v2.Model
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("data-prioridade")]
-        public revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaDataprioridade dataprioridade
+        public PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaDataprioridade dataprioridade
         {
             get
             {
@@ -1458,7 +1459,7 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaSiglapais
+    public partial class PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaSiglapais
     {
 
         private byte inidField;
@@ -1498,7 +1499,7 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaNumeroprioridade
+    public partial class PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaNumeroprioridade
     {
 
         private byte inidField;
@@ -1538,7 +1539,7 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaDataprioridade
+    public partial class PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaDataprioridade
     {
 
         private byte inidField;
@@ -1578,7 +1579,7 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatentePublicacaointernacional
+    public partial class PatentesDespachoProcessopatentePublicacaointernacional
     {
 
         private string numeroompiField;
@@ -1634,7 +1635,7 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatentePublicacaonacional
+    public partial class PatentesDespachoProcessopatentePublicacaonacional
     {
 
         private string datarpiField;
@@ -1674,14 +1675,14 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatenteTitularlista
+    public partial class PatentesDespachoProcessopatenteTitularlista
     {
 
-        private revistaDespachoProcessopatenteTitularlistaTitular[] titularField;
+        private PatentesDespachoProcessopatenteTitularlistaTitular[] titularField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("titular")]
-        public revistaDespachoProcessopatenteTitularlistaTitular[] titular
+        public PatentesDespachoProcessopatenteTitularlistaTitular[] titular
         {
             get
             {
@@ -1698,12 +1699,12 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatenteTitularlistaTitular
+    public partial class PatentesDespachoProcessopatenteTitularlistaTitular
     {
 
         private string nomecompletoField;
 
-        private revistaDespachoProcessopatenteTitularlistaTitularEndereco enderecoField;
+        private PatentesDespachoProcessopatenteTitularlistaTitularEndereco enderecoField;
 
         private byte inidField;
 
@@ -1724,7 +1725,7 @@ namespace XML_v2.Model
         }
 
         /// <remarks/>
-        public revistaDespachoProcessopatenteTitularlistaTitularEndereco endereco
+        public PatentesDespachoProcessopatenteTitularlistaTitularEndereco endereco
         {
             get
             {
@@ -1769,12 +1770,12 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatenteTitularlistaTitularEndereco
+    public partial class PatentesDespachoProcessopatenteTitularlistaTitularEndereco
     {
 
         private string ufField;
 
-        private revistaDespachoProcessopatenteTitularlistaTitularEnderecoPais paisField;
+        private PatentesDespachoProcessopatenteTitularlistaTitularEnderecoPais paisField;
 
         /// <remarks/>
         public string uf
@@ -1790,7 +1791,7 @@ namespace XML_v2.Model
         }
 
         /// <remarks/>
-        public revistaDespachoProcessopatenteTitularlistaTitularEnderecoPais pais
+        public PatentesDespachoProcessopatenteTitularlistaTitularEnderecoPais pais
         {
             get
             {
@@ -1807,7 +1808,7 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatenteTitularlistaTitularEnderecoPais
+    public partial class PatentesDespachoProcessopatenteTitularlistaTitularEnderecoPais
     {
 
         private string siglaField;
@@ -1830,7 +1831,7 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoProcessopatenteTitulo
+    public partial class PatentesDespachoProcessopatenteTitulo
     {
 
         private byte inidField;
@@ -1870,7 +1871,7 @@ namespace XML_v2.Model
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class revistaDespachoComentario
+    public partial class PatentesDespachoComentario
     {
 
         private string inidField;

@@ -17,6 +17,7 @@ namespace XML_v2
             //orquestrador.OrquestrarRevista<revista>(); //DesenhoIndustrial
             orquestrador.Orquestrar<Contrato>();
             orquestrador.Orquestrar<ProgramaComputador>();
+            
 
             //  orquestrador.Orquestrar<Contrato>();
             //orquestrador.Orquestrar<revista>();

@@ -48,7 +48,6 @@ namespace XML_v2
 
                 if (ItemDespacho.processoprograma.campoAplicacaoLista != null)
                 {
-                    ///////////////////////////////////////////////
                     // lista dos criadores
 
                     var NovaListaCriadores = ItemDespacho.processoprograma.criadorLista.GroupBy(O => O.inid).ToList();

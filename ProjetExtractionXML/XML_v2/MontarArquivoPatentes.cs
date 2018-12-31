@@ -51,14 +51,14 @@ namespace XML_v2
 
                 }
 
-                if (ItemDespacho.processopatente.inventorlista != null)
+                if (ItemDespacho.processopatente.Inventorlista != null)
                 {
-                    var NovaLista = ItemDespacho.processopatente.inventorlista.GroupBy(O => O.inventor).ToList();
+                    var NovaLista = ItemDespacho.processopatente.Inventorlista.GroupBy(O => O.inid).ToList();
                     string StrInventor = string.Empty; ;
                     StrInventor = string.Empty;
                     foreach (var item in NovaLista)
                     {
-                        var InventorList = ItemDespacho.processopatente.inventorlista.Where(o => o.inid == item.Key).ToList();
+                        var InventorList = ItemDespacho.processopatente.Inventorlista.Where(o => o.inid == item.Key).ToList();
                         StrInventor += "(" + item.Key + ") ";
                         foreach (var inventor in InventorList)
                             StrInventor += inventor.nomecompleto + "; ";
@@ -67,12 +67,7 @@ namespace XML_v2
                         StrInventor = string.Empty;
                     }
                 }
-                if (ItemDespacho.processopatente.procuradorlista != null)
-                    foreach (var item in ItemDespacho.processopatente.procuradorlista)
-                        arquivo.WriteLine("(" + item.procurador.inid + ") " + item.procurador.nomecompleto);
-                if (ItemDespacho.comentario != null)
-                    arquivo.WriteLine("(" + ItemDespacho.comentario.inid + ") " + ItemDespacho.comentario.Value);
-
+               
             }
             arquivo.Close();
         }
