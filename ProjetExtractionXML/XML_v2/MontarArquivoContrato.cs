@@ -12,7 +12,7 @@ namespace XML_v2
         public MontarArquivoContrato() : base(Constantes.Arquivos.ContratoSaida)
         {
         }
-        public void MontarAquivo(Contrato contrato)
+        public void MontarArquivo(Contrato contrato)
         {
             arquivo.WriteLine("No " + contrato.numero + " de " + contrato.dataPublicacao);
             arquivo.WriteLine("|");
@@ -20,22 +20,38 @@ namespace XML_v2
 
             foreach (var ItemDespacho in contrato.despacho)
             {
-                //arquivo.WriteLine("(Cd) " + ItemDespacho.codigo.ToString().Replace('.', ','));
-                //if (ItemDespacho.processo - contrato != null)
-                //{
-                //    if (ItemDespacho.numero != null)
-                //    {
-                //        arquivo.WriteLine("(" + ItemDespacho.processo - contrato.numero.inid + ") " + ItemDespacho.processopatente.numero.Value);
-                //    }
-                //    else if (ItemDespacho.cedentes != null)
-                //    {
-                //        arquivo.WriteLine("(" + ItemDespacho.nomeCompleto.numero.inid + ") " + ItemDespacho.nomeCompleto.numero.Value);
-                //    }
-                //    else if (ItemDespacho.cessionarias != null)
-                //    {
-                //        arquivo.WriteLine("(" + ItemDespacho.nomeCompleto.numero.inid + ") " + ItemDespacho.nomeCompleto.numero.Value);
-                //    }
-                //}
+                arquivo.WriteLine("(Cd) " + ItemDespacho.codigo.ToString().Replace('.', ','));
+                if (ItemDespacho.processocontrato != null)
+                {
+                    if (ItemDespacho.processocontrato.numero != null)
+                    {
+                        arquivo.WriteLine("(" + ItemDespacho.processocontrato.numero.inid + ") " + ItemDespacho.processocontrato.numero.Value);
+                    }
+                    if (ItemDespacho.processocontrato.cedentes != null)
+                    {
+                        arquivo.WriteLine("(" + ItemDespacho.processocontrato.cedentes.cedente.nomeCompleto.inid + ") " + ItemDespacho.processocontrato.cedentes.cedente.nomeCompleto.Value);
+                    }
+                    if (ItemDespacho.processocontrato.cessionarias != null)
+                    {
+                        foreach (var item in ItemDespacho.processocontrato.cessionarias)
+                        {
+                            arquivo.WriteLine("(" + item.inid + ") " + item.nomeCompleto);
+                        }
+                    }
+                    if (ItemDespacho.processocontrato.certificados != null)
+                    {
+                        arquivo.WriteLine("(" + ItemDespacho.processocontrato.certificados.certificado.numero.inid + ") " + ItemDespacho.processocontrato.certificados.certificado.numero);
+                        arquivo.WriteLine("(" + ItemDespacho.processocontrato.certificados.certificado.naturezaDocumento.inid + ") " + ItemDespacho.processocontrato.certificados.certificado.naturezaDocumento);
+                        arquivo.WriteLine("(" + ItemDespacho.processocontrato.certificados.certificado.textoObjeto.inid + ") " + ItemDespacho.processocontrato.certificados.certificado.textoObjeto);
+                        arquivo.WriteLine("(" + ItemDespacho.processocontrato.certificados.certificado.siglaCategoria.inid + ") " + ItemDespacho.processocontrato.certificados.certificado.siglaCategoria);
+                        arquivo.WriteLine("(" + ItemDespacho.processocontrato.certificados.certificado.descricaoMoeda.inid + ") " + ItemDespacho.processocontrato.certificados.certificado.descricaoMoeda);
+                        arquivo.WriteLine("(" + ItemDespacho.processocontrato.certificados.certificado.valorContrato.inid + ") " + ItemDespacho.processocontrato.certificados.certificado.valorContrato);
+                        arquivo.WriteLine("(" + ItemDespacho.processocontrato.certificados.certificado.formaPagamento.inid + ") " + ItemDespacho.processocontrato.certificados.certificado.formaPagamento);
+                        arquivo.WriteLine("(" + ItemDespacho.processocontrato.certificados.certificado.prazoContrato.inid + ") " + ItemDespacho.processocontrato.certificados.certificado.prazoContrato);
+                        arquivo.WriteLine("(" + ItemDespacho.processocontrato.certificados.certificado.prazoVigenciaPI.inid + ") " + ItemDespacho.processocontrato.certificados.certificado.prazoVigenciaPI);
+                        arquivo.WriteLine("(" + ItemDespacho.processocontrato.certificados.certificado.observacao.inid + ") " + ItemDespacho.processocontrato.certificados.certificado.observacao);
+                    }
+                }
             }
             arquivo.Close();
         }

@@ -13,7 +13,7 @@ namespace XML_v2
         /* ALTERAR DAQUI PRA BAIXO  ***************************************************/
 
 
-        public void MontarArquivo(Patente patente)
+        public void MontarArquivo(Patentes patente)
         {
             arquivo.WriteLine("No " + patente.numero + " de " + patente.dataPublicacao);
             arquivo.WriteLine("|");
@@ -51,28 +51,23 @@ namespace XML_v2
 
                 }
 
-                //if (ItemDespacho.processopatente.inventorlista != null)
-                //{
-                //    var NovaLista = ItemDespacho.processopatente.inventorlista.GroupBy(O => O.inventor).ToList();
-                //    string StrInventor = string.Empty; ;
-                //    StrInventor = string.Empty;
-                //    foreach (var item in NovaLista)
-                //    {
-                //        var InventorList = ItemDespacho.processopatente.inventorlista.Where(o => o.inventor. == item.Key).ToList();
-                //        StrInventor += "(" + item.Key + ") ";
-                //        foreach (var inventor in InventorList)
-                //            StrInventor += inventor.nomecompleto + "; ";
+                if (ItemDespacho.processopatente.Inventorlista != null)
+                {
+                    var NovaLista = ItemDespacho.processopatente.Inventorlista.GroupBy(O => O.inid).ToList();
+                    string StrInventor = string.Empty; ;
+                    StrInventor = string.Empty;
+                    foreach (var item in NovaLista)
+                    {
+                        var InventorList = ItemDespacho.processopatente.Inventorlista.Where(o => o.inid == item.Key).ToList();
+                        StrInventor += "(" + item.Key + ") ";
+                        foreach (var inventor in InventorList)
+                            StrInventor += inventor.nomecompleto + "; ";
 
-                //        arquivo.WriteLine(StrInventor.Substring(0, StrInventor.Trim().Length - 1));
-                //        StrInventor = string.Empty;
-                //    }
-                //}
-                //if (ItemDespacho.processopatente.procuradorlista != null)
-                //    foreach (var item in ItemDespacho.processopatente.procuradorlista)
-                //        arquivo.WriteLine("(" + item.procurador.inid + ") " + item.procurador.nomecompleto);
-                if (ItemDespacho.comentario != null)
-                    arquivo.WriteLine("(" + ItemDespacho.comentario.inid + ") " + ItemDespacho.comentario.Value);
-
+                        arquivo.WriteLine(StrInventor.Substring(0, StrInventor.Trim().Length - 1));
+                        StrInventor = string.Empty;
+                    }
+                }
+               
             }
             arquivo.Close();
         }

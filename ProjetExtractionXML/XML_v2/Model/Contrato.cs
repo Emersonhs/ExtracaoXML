@@ -6,1581 +6,1587 @@ using System.Threading.Tasks;
 
 namespace XML_v2.Model
 {
-    public class Contrato
+
+    // OBSERVAÇÃO: o código gerado pode exigir pelo menos .NET Framework 4.5 ou .NET Core/Standard 2.0.
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
+    public partial class Contrato
     {
-        public object numero { get; internal set; }
-        public string dataPublicacao { get; internal set; }
-        public IEnumerable<object> despacho { get; internal set; }
 
+        private ContratoDespacho[] despachoField;
 
-        // NOTE: Generated code may require at least .NET Framework 4.5 or .NET Core/Standard 2.0.
+        private ushort numeroField;
+
+        private string dataPublicacaoField;
+
+        private string diretoriaField;
+
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-        public partial class revista
+        [System.Xml.Serialization.XmlElementAttribute("despacho")]
+        public ContratoDespacho[] despacho
         {
-
-            private revistaDespacho[] despachoField;
-
-            private ushort numeroField;
-
-            private string dataPublicacaoField;
-
-            private string diretoriaField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlElementAttribute("despacho")]
-            public revistaDespacho[] despacho
+            get
             {
-                get
-                {
-                    return this.despachoField;
-                }
-                set
-                {
-                    this.despachoField = value;
-                }
+                return this.despachoField;
             }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public ushort numero
+            set
             {
-                get
-                {
-                    return this.numeroField;
-                }
-                set
-                {
-                    this.numeroField = value;
-                }
-            }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string dataPublicacao
-            {
-                get
-                {
-                    return this.dataPublicacaoField;
-                }
-                set
-                {
-                    this.dataPublicacaoField = value;
-                }
-            }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string diretoria
-            {
-                get
-                {
-                    return this.diretoriaField;
-                }
-                set
-                {
-                    this.diretoriaField = value;
-                }
+                this.despachoField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespacho
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public ushort numero
         {
-
-            private ushort codigoField;
-
-            private string tituloField;
-
-            private revistaDespachoProcessocontrato processocontratoField;
-
-            private revistaDespachoComentario comentarioField;
-
-            /// <remarks/>
-            public ushort codigo
+            get
             {
-                get
-                {
-                    return this.codigoField;
-                }
-                set
-                {
-                    this.codigoField = value;
-                }
+                return this.numeroField;
             }
-
-            /// <remarks/>
-            public string titulo
+            set
             {
-                get
-                {
-                    return this.tituloField;
-                }
-                set
-                {
-                    this.tituloField = value;
-                }
-            }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlElementAttribute("processo-contrato")]
-            public revistaDespachoProcessocontrato processocontrato
-            {
-                get
-                {
-                    return this.processocontratoField;
-                }
-                set
-                {
-                    this.processocontratoField = value;
-                }
-            }
-
-            /// <remarks/>
-            public revistaDespachoComentario comentario
-            {
-                get
-                {
-                    return this.comentarioField;
-                }
-                set
-                {
-                    this.comentarioField = value;
-                }
+                this.numeroField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontrato
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string dataPublicacao
         {
-
-            private revistaDespachoProcessocontratoNumero numeroField;
-
-            private revistaDespachoProcessocontratoCedentes cedentesField;
-
-            private revistaDespachoProcessocontratoCessionaria[] cessionariasField;
-
-            private revistaDespachoProcessocontratoDataProtocolo dataProtocoloField;
-
-            private revistaDespachoProcessocontratoCertificados certificadosField;
-
-            private revistaDespachoProcessocontratoPeticoes peticoesField;
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoNumero numero
+            get
             {
-                get
-                {
-                    return this.numeroField;
-                }
-                set
-                {
-                    this.numeroField = value;
-                }
+                return this.dataPublicacaoField;
             }
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCedentes cedentes
+            set
             {
-                get
-                {
-                    return this.cedentesField;
-                }
-                set
-                {
-                    this.cedentesField = value;
-                }
-            }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlArrayItemAttribute("cessionaria", IsNullable = false)]
-            public revistaDespachoProcessocontratoCessionaria[] cessionarias
-            {
-                get
-                {
-                    return this.cessionariasField;
-                }
-                set
-                {
-                    this.cessionariasField = value;
-                }
-            }
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoDataProtocolo dataProtocolo
-            {
-                get
-                {
-                    return this.dataProtocoloField;
-                }
-                set
-                {
-                    this.dataProtocoloField = value;
-                }
-            }
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCertificados certificados
-            {
-                get
-                {
-                    return this.certificadosField;
-                }
-                set
-                {
-                    this.certificadosField = value;
-                }
-            }
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoPeticoes peticoes
-            {
-                get
-                {
-                    return this.peticoesField;
-                }
-                set
-                {
-                    this.peticoesField = value;
-                }
+                this.dataPublicacaoField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoNumero
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string diretoria
         {
-
-            private string inidField;
-
-            private string valueField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string inid
+            get
             {
-                get
-                {
-                    return this.inidField;
-                }
-                set
-                {
-                    this.inidField = value;
-                }
+                return this.diretoriaField;
             }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlTextAttribute()]
-            public string Value
+            set
             {
-                get
-                {
-                    return this.valueField;
-                }
-                set
-                {
-                    this.valueField = value;
-                }
+                this.diretoriaField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespacho
+    {
+
+        private ushort codigoField;
+
+        private string tituloField;
+
+        private ContratoDespachoProcessocontrato processocontratoField;
+
+        private ContratoDespachoComentario comentarioField;
+
+        /// <remarks/>
+        public ushort codigo
+        {
+            get
+            {
+                return this.codigoField;
+            }
+            set
+            {
+                this.codigoField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCedentes
+        public string titulo
         {
-
-            private revistaDespachoProcessocontratoCedentesCedente cedenteField;
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCedentesCedente cedente
+            get
             {
-                get
-                {
-                    return this.cedenteField;
-                }
-                set
-                {
-                    this.cedenteField = value;
-                }
+                return this.tituloField;
+            }
+            set
+            {
+                this.tituloField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCedentesCedente
+        [System.Xml.Serialization.XmlElementAttribute("processo-contrato")]
+        public ContratoDespachoProcessocontrato processocontrato
         {
-
-            private revistaDespachoProcessocontratoCedentesCedenteNomeCompleto nomeCompletoField;
-
-            private revistaDespachoProcessocontratoCedentesCedenteEndereco enderecoField;
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCedentesCedenteNomeCompleto nomeCompleto
+            get
             {
-                get
-                {
-                    return this.nomeCompletoField;
-                }
-                set
-                {
-                    this.nomeCompletoField = value;
-                }
+                return this.processocontratoField;
             }
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCedentesCedenteEndereco endereco
+            set
             {
-                get
-                {
-                    return this.enderecoField;
-                }
-                set
-                {
-                    this.enderecoField = value;
-                }
+                this.processocontratoField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCedentesCedenteNomeCompleto
+        public ContratoDespachoComentario comentario
         {
-
-            private string inidField;
-
-            private string valueField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string inid
+            get
             {
-                get
-                {
-                    return this.inidField;
-                }
-                set
-                {
-                    this.inidField = value;
-                }
+                return this.comentarioField;
             }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlTextAttribute()]
-            public string Value
+            set
             {
-                get
-                {
-                    return this.valueField;
-                }
-                set
-                {
-                    this.valueField = value;
-                }
+                this.comentarioField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontrato
+    {
+
+        private ContratoDespachoProcessocontratoNumero numeroField;
+
+        private ContratoDespachoProcessocontratoCedentes cedentesField;
+
+        private ContratoDespachoProcessocontratoCessionaria[] cessionariasField;
+
+        private ContratoDespachoProcessocontratoDataProtocolo dataProtocoloField;
+
+        private ContratoDespachoProcessocontratoCertificados certificadosField;
+
+        private ContratoDespachoProcessocontratoPeticoes peticoesField;
+
+        /// <remarks/>
+        public ContratoDespachoProcessocontratoNumero numero
+        {
+            get
+            {
+                return this.numeroField;
+            }
+            set
+            {
+                this.numeroField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCedentesCedenteEndereco
+        public ContratoDespachoProcessocontratoCedentes cedentes
         {
-
-            private revistaDespachoProcessocontratoCedentesCedenteEnderecoPais paisField;
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCedentesCedenteEnderecoPais pais
+            get
             {
-                get
-                {
-                    return this.paisField;
-                }
-                set
-                {
-                    this.paisField = value;
-                }
+                return this.cedentesField;
+            }
+            set
+            {
+                this.cedentesField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCedentesCedenteEnderecoPais
+        [System.Xml.Serialization.XmlArrayItemAttribute("cessionaria", IsNullable = false)]
+        public ContratoDespachoProcessocontratoCessionaria[] cessionarias
         {
-
-            private revistaDespachoProcessocontratoCedentesCedenteEnderecoPaisNome nomeField;
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCedentesCedenteEnderecoPaisNome nome
+            get
             {
-                get
-                {
-                    return this.nomeField;
-                }
-                set
-                {
-                    this.nomeField = value;
-                }
+                return this.cessionariasField;
+            }
+            set
+            {
+                this.cessionariasField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCedentesCedenteEnderecoPaisNome
+        public ContratoDespachoProcessocontratoDataProtocolo dataProtocolo
         {
-
-            private string inidField;
-
-            private string valueField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string inid
+            get
             {
-                get
-                {
-                    return this.inidField;
-                }
-                set
-                {
-                    this.inidField = value;
-                }
+                return this.dataProtocoloField;
             }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlTextAttribute()]
-            public string Value
+            set
             {
-                get
-                {
-                    return this.valueField;
-                }
-                set
-                {
-                    this.valueField = value;
-                }
+                this.dataProtocoloField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCessionaria
+        public ContratoDespachoProcessocontratoCertificados certificados
         {
-
-            private revistaDespachoProcessocontratoCessionariaNomeCompleto nomeCompletoField;
-
-            private revistaDespachoProcessocontratoCessionariaEndereco enderecoField;
-
-            private revistaDespachoProcessocontratoCessionariaSetor setorField;
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCessionariaNomeCompleto nomeCompleto
+            get
             {
-                get
-                {
-                    return this.nomeCompletoField;
-                }
-                set
-                {
-                    this.nomeCompletoField = value;
-                }
+                return this.certificadosField;
             }
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCessionariaEndereco endereco
+            set
             {
-                get
-                {
-                    return this.enderecoField;
-                }
-                set
-                {
-                    this.enderecoField = value;
-                }
-            }
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCessionariaSetor setor
-            {
-                get
-                {
-                    return this.setorField;
-                }
-                set
-                {
-                    this.setorField = value;
-                }
+                this.certificadosField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCessionariaNomeCompleto
+        public ContratoDespachoProcessocontratoPeticoes peticoes
         {
-
-            private string inidField;
-
-            private string valueField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string inid
+            get
             {
-                get
-                {
-                    return this.inidField;
-                }
-                set
-                {
-                    this.inidField = value;
-                }
+                return this.peticoesField;
             }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlTextAttribute()]
-            public string Value
+            set
             {
-                get
-                {
-                    return this.valueField;
-                }
-                set
-                {
-                    this.valueField = value;
-                }
+                this.peticoesField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoNumero
+    {
+
+        private string inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCessionariaEndereco
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
         {
-
-            private revistaDespachoProcessocontratoCessionariaEnderecoPais paisField;
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCessionariaEnderecoPais pais
+            get
             {
-                get
-                {
-                    return this.paisField;
-                }
-                set
-                {
-                    this.paisField = value;
-                }
+                return this.valueField;
+            }
+            set
+            {
+                this.valueField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCedentes
+    {
+
+        private ContratoDespachoProcessocontratoCedentesCedente cedenteField;
+
+        /// <remarks/>
+        public ContratoDespachoProcessocontratoCedentesCedente cedente
+        {
+            get
+            {
+                return this.cedenteField;
+            }
+            set
+            {
+                this.cedenteField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCedentesCedente
+    {
+
+        private ContratoDespachoProcessocontratoCedentesCedenteNomeCompleto nomeCompletoField;
+
+        private ContratoDespachoProcessocontratoCedentesCedenteEndereco enderecoField;
+
+        /// <remarks/>
+        public ContratoDespachoProcessocontratoCedentesCedenteNomeCompleto nomeCompleto
+        {
+            get
+            {
+                return this.nomeCompletoField;
+            }
+            set
+            {
+                this.nomeCompletoField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCessionariaEnderecoPais
+        public ContratoDespachoProcessocontratoCedentesCedenteEndereco endereco
         {
-
-            private revistaDespachoProcessocontratoCessionariaEnderecoPaisNome nomeField;
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCessionariaEnderecoPaisNome nome
+            get
             {
-                get
-                {
-                    return this.nomeField;
-                }
-                set
-                {
-                    this.nomeField = value;
-                }
+                return this.enderecoField;
+            }
+            set
+            {
+                this.enderecoField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCedentesCedenteNomeCompleto
+    {
+
+        private string inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCessionariaEnderecoPaisNome
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
         {
-
-            private string inidField;
-
-            private string valueField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string inid
+            get
             {
-                get
-                {
-                    return this.inidField;
-                }
-                set
-                {
-                    this.inidField = value;
-                }
+                return this.valueField;
             }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlTextAttribute()]
-            public string Value
+            set
             {
-                get
-                {
-                    return this.valueField;
-                }
-                set
-                {
-                    this.valueField = value;
-                }
+                this.valueField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCedentesCedenteEndereco
+    {
+
+        private ContratoDespachoProcessocontratoCedentesCedenteEnderecoPais paisField;
+
+        /// <remarks/>
+        public ContratoDespachoProcessocontratoCedentesCedenteEnderecoPais pais
+        {
+            get
+            {
+                return this.paisField;
+            }
+            set
+            {
+                this.paisField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCedentesCedenteEnderecoPais
+    {
+
+        private ContratoDespachoProcessocontratoCedentesCedenteEnderecoPaisNome nomeField;
+
+        /// <remarks/>
+        public ContratoDespachoProcessocontratoCedentesCedenteEnderecoPaisNome nome
+        {
+            get
+            {
+                return this.nomeField;
+            }
+            set
+            {
+                this.nomeField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCedentesCedenteEnderecoPaisNome
+    {
+
+        private string inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCessionariaSetor
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
         {
-
-            private string inidField;
-
-            private string valueField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string inid
+            get
             {
-                get
-                {
-                    return this.inidField;
-                }
-                set
-                {
-                    this.inidField = value;
-                }
+                return this.valueField;
             }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlTextAttribute()]
-            public string Value
+            set
             {
-                get
-                {
-                    return this.valueField;
-                }
-                set
-                {
-                    this.valueField = value;
-                }
+                this.valueField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCessionaria
+    {
+
+        private ContratoDespachoProcessocontratoCessionariaNomeCompleto nomeCompletoField;
+
+        private ContratoDespachoProcessocontratoCessionariaEndereco enderecoField;
+
+        private ContratoDespachoProcessocontratoCessionariaSetor setorField;
+        private ContratoDespachoProcessocontratoCessionariaSetor inidField;
+
+        /// <remarks/>
+        public ContratoDespachoProcessocontratoCessionariaNomeCompleto nomeCompleto
+        {
+            get
+            {
+                return this.nomeCompletoField;
+            }
+            set
+            {
+                this.nomeCompletoField = value;
+            }
+        }
+
+
+        /// <remarks/>
+        public ContratoDespachoProcessocontratoCessionariaEndereco endereco
+        {
+            get
+            {
+                return this.enderecoField;
+            }
+            set
+            {
+                this.enderecoField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoDataProtocolo
+        public ContratoDespachoProcessocontratoCessionariaSetor setor
         {
-
-            private string inidField;
-
-            private string valueField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string inid
+            get
             {
-                get
-                {
-                    return this.inidField;
-                }
-                set
-                {
-                    this.inidField = value;
-                }
+                return this.setorField;
             }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlTextAttribute()]
-            public string Value
+            set
             {
-                get
-                {
-                    return this.valueField;
-                }
-                set
-                {
-                    this.valueField = value;
-                }
+                this.setorField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCertificados
+        public ContratoDespachoProcessocontratoCessionariaSetor inid
         {
-
-            private revistaDespachoProcessocontratoCertificadosCertificado certificadoField;
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCertificadosCertificado certificado
+            get
             {
-                get
-                {
-                    return this.certificadoField;
-                }
-                set
-                {
-                    this.certificadoField = value;
-                }
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCessionariaNomeCompleto
+    {
+
+        private string inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCertificadosCertificado
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
         {
-
-            private revistaDespachoProcessocontratoCertificadosCertificadoNumero numeroField;
-
-            private revistaDespachoProcessocontratoCertificadosCertificadoNaturezaDocumento naturezaDocumentoField;
-
-            private revistaDespachoProcessocontratoCertificadosCertificadoTextoObjeto textoObjetoField;
-
-            private revistaDespachoProcessocontratoCertificadosCertificadoSiglaCategoria siglaCategoriaField;
-
-            private revistaDespachoProcessocontratoCertificadosCertificadoDescricaoMoeda descricaoMoedaField;
-
-            private revistaDespachoProcessocontratoCertificadosCertificadoValorContrato valorContratoField;
-
-            private revistaDespachoProcessocontratoCertificadosCertificadoFormaPagamento formaPagamentoField;
-
-            private revistaDespachoProcessocontratoCertificadosCertificadoPrazoContrato prazoContratoField;
-
-            private revistaDespachoProcessocontratoCertificadosCertificadoPrazoVigenciaPI prazoVigenciaPIField;
-
-            private revistaDespachoProcessocontratoCertificadosCertificadoObservacao observacaoField;
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCertificadosCertificadoNumero numero
+            get
             {
-                get
-                {
-                    return this.numeroField;
-                }
-                set
-                {
-                    this.numeroField = value;
-                }
+                return this.valueField;
             }
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCertificadosCertificadoNaturezaDocumento naturezaDocumento
+            set
             {
-                get
-                {
-                    return this.naturezaDocumentoField;
-                }
-                set
-                {
-                    this.naturezaDocumentoField = value;
-                }
+                this.valueField = value;
             }
+        }
+    }
 
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCertificadosCertificadoTextoObjeto textoObjeto
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCessionariaEndereco
+    {
+
+        private ContratoDespachoProcessocontratoCessionariaEnderecoPais paisField;
+
+        /// <remarks/>
+        public ContratoDespachoProcessocontratoCessionariaEnderecoPais pais
+        {
+            get
             {
-                get
-                {
-                    return this.textoObjetoField;
-                }
-                set
-                {
-                    this.textoObjetoField = value;
-                }
+                return this.paisField;
             }
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCertificadosCertificadoSiglaCategoria siglaCategoria
+            set
             {
-                get
-                {
-                    return this.siglaCategoriaField;
-                }
-                set
-                {
-                    this.siglaCategoriaField = value;
-                }
+                this.paisField = value;
             }
+        }
+    }
 
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCertificadosCertificadoDescricaoMoeda descricaoMoeda
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCessionariaEnderecoPais
+    {
+
+        private ContratoDespachoProcessocontratoCessionariaEnderecoPaisNome nomeField;
+
+        /// <remarks/>
+        public ContratoDespachoProcessocontratoCessionariaEnderecoPaisNome nome
+        {
+            get
             {
-                get
-                {
-                    return this.descricaoMoedaField;
-                }
-                set
-                {
-                    this.descricaoMoedaField = value;
-                }
+                return this.nomeField;
             }
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCertificadosCertificadoValorContrato valorContrato
+            set
             {
-                get
-                {
-                    return this.valorContratoField;
-                }
-                set
-                {
-                    this.valorContratoField = value;
-                }
+                this.nomeField = value;
             }
+        }
+    }
 
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCertificadosCertificadoFormaPagamento formaPagamento
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCessionariaEnderecoPaisNome
+    {
+
+        private string inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string inid
+        {
+            get
             {
-                get
-                {
-                    return this.formaPagamentoField;
-                }
-                set
-                {
-                    this.formaPagamentoField = value;
-                }
+                return this.inidField;
             }
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCertificadosCertificadoPrazoContrato prazoContrato
+            set
             {
-                get
-                {
-                    return this.prazoContratoField;
-                }
-                set
-                {
-                    this.prazoContratoField = value;
-                }
-            }
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCertificadosCertificadoPrazoVigenciaPI prazoVigenciaPI
-            {
-                get
-                {
-                    return this.prazoVigenciaPIField;
-                }
-                set
-                {
-                    this.prazoVigenciaPIField = value;
-                }
-            }
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoCertificadosCertificadoObservacao observacao
-            {
-                get
-                {
-                    return this.observacaoField;
-                }
-                set
-                {
-                    this.observacaoField = value;
-                }
+                this.inidField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCertificadosCertificadoNumero
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
         {
-
-            private string inidField;
-
-            private string valueField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string inid
+            get
             {
-                get
-                {
-                    return this.inidField;
-                }
-                set
-                {
-                    this.inidField = value;
-                }
+                return this.valueField;
             }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlTextAttribute()]
-            public string Value
+            set
             {
-                get
-                {
-                    return this.valueField;
-                }
-                set
-                {
-                    this.valueField = value;
-                }
+                this.valueField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCessionariaSetor
+    {
+
+        private string inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCertificadosCertificadoNaturezaDocumento
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
         {
-
-            private string inidField;
-
-            private string valueField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string inid
+            get
             {
-                get
-                {
-                    return this.inidField;
-                }
-                set
-                {
-                    this.inidField = value;
-                }
+                return this.valueField;
             }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlTextAttribute()]
-            public string Value
+            set
             {
-                get
-                {
-                    return this.valueField;
-                }
-                set
-                {
-                    this.valueField = value;
-                }
+                this.valueField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoDataProtocolo
+    {
+
+        private string inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCertificadosCertificadoTextoObjeto
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
         {
-
-            private string inidField;
-
-            private string valueField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string inid
+            get
             {
-                get
-                {
-                    return this.inidField;
-                }
-                set
-                {
-                    this.inidField = value;
-                }
+                return this.valueField;
             }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlTextAttribute()]
-            public string Value
+            set
             {
-                get
-                {
-                    return this.valueField;
-                }
-                set
-                {
-                    this.valueField = value;
-                }
+                this.valueField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCertificados
+    {
+
+        private ContratoDespachoProcessocontratoCertificadosCertificado certificadoField;
+
+        /// <remarks/>
+        public ContratoDespachoProcessocontratoCertificadosCertificado certificado
+        {
+            get
+            {
+                return this.certificadoField;
+            }
+            set
+            {
+                this.certificadoField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCertificadosCertificado
+    {
+
+        private ContratoDespachoProcessocontratoCertificadosCertificadoNumero numeroField;
+
+        private ContratoDespachoProcessocontratoCertificadosCertificadoNaturezaDocumento naturezaDocumentoField;
+
+        private ContratoDespachoProcessocontratoCertificadosCertificadoTextoObjeto textoObjetoField;
+
+        private ContratoDespachoProcessocontratoCertificadosCertificadoSiglaCategoria siglaCategoriaField;
+
+        private ContratoDespachoProcessocontratoCertificadosCertificadoDescricaoMoeda descricaoMoedaField;
+
+        private ContratoDespachoProcessocontratoCertificadosCertificadoValorContrato valorContratoField;
+
+        private ContratoDespachoProcessocontratoCertificadosCertificadoFormaPagamento formaPagamentoField;
+
+        private ContratoDespachoProcessocontratoCertificadosCertificadoPrazoContrato prazoContratoField;
+
+        private ContratoDespachoProcessocontratoCertificadosCertificadoPrazoVigenciaPI prazoVigenciaPIField;
+
+        private ContratoDespachoProcessocontratoCertificadosCertificadoObservacao observacaoField;
+
+        /// <remarks/>
+        public ContratoDespachoProcessocontratoCertificadosCertificadoNumero numero
+        {
+            get
+            {
+                return this.numeroField;
+            }
+            set
+            {
+                this.numeroField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCertificadosCertificadoSiglaCategoria
+        public ContratoDespachoProcessocontratoCertificadosCertificadoNaturezaDocumento naturezaDocumento
         {
-
-            private string inidField;
-
-            private string valueField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string inid
+            get
             {
-                get
-                {
-                    return this.inidField;
-                }
-                set
-                {
-                    this.inidField = value;
-                }
+                return this.naturezaDocumentoField;
             }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlTextAttribute()]
-            public string Value
+            set
             {
-                get
-                {
-                    return this.valueField;
-                }
-                set
-                {
-                    this.valueField = value;
-                }
+                this.naturezaDocumentoField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCertificadosCertificadoDescricaoMoeda
+        public ContratoDespachoProcessocontratoCertificadosCertificadoTextoObjeto textoObjeto
         {
-
-            private string inidField;
-
-            private string valueField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string inid
+            get
             {
-                get
-                {
-                    return this.inidField;
-                }
-                set
-                {
-                    this.inidField = value;
-                }
+                return this.textoObjetoField;
             }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlTextAttribute()]
-            public string Value
+            set
             {
-                get
-                {
-                    return this.valueField;
-                }
-                set
-                {
-                    this.valueField = value;
-                }
+                this.textoObjetoField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCertificadosCertificadoValorContrato
+        public ContratoDespachoProcessocontratoCertificadosCertificadoSiglaCategoria siglaCategoria
         {
-
-            private string inidField;
-
-            private string valueField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string inid
+            get
             {
-                get
-                {
-                    return this.inidField;
-                }
-                set
-                {
-                    this.inidField = value;
-                }
+                return this.siglaCategoriaField;
             }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlTextAttribute()]
-            public string Value
+            set
             {
-                get
-                {
-                    return this.valueField;
-                }
-                set
-                {
-                    this.valueField = value;
-                }
+                this.siglaCategoriaField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCertificadosCertificadoFormaPagamento
+        public ContratoDespachoProcessocontratoCertificadosCertificadoDescricaoMoeda descricaoMoeda
         {
-
-            private string inidField;
-
-            private string valueField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string inid
+            get
             {
-                get
-                {
-                    return this.inidField;
-                }
-                set
-                {
-                    this.inidField = value;
-                }
+                return this.descricaoMoedaField;
             }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlTextAttribute()]
-            public string Value
+            set
             {
-                get
-                {
-                    return this.valueField;
-                }
-                set
-                {
-                    this.valueField = value;
-                }
+                this.descricaoMoedaField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCertificadosCertificadoPrazoContrato
+        public ContratoDespachoProcessocontratoCertificadosCertificadoValorContrato valorContrato
         {
-
-            private string inidField;
-
-            private string valueField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string inid
+            get
             {
-                get
-                {
-                    return this.inidField;
-                }
-                set
-                {
-                    this.inidField = value;
-                }
+                return this.valorContratoField;
             }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlTextAttribute()]
-            public string Value
+            set
             {
-                get
-                {
-                    return this.valueField;
-                }
-                set
-                {
-                    this.valueField = value;
-                }
+                this.valorContratoField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCertificadosCertificadoPrazoVigenciaPI
+        public ContratoDespachoProcessocontratoCertificadosCertificadoFormaPagamento formaPagamento
         {
-
-            private string inidField;
-
-            private string valueField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string inid
+            get
             {
-                get
-                {
-                    return this.inidField;
-                }
-                set
-                {
-                    this.inidField = value;
-                }
+                return this.formaPagamentoField;
             }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlTextAttribute()]
-            public string Value
+            set
             {
-                get
-                {
-                    return this.valueField;
-                }
-                set
-                {
-                    this.valueField = value;
-                }
+                this.formaPagamentoField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoCertificadosCertificadoObservacao
+        public ContratoDespachoProcessocontratoCertificadosCertificadoPrazoContrato prazoContrato
         {
-
-            private string inidField;
-
-            private string valueField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string inid
+            get
             {
-                get
-                {
-                    return this.inidField;
-                }
-                set
-                {
-                    this.inidField = value;
-                }
+                return this.prazoContratoField;
             }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlTextAttribute()]
-            public string Value
+            set
             {
-                get
-                {
-                    return this.valueField;
-                }
-                set
-                {
-                    this.valueField = value;
-                }
+                this.prazoContratoField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoPeticoes
+        public ContratoDespachoProcessocontratoCertificadosCertificadoPrazoVigenciaPI prazoVigenciaPI
         {
-
-            private revistaDespachoProcessocontratoPeticoesPeticao peticaoField;
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoPeticoesPeticao peticao
+            get
             {
-                get
-                {
-                    return this.peticaoField;
-                }
-                set
-                {
-                    this.peticaoField = value;
-                }
+                return this.prazoVigenciaPIField;
+            }
+            set
+            {
+                this.prazoVigenciaPIField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoPeticoesPeticao
+        public ContratoDespachoProcessocontratoCertificadosCertificadoObservacao observacao
         {
-
-            private revistaDespachoProcessocontratoPeticoesPeticaoNumero numeroField;
-
-            private revistaDespachoProcessocontratoPeticoesPeticaoDataProtocolo dataProtocoloField;
-
-            private revistaDespachoProcessocontratoPeticoesPeticaoRequerente requerenteField;
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoPeticoesPeticaoNumero numero
+            get
             {
-                get
-                {
-                    return this.numeroField;
-                }
-                set
-                {
-                    this.numeroField = value;
-                }
+                return this.observacaoField;
             }
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoPeticoesPeticaoDataProtocolo dataProtocolo
+            set
             {
-                get
-                {
-                    return this.dataProtocoloField;
-                }
-                set
-                {
-                    this.dataProtocoloField = value;
-                }
+                this.observacaoField = value;
             }
+        }
+    }
 
-            /// <remarks/>
-            public revistaDespachoProcessocontratoPeticoesPeticaoRequerente requerente
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCertificadosCertificadoNumero
+    {
+
+        private string inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string inid
+        {
+            get
             {
-                get
-                {
-                    return this.requerenteField;
-                }
-                set
-                {
-                    this.requerenteField = value;
-                }
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoPeticoesPeticaoNumero
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
         {
-
-            private string inidField;
-
-            private ulong valueField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string inid
+            get
             {
-                get
-                {
-                    return this.inidField;
-                }
-                set
-                {
-                    this.inidField = value;
-                }
+                return this.valueField;
             }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlTextAttribute()]
-            public ulong Value
+            set
             {
-                get
-                {
-                    return this.valueField;
-                }
-                set
-                {
-                    this.valueField = value;
-                }
+                this.valueField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCertificadosCertificadoNaturezaDocumento
+    {
+
+        private string inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoPeticoesPeticaoDataProtocolo
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
         {
-
-            private string inidField;
-
-            private string valueField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string inid
+            get
             {
-                get
-                {
-                    return this.inidField;
-                }
-                set
-                {
-                    this.inidField = value;
-                }
+                return this.valueField;
             }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlTextAttribute()]
-            public string Value
+            set
             {
-                get
-                {
-                    return this.valueField;
-                }
-                set
-                {
-                    this.valueField = value;
-                }
+                this.valueField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCertificadosCertificadoTextoObjeto
+    {
+
+        private string inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoPeticoesPeticaoRequerente
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
         {
-
-            private revistaDespachoProcessocontratoPeticoesPeticaoRequerenteNomeCompleto nomeCompletoField;
-
-            /// <remarks/>
-            public revistaDespachoProcessocontratoPeticoesPeticaoRequerenteNomeCompleto nomeCompleto
+            get
             {
-                get
-                {
-                    return this.nomeCompletoField;
-                }
-                set
-                {
-                    this.nomeCompletoField = value;
-                }
+                return this.valueField;
+            }
+            set
+            {
+                this.valueField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCertificadosCertificadoSiglaCategoria
+    {
+
+        private string inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoProcessocontratoPeticoesPeticaoRequerenteNomeCompleto
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
         {
-
-            private string inidField;
-
-            private string valueField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string inid
+            get
             {
-                get
-                {
-                    return this.inidField;
-                }
-                set
-                {
-                    this.inidField = value;
-                }
+                return this.valueField;
             }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlTextAttribute()]
-            public string Value
+            set
             {
-                get
-                {
-                    return this.valueField;
-                }
-                set
-                {
-                    this.valueField = value;
-                }
+                this.valueField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCertificadosCertificadoDescricaoMoeda
+    {
+
+        private string inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
             }
         }
 
         /// <remarks/>
-        [System.SerializableAttribute()]
-        [System.ComponentModel.DesignerCategoryAttribute("code")]
-        [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-        public partial class revistaDespachoComentario
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
         {
-
-            private string inidField;
-
-            private string valueField;
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlAttributeAttribute()]
-            public string inid
+            get
             {
-                get
-                {
-                    return this.inidField;
-                }
-                set
-                {
-                    this.inidField = value;
-                }
+                return this.valueField;
             }
-
-            /// <remarks/>
-            [System.Xml.Serialization.XmlTextAttribute()]
-            public string Value
+            set
             {
-                get
-                {
-                    return this.valueField;
-                }
-                set
-                {
-                    this.valueField = value;
-                }
+                this.valueField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCertificadosCertificadoValorContrato
+    {
+
+        private string inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
             }
         }
 
+        /// <remarks/>
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
+        {
+            get
+            {
+                return this.valueField;
+            }
+            set
+            {
+                this.valueField = value;
+            }
+        }
+    }
 
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCertificadosCertificadoFormaPagamento
+    {
+
+        private string inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
+        {
+            get
+            {
+                return this.valueField;
+            }
+            set
+            {
+                this.valueField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCertificadosCertificadoPrazoContrato
+    {
+
+        private string inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
+        {
+            get
+            {
+                return this.valueField;
+            }
+            set
+            {
+                this.valueField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCertificadosCertificadoPrazoVigenciaPI
+    {
+
+        private string inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
+        {
+            get
+            {
+                return this.valueField;
+            }
+            set
+            {
+                this.valueField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoCertificadosCertificadoObservacao
+    {
+
+        private string inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
+        {
+            get
+            {
+                return this.valueField;
+            }
+            set
+            {
+                this.valueField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoPeticoes
+    {
+
+        private ContratoDespachoProcessocontratoPeticoesPeticao peticaoField;
+
+        /// <remarks/>
+        public ContratoDespachoProcessocontratoPeticoesPeticao peticao
+        {
+            get
+            {
+                return this.peticaoField;
+            }
+            set
+            {
+                this.peticaoField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoPeticoesPeticao
+    {
+
+        private ContratoDespachoProcessocontratoPeticoesPeticaoNumero numeroField;
+
+        private ContratoDespachoProcessocontratoPeticoesPeticaoDataProtocolo dataProtocoloField;
+
+        private ContratoDespachoProcessocontratoPeticoesPeticaoRequerente requerenteField;
+
+        /// <remarks/>
+        public ContratoDespachoProcessocontratoPeticoesPeticaoNumero numero
+        {
+            get
+            {
+                return this.numeroField;
+            }
+            set
+            {
+                this.numeroField = value;
+            }
+        }
+
+        /// <remarks/>
+        public ContratoDespachoProcessocontratoPeticoesPeticaoDataProtocolo dataProtocolo
+        {
+            get
+            {
+                return this.dataProtocoloField;
+            }
+            set
+            {
+                this.dataProtocoloField = value;
+            }
+        }
+
+        /// <remarks/>
+        public ContratoDespachoProcessocontratoPeticoesPeticaoRequerente requerente
+        {
+            get
+            {
+                return this.requerenteField;
+            }
+            set
+            {
+                this.requerenteField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoPeticoesPeticaoNumero
+    {
+
+        private string inidField;
+
+        private ulong valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public ulong Value
+        {
+            get
+            {
+                return this.valueField;
+            }
+            set
+            {
+                this.valueField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoPeticoesPeticaoDataProtocolo
+    {
+
+        private string inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
+        {
+            get
+            {
+                return this.valueField;
+            }
+            set
+            {
+                this.valueField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoPeticoesPeticaoRequerente
+    {
+
+        private ContratoDespachoProcessocontratoPeticoesPeticaoRequerenteNomeCompleto nomeCompletoField;
+
+        /// <remarks/>
+        public ContratoDespachoProcessocontratoPeticoesPeticaoRequerenteNomeCompleto nomeCompleto
+        {
+            get
+            {
+                return this.nomeCompletoField;
+            }
+            set
+            {
+                this.nomeCompletoField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoProcessocontratoPeticoesPeticaoRequerenteNomeCompleto
+    {
+
+        private string inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
+        {
+            get
+            {
+                return this.valueField;
+            }
+            set
+            {
+                this.valueField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ContratoDespachoComentario
+    {
+
+        private string inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
+        {
+            get
+            {
+                return this.valueField;
+            }
+            set
+            {
+                this.valueField = value;
+            }
+        }
     }
 }

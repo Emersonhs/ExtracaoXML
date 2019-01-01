@@ -18,10 +18,30 @@ namespace XML_v2
 
         public void Orquestrar<T>() where T : class
         {
-            xmlInputData = File.ReadAllText(Constantes.Arquivos.DesenhoIndustrial);
-            T Retorno = ser.Deserialize<T>(xmlInputData);
-            GerarArquivo.Gerar<T>(Retorno);
+            if (typeof(T).Name == typeof(revista).Name)
+            {
+                xmlInputData = File.ReadAllText(Constantes.Arquivos.DesenhoIndustrial);
+                T Retorno = ser.Deserialize<T>(xmlInputData);
+                GerarArquivo.Gerar<T>(Retorno);
+            }
+            else if (typeof(T).Name == typeof(Contrato).Name)
+            {
+                xmlInputData = File.ReadAllText(Constantes.Arquivos.Contrato);
+                T Retorno = ser.Deserialize<T>(xmlInputData);
+                GerarArquivo.Gerar<T>(Retorno);
+            }
+            else if (typeof(T).Name == typeof(Patentes).Name)
+            {
+                xmlInputData = File.ReadAllText(Constantes.Arquivos.Patente);
+                T Retorno = ser.Deserialize<T>(xmlInputData);
+                GerarArquivo.Gerar<T>(Retorno);
+            }
+            else if (typeof(T).Name == typeof(ProgramaComputador).Name)
+            {
+                xmlInputData = File.ReadAllText(Constantes.Arquivos.ProgramaComputador);
+                T Retorno = ser.Deserialize<T>(xmlInputData);
+                GerarArquivo.Gerar<T>(Retorno);
+            }
         }
-        
     }
 }
