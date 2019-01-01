@@ -51,7 +51,7 @@
     <Compile Include="Model\Patente.cs" />
     <Compile Include="Model\ProgramaComputador.cs" />
     <Compile Include="MontarArquivoContrato.cs" />
-    <Compile Include="MontarArquivoDistritoIndustrial.cs" />
+    <Compile Include="MontarArquivoDesenhoIndustrial.cs" />
     <Compile Include="MontarArquivoPatentes.cs" />
     <Compile Include="MontarArquivoProgramaComputador.cs" />
     <Compile Include="OrquestradorArquivo.cs" />
