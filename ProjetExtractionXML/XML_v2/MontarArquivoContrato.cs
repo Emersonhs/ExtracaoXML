@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using XML_v2.Model;
+﻿using XML_v2.Model;
+using XML_v2.Model.Contrato;
 
 namespace XML_v2
 {

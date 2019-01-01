@@ -5,6 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using XML_v2.Model;
+using XML_v2.Model.Contrato;
+using XML_v2.Model.DesenhoIndustrial;
+using XML_v2.Model.Patente;
 
 namespace XML_v2
 {
@@ -13,10 +16,10 @@ namespace XML_v2
         public void Gerar<T>(object Dados)
         {
             {
-                if (typeof(T).Name == typeof(revista).Name)
+                if (typeof(T).Name == typeof(DesenhoIndustrial).Name)
                 {
                     MontarArquivoDesenhoIndustrial MontarArquivo = new MontarArquivoDesenhoIndustrial();
-                    MontarArquivo.MontarArquivo((revista)Dados);
+                    MontarArquivo.MontarArquivo((DesenhoIndustrial)Dados);
                 }
                 else if (typeof(T).Name == typeof(Contrato).Name)
                 {

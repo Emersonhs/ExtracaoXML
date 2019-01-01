@@ -5,6 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using XML_v2.Model;
+using XML_v2.Model.Contrato;
+using XML_v2.Model.DesenhoIndustrial;
+using XML_v2.Model.Patente;
+using XML_v2.Model.ProgramaComputador;
 using static XML_v2.TestHarness;
 
 namespace XML_v2
@@ -18,7 +22,7 @@ namespace XML_v2
 
         public void Orquestrar<T>() where T : class
         {
-            if (typeof(T).Name == typeof(revista).Name)
+            if (typeof(T).Name == typeof(DesenhoIndustrial).Name)
             {
                 xmlInputData = File.ReadAllText(Constantes.Arquivos.DesenhoIndustrial);
                 T Retorno = ser.Deserialize<T>(xmlInputData);

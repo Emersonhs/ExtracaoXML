@@ -1,5 +1,5 @@
 ﻿using System.Linq;
-using XML_v2.Model;
+using XML_v2.Model.Patente;
 
 namespace XML_v2
 {
