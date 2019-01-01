@@ -46,7 +46,6 @@
     <Compile Include="BaseMontarArquivo.cs" />
     <Compile Include="Constantes.cs" />
     <Compile Include="Model\Contrato.cs" />
-    <Compile Include="Model\ContratosTecnologia_old.cs" />
     <Compile Include="Model\DesenhoIndustrial.cs" />
     <Compile Include="Model\Patente.cs" />
     <Compile Include="Model\ProgramaComputador.cs" />

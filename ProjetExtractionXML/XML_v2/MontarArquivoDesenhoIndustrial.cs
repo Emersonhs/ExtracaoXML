@@ -4,6 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using XML_v2.Model;
+using XML_v2.Model.DesenhoIndustrial;
 
 namespace XML_v2
 {
@@ -13,7 +15,7 @@ namespace XML_v2
         {
         }
 
-        public void MontarArquivo(revista revista)
+        public void MontarArquivo(DesenhoIndustrial revista)
         {
             arquivo.WriteLine("No " + revista.numero + " de " + revista.dataPublicacao);
             arquivo.WriteLine("|");

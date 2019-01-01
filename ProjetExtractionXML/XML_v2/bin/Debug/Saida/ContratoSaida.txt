@@ -1,0 +1,262 @@
+No 2502 de 18/12/2018
+|
+No 2502 de 18/12/2018
+(Cd) 135
+(Np) 000442
+(Cd) 135
+(Np) BR 70 2018 000391-0
+(Cd) 140
+(Cd) 145
+(Np) 090947
+(Ce) CLOSURE SYSTEMS INTERNATIONAL, INC
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 145
+(Np) 111183
+(Ce) LUCAS INDUSTRIES LIMITED
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 145
+(Np) BR 70 2017 000597-9
+(Ce) MONSANTO DO BRASIL LTDA
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 145
+(Np) BR 70 2017 000598-7
+(Ce) MONSANTO DO BRASIL LTDA
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 145
+(Np) BR 70 2017 000635-5
+(Ce) OURO FINO SAÚDE ANIMAL PARTICIPAÇÕES S.A
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 145
+(Np) BR 70 2018 000095-3
+(Ce) FRAMBOISE HOLDINGS INC.
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 145
+(Np) BR 70 2018 000195-0
+(Ce) ATHENAS MEDICAL IMPORTADORA E DISTRIBUIDORA DE PRODUTOS MÉDICOS LTDA
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 145
+(Np) BR 70 2018 000263-8
+(Ce) EDUCATION TRADEMARK BV
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 145
+(Np) BR 70 2018 000268-9
+(Ce) EDUCATION TRADEMARK BV
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 145
+(Np) BR 70 2018 000484-3
+(Ce) ALOE VERA OF AMERICA, INC.
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 145
+(Np) BR 70 2018 050504-4
+(Ce) WD-40 COMPANY
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 145
+(Np) BR 70 2018 050540-0
+(Ce) TOXSTRATEGIES, INC
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 145
+(Np) BR 70 2018 050662-8
+(Ce) PIZZA HUT INTERNATIONAL LLC
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 145
+(Np) BR 70 2018 050663-6
+(Ce) PIZZA HUT INTERNATIONAL LLC
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 145
+(Np) BR 70 2018 050664-4
+(Ce) PIZZA HUT INTERNATIONAL LLC
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 145
+(Np) BR 70 2018 050672-5
+(Ce) KERALTY S.A.S
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 145
+(Np) BR 70 2018 050673-3
+(Ce) UNIVERSIDADE TÉCNICA DE LULEA
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 145
+(Np) BR 70 2018 050687-3
+(Ce) NHS, INC.
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 145
+(Np) BR 70 2018 050699-7
+(Ce) IMPORIENTE COMÉRCIO EXTERIOR LTDA
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 145
+(Np) BR 70 2018 050700-4
+(Ce) SUOMY INTERNATIONAL PTE LTD.
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 145
+(Np) BR 70 2018 050701-2
+(Ce) HYUNDAI CONSTRUCTION EQUIPMENT CO., LTD
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 145
+(Np) BR 70 2018 050702-0
+(Ce) RISE INNVENTIA AB
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 150
+(Np) 000442
+(Cd) 150
+(Np) 111183
+(Cd) 150
+(Np) 140003
+(Cd) 150
+(Np) 140085
+(Cd) 150
+(Np) 140109
+(Cd) 150
+(Np) 140306
+(Cd) 150
+(Np) 140440
+(Cd) 150
+(Np) 140441
+(Cd) 150
+(Np) 140756
+(Cd) 150
+(Np) BR 70 2015 000268-0
+(Cd) 150
+(Np) BR 70 2015 000268-0
+(Cd) 150
+(Np) BR 70 2015 000268-0
+(Cd) 150
+(Np) BR 70 2017 000442-5
+(Cd) 150
+(Np) BR 70 2017 000597-9
+(Cd) 150
+(Np) BR 70 2017 000598-7
+(Cd) 150
+(Np) BR 70 2017 000635-5
+(Cd) 150
+(Np) BR 70 2018 000095-3
+(Cd) 150
+(Np) BR 70 2018 000097-0
+(Cd) 150
+(Np) BR 70 2018 000100-3
+(Cd) 150
+(Np) BR 70 2018 000263-8
+(Cd) 150
+(Np) BR 70 2018 000266-2
+(Cd) 150
+(Np) BR 70 2018 000268-9
+(Cd) 150
+(Np) BR 70 2018 000376-6
+(Cd) 150
+(Np) BR 70 2018 000441-0
+(Cd) 150
+(Np) BR 70 2018 000466-5
+(Cd) 150
+(Np) BR 70 2018 000484-3
+(Cd) 150
+(Np) BR 70 2018 050508-7
+(Cd) 150
+(Np) BR 70 2018 050517-6
+(Cd) 150
+(Np) BR 70 2018 050521-4
+(Cd) 150
+(Np) BR 70 2018 050540-0
+(Cd) 150
+(Np) BR 70 2018 050550-8
+(Cd) 150
+(Np) BR 70 2018 050557-5
+(Cd) 150
+(Np) BR 70 2018 050626-1
+(Cd) 150
+(Np) BR 70 2018 050702-0
+(Ce) RISE INNVENTIA AB
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 150
+(Np) BR 70 2018 050703-9
+(Ce) MG LICENCIAMENTO DE MARCAS E PROPRIEDADE INTELECTUAL EIRELI
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 150
+(Np) BR 70 2018 050704-7
+(Ce) HURLEY INTERNATIONAL LLC
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 150
+(Np) BR 70 2018 050705-5
+(Ce) L'ORÉAL
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 150
+(Np) BR 70 2018 050706-3
+(Ce) RIO DOCE COMÉRCIO ATACADISTA LTDA EPP
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 150
+(Np) BR 70 2018 050707-1
+(Ce) VELUM LIMITED
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 150
+(Np) BR 70 2018 050708-0
+(Ce) L'ORÉAL
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 150
+(Np) BR 70 2018 050709-8
+(Ce) L?ORÉAL (UK) LTD.
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 150
+(Np) BR 70 2018 050710-1
+(Ce) LANCOME PARFUMS ET BEAUTE & CIE
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 150
+(Np) BR 70 2018 050711-0
+(Ce) LA ROCHE-POSAY LABORATOIRE DERMATOLOGIQUE
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 150
+(Np) BR 70 2018 050712-8
+(Ce) SPORT CLUB CORINTHIANS PAULISTA
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 150
+(Np) BR 70 2018 050713-6
+(Ce) STANLEY ELECTRIC CO. LTD.
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 150
+(Np) BR 70 2018 050714-4
+(Ce) AGC GLASS EUROPE
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 184
+(Np) 121021
+(Ce) CHRISTIANE GIRON - ME
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 184
+(Np) 121065
+(Ce) CHRISTIANE GIRON - ME
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 184
+(Np) 130965
+(Ce) M.G.S. SRL
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 184
+(Np) 140129
+(Ce) G-TEKT CORPORATION
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 184
+(Np) BR 70 2015 000534
+(Ce) C&CAS COMÉRCIO, IMPORTAÇÃO E EXPORTAÇÃO LTDA
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 184
+(Np) BR 70 2016 000377
+(Ce) CAMARGO CORRÊA S/A
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 184
+(Np) BR 70 2017 000088
+(Ce) THE ARMOR ALL/STP PRODUCTS COMPANY
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 184
+(Np) BR 70 2018 000072
+(Ce) J. R. SIMPLOT COMPANY
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 184
+(Np) BR 70 2018 050499
+(Ce) CEVA SANTÉ ANIMALE S.A
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 185
+(Np) BR 70 2018 000097-0
+(Ce) FRAMBOISE HOLDINGS INC.
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 185
+(Np) BR 70 2018 000100-3
+(Ce) FRAMBOISE HOLDINGS INC.
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionariaNomeCompleto
+(Cd) 185
+(Np) BR 70 2018 050522-2
+(Ce) ELIZÁRIO ADMINISTRAÇÃO E PARTICIPAÇÕES LTDA.
+() XML_v2.Model.Contrato.ContratoDespachoProcessocontratoCessionari
