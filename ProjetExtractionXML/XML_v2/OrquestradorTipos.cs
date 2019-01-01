@@ -30,7 +30,7 @@ namespace XML_v2
                 T Retorno = ser.Deserialize<T>(xmlInputData);
                 GerarArquivo.Gerar<T>(Retorno);
             }
-            else if (typeof(T).Name == typeof(Patentes).Name)
+            else if (typeof(T).Name == typeof(Patente).Name)
             {
                 xmlInputData = File.ReadAllText(Constantes.Arquivos.Patente);
                 T Retorno = ser.Deserialize<T>(xmlInputData);
