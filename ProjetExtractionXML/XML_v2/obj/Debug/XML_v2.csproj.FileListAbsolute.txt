@@ -21,3 +21,4 @@ D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\XML_v2.exe.config
 D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\XML_v2.exe
 D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\XML_v2.pdb
 D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.csprojAssemblyReference.cache
+C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\Arquivos\Patente_2500.xml

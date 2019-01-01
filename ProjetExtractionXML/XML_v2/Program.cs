@@ -15,10 +15,10 @@ namespace XML_v2
 
             OrquestradorTipos orquestrador = new OrquestradorTipos();
             orquestrador.Orquestrar<revista>(); //DesenhoIndustrial
-            //orquestrador.Orquestrar<Contrato>();
+           // orquestrador.Orquestrar<Contrato>();
+           // orquestrador.Orquestrar<Patente>();
+           // orquestrador.Orquestrar<ProgramaComputador>();
 
-            //  orquestrador.Orquestrar<Contrato>();
-            //orquestrador.Orquestrar<revista>();
 
         }
     }

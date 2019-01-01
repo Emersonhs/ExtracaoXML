@@ -13,7 +13,7 @@ namespace XML_v2
         /* ALTERAR DAQUI PRA BAIXO  ***************************************************/
 
 
-        public void MontarArquivo(Patentes patente)
+        public void MontarArquivo(Patente patente)
         {
             arquivo.WriteLine("No " + patente.numero + " de " + patente.dataPublicacao);
             arquivo.WriteLine("|");
