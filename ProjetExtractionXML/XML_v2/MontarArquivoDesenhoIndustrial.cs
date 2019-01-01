@@ -27,8 +27,15 @@ namespace XML_v2
                         if (ItemDespacho.processopatente.complementofigurarosto.inid == "fg")
                             arquivo.WriteLine("@FIG");
 
-                    arquivo.WriteLine("(Cd) " + ItemDespacho.codigo.ToString().Replace(',', '.'));
-
+                    if (ItemDespacho.titulo.Substring(0, 7) == "Recurso")
+                    {
+                        arquivo.WriteLine("(Cd) PR - Nulidades");
+                        arquivo.WriteLine("(Di) Desenho Industrial");
+                    }
+                    else
+                    {
+                        arquivo.WriteLine("(Cd) " + ItemDespacho.codigo.ToString().Replace(',', '.'));
+                    }
                     arquivo.WriteLine("(" + ItemDespacho.processopatente.numero.inid + ") " + ItemDespacho.processopatente.numero.Value);
                     if (ItemDespacho.processopatente.datadeposito != null)
                         arquivo.WriteLine("(" + ItemDespacho.processopatente.datadeposito.inid + ") " + ItemDespacho.processopatente.datadeposito.Value);
@@ -77,7 +84,7 @@ namespace XML_v2
                                 StrClassificacao = string.Empty;
                             }
                         }
-                        
+
                     }
 
                     if (ItemDespacho.processopatente.titulo != null)
@@ -99,15 +106,19 @@ namespace XML_v2
                             foreach (var Titular in TitularList)
                             {
                                 StrTilular += Titular.nomecompleto;
-                                if (Titular.endereco.pais.sigla != null)
-                                    StrTilular += " (" + Titular.endereco.pais.sigla;
-                                else
-                                    StrTilular += " (";
-                                if (Titular.endereco.uf != null)
-                                    StrTilular += "/" + Titular.endereco.uf + ") ";
-                                else
-                                    StrTilular += ") ";
-                                StrTilular += "; ";
+                                try
+                                {
+                                    if (Titular.endereco.pais.sigla != null)
+                                        StrTilular += " (" + Titular.endereco.pais.sigla;
+                                    else
+                                        StrTilular += " (";
+                                    if (Titular.endereco.uf != null)
+                                        StrTilular += "/" + Titular.endereco.uf + ") ";
+                                    else
+                                        StrTilular += ") ";
+                                    StrTilular += "; ";
+                                }
+                                catch { }
                             }
                             arquivo.WriteLine(StrTilular.Substring(0, StrTilular.Trim().Length - 1));
                             StrTilular = string.Empty;
