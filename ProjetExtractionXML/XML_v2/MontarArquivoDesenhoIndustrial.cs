@@ -106,9 +106,10 @@ namespace XML_v2
                             foreach (var Titular in TitularList)
                             {
                                 StrTilular += Titular.nomecompleto;
-                                try
+
+                                if (Titular.endereco != null)
                                 {
-                                    if (Titular.endereco.pais.sigla != null)
+                                    if (Titular.endereco.pais != null && Titular.endereco.pais.sigla != null)
                                         StrTilular += " (" + Titular.endereco.pais.sigla;
                                     else
                                         StrTilular += " (";
@@ -118,7 +119,6 @@ namespace XML_v2
                                         StrTilular += ") ";
                                     StrTilular += "; ";
                                 }
-                                catch { }
                             }
                             arquivo.WriteLine(StrTilular.Substring(0, StrTilular.Trim().Length - 1));
                             StrTilular = string.Empty;
