@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace XML_v2
 {
-    public class MontarArquivoDistritoIndustrial : BaseMontarArquivo
+    public class MontarArquivoDesenhoIndustrial : BaseMontarArquivo
     {
-        public MontarArquivoDistritoIndustrial() : base(Constantes.Arquivos.DesenhoIndustrialSaida)
+        public MontarArquivoDesenhoIndustrial() : base(Constantes.Arquivos.DesenhoIndustrialSaida)
         {
         }
 
