@@ -40,7 +40,13 @@ namespace XML_v2
 
                         arquivo.WriteLine(StrTitular.Substring(0, StrTitular.Trim().Length - 1));
                         StrTitular = string.Empty;
+
                     }
+                    if (ItemDespacho.comentario != null)
+                    {
+                        arquivo.WriteLine("(" + ItemDespacho.comentario.inid + ") " + ItemDespacho.comentario.Value);
+                    }
+
                 }
 
                 if (ItemDespacho.processoprograma.campoAplicacaoLista != null)
@@ -84,10 +90,7 @@ namespace XML_v2
                         arquivo.WriteLine(StrLinguagem.Substring(0, StrLinguagem.Trim().Length - 1));
                         StrLinguagem = string.Empty;
                     }
-
-
                     //lista dos campos de aplicação
-
                     var NovaListaAplicacao = ItemDespacho.processoprograma.campoAplicacaoLista.GroupBy(O => O.inid).ToList();
                     string StrAplicacao = string.Empty;
                     StrAplicacao = string.Empty;
@@ -102,25 +105,18 @@ namespace XML_v2
 
                         arquivo.WriteLine(StrAplicacao.Substring(0, StrAplicacao.Trim().Length - 1));
                         StrAplicacao = string.Empty;
-
                     }
-
-
-
                     //lista do tipo de programas
-
-
                     var NovaListaTiposProgramas = ItemDespacho.processoprograma.tipoProgramaLista.GroupBy(O => O.inid).ToList();
                     string StrTipoProgramas = string.Empty;
                     StrTipoProgramas = string.Empty;
 
                     foreach (var itemTipoPrograma in NovaListaTiposProgramas)
                     {
-
                         var TiposProgramasList = ItemDespacho.processoprograma.tipoProgramaLista.Where(o => o.inid == itemTipoPrograma.Key).ToList();
                         StrTipoProgramas += "(" + itemTipoPrograma.Key + ") ";
                         foreach (var tipoPrograma in itemTipoPrograma)
-                            StrAplicacao += tipoPrograma.codigo.Value + "; ";
+                            StrTipoProgramas += tipoPrograma.codigo.Value + "; ";
 
                         arquivo.WriteLine(StrTipoProgramas.Substring(0, StrTipoProgramas.Trim().Length - 1));
                         StrTipoProgramas = string.Empty;
@@ -128,7 +124,10 @@ namespace XML_v2
                     }
                 }
                 //data da criação
-                arquivo.WriteLine("(" + ItemDespacho.processoprograma.dataCriacao.inid + ") " + ItemDespacho.processoprograma.dataCriacao.Value);
+                if (ItemDespacho.processoprograma.dataCriacao != null)
+                {
+                    arquivo.WriteLine("(" + ItemDespacho.processoprograma.dataCriacao.inid + ") " + ItemDespacho.processoprograma.dataCriacao.Value);
+                }
 
             }
             arquivo.Close();

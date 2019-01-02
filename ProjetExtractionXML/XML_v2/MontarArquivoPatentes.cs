@@ -5,7 +5,7 @@ namespace XML_v2
 {
     public class MontarArquivoPatentes : BaseMontarArquivo
     {
-        public MontarArquivoPatentes() : base(Constantes.Arquivos.Patente)
+        public MontarArquivoPatentes() : base(Constantes.Arquivos.PatenteSaida)
         {
         }
 
@@ -21,34 +21,58 @@ namespace XML_v2
 
             foreach (var ItemDespacho in patente.despacho)
             {
-                arquivo.WriteLine("(Cd) " + ItemDespacho.codigo.ToString());
+
+                if (ItemDespacho.titulo.Substring(0, 7) == "Recurso" || ItemDespacho.titulo == "Tome Conhecimento do Parecer Técnico" || ItemDespacho.titulo == "Exigência")
+                {
+                    arquivo.WriteLine("(Cd) PR - Recursos");
+                    arquivo.WriteLine("(Di) DIRPA");
+                }
+               
+                else if (ItemDespacho.codigo != null)
+                {
+                    arquivo.WriteLine("(Cd) " + ItemDespacho.codigo.ToString().Replace(',', '.'));
+                }
+
+
+
+
                 if (ItemDespacho.processopatente != null)
                 {
-                    arquivo.WriteLine("(" + ItemDespacho.processopatente.numero.inid + ") " + ItemDespacho.processopatente.numero.Value);
+                    arquivo.WriteLine("(" + ItemDespacho.processopatente.numero.inid + ") " + ItemDespacho.processopatente.numero.Value + " " + ItemDespacho.processopatente.numero.kindcode);
                     if (ItemDespacho.processopatente.datadeposito != null)
                     {
                         arquivo.WriteLine("(" + ItemDespacho.processopatente.datadeposito.inid + ") " + ItemDespacho.processopatente.datadeposito.Value);
                     }
+
+                    // if(ItemDespacho.processopatente.)
+
                     if (ItemDespacho.processopatente.divisaopedido != null)
                     {
-                        arquivo.WriteLine("(" + ItemDespacho.processopatente.numero.inid + ") " + ItemDespacho.processopatente.datadeposito.Value + " " + ItemDespacho.processopatente.numero.Value);
+                        arquivo.WriteLine("(" + ItemDespacho.processopatente.divisaopedido.inid + ") " + ItemDespacho.processopatente.divisaopedido.numero + " " + ItemDespacho.processopatente.divisaopedido.datadeposito);
                     }
                 }
 
-                foreach (var item in ItemDespacho.processopatente.titularlista)
+                if (ItemDespacho.processopatente.titularlista != null)
                 {
-                    string strEndereco = string.Empty;
-                    strEndereco = "(" + item.titular.inid + ") " + item.titular.nomecompleto;
-                    if (item.titular.endereco.pais.sigla != null)
-                        strEndereco += " (" + item.titular.endereco.pais.sigla;
-                    else
-                        strEndereco += " (";
-                    if (item.titular.endereco.uf != null)
-                        strEndereco += "/" + item.titular.endereco.uf + ") ";
-                    else
-                        strEndereco += ") ";
-                    arquivo.WriteLine(strEndereco);
+                    foreach (var item in ItemDespacho.processopatente.titularlista)
+                    {
+                        string strEndereco = string.Empty;
+                        strEndereco = "(" + item.titular.inid + ") " + item.titular.nomecompleto;
 
+                        if (item.titular.endereco != null)
+                        {
+
+                            if (item.titular.endereco.pais != null && item.titular.endereco.pais.sigla != null)
+                                strEndereco += " (" + item.titular.endereco.pais.sigla;
+                            else
+                                strEndereco += " (";
+                            if (item.titular.endereco.uf != null)
+                                strEndereco += "/" + item.titular.endereco.uf + ") ";
+                            else
+                                strEndereco += ") ";
+                            arquivo.WriteLine(strEndereco);
+                        }
+                    }
                 }
 
                 if (ItemDespacho.processopatente.Inventorlista != null)
@@ -67,7 +91,18 @@ namespace XML_v2
                         StrInventor = string.Empty;
                     }
                 }
-               
+                if (ItemDespacho.comentario != null)
+                {
+                    if (ItemDespacho.comentario.Value.ToString().Length >= 10 && ItemDespacho.comentario.Value.Substring(0, 10) == "Recorrente")
+                    {
+                        arquivo.WriteLine("(Re) O depositante.");
+                        arquivo.WriteLine("(De) Decisão: " + ItemDespacho.comentario.Value.Substring(28));
+                    }
+                    else
+                    {
+                        arquivo.WriteLine("(" + ItemDespacho.comentario.inid + ") " + ItemDespacho.comentario.Value);
+                    }
+                }
             }
             arquivo.Close();
         }

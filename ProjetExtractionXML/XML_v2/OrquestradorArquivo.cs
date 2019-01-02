@@ -8,6 +8,7 @@ using XML_v2.Model;
 using XML_v2.Model.Contrato;
 using XML_v2.Model.DesenhoIndustrial;
 using XML_v2.Model.Patente;
+using XML_v2.Model.ProgramaComputador;
 
 namespace XML_v2
 {
@@ -30,6 +31,11 @@ namespace XML_v2
                 {
                     MontarArquivoPatentes MontarArquivo = new MontarArquivoPatentes();
                     MontarArquivo.MontarArquivo((Patente)Dados);
+                }
+                else if (typeof(T).Name == typeof(ProgramaComputador).Name)
+                {
+                    MontarArquivoProgramaComputador MontarArquivo = new MontarArquivoProgramaComputador();
+                    MontarArquivo.MontarArquivo((ProgramaComputador)Dados);
                 }
             }
         }

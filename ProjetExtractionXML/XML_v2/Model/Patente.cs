@@ -175,6 +175,7 @@
             }
         }
 
+
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("data-deposito")]
         public processopatenteDatadeposito datadeposito

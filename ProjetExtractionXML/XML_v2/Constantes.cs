@@ -23,7 +23,7 @@ namespace XML_v2
         public abstract class Arquivos
         {
             public const string DesenhoIndustrial = "Arquivos/DesenhoIndustrial_2499.xml";
-            public const string DesenhoIndustrialSaida = "Saida/Desenho_Industrial.txt";
+            public const string DesenhoIndustrialSaida = "Saida/Desenho_IndustrialSaida.txt";
             public const string Contrato = "Arquivos/Contratos_2495.xml";
             public const string ContratoSaida = "Saida/ContratoSaida.txt";
             public const string Patente = "Arquivos/Patente_2500.xml";
