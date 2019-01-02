@@ -28,7 +28,7 @@ namespace XML_v2
             //orquestrador.Orquestrar<ProgramaComputador>();
             //Console.WriteLine("Programa Computador.txt PRONTO.");
 
-            Console.ReadKey();
+            //Console.ReadKey();
 
         }
     }
