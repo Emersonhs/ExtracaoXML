@@ -160,6 +160,7 @@
         private processopatenteDivisaopedido divisaopedidoField;
 
         private processopatenteTitularlista[] titularlistaField;
+
         private PatentesDespachoProcessopatenteInventorlistaInventor[] inventorlistaField;
 
         /// <remarks/>

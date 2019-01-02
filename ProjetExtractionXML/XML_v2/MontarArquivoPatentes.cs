@@ -39,6 +39,9 @@ namespace XML_v2
                 if (ItemDespacho.processopatente != null)
                 {
                     arquivo.WriteLine("(" + ItemDespacho.processopatente.numero.inid + ") " + ItemDespacho.processopatente.numero.Value + " " + ItemDespacho.processopatente.numero.kindcode);
+
+                    if(ItemDespacho.processopatente.)
+
                     if (ItemDespacho.processopatente.datadeposito != null)
                     {
                         arquivo.WriteLine("(" + ItemDespacho.processopatente.datadeposito.inid + ") " + ItemDespacho.processopatente.datadeposito.Value);
