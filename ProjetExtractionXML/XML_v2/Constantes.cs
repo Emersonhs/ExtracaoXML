@@ -22,13 +22,13 @@ namespace XML_v2
 
         public abstract class Arquivos
         {
-            public const string DesenhoIndustrial = "Arquivos/DesenhoIndustrial_2499.xml";
+            public const string DesenhoIndustrial = "ArquivosXML/DesenhoIndustrial_2499.xml";
             public const string DesenhoIndustrialSaida = "Saida/Desenho_Industrial.txt";
-            public const string Contrato = "Arquivos/Contratos_2503.xml";
+            public const string Contrato = "ArquivosXML/Contratos_2503.xml";
             public const string ContratoSaida = "Saida/ContratoSaida_2503.txt";
-            public const string Patente = "Arquivos/Patente_2503.xml";
-            public const string PatenteSaida = "Saida/PatenteSaida2503.txt";
-            public const string ProgramaComputador = "Arquivos/Programa_2503.xml";
+            public const string Patente = "ArquivosXML/Patente_2500.xml";
+            public const string PatenteSaida = "Saida/PatenteSaida.txt";
+            public const string ProgramaComputador = "ArquivosXML/Programa_2503.xml";
             public const string ProgramaComputadorSaida = "Saida/ProgramaComputador_2503.txt";
         }
     }

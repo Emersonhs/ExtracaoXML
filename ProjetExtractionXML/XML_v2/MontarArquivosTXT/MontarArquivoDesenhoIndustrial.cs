@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using XML_v2.Model;
-using XML_v2.Model.DesenhoIndustrial;
+﻿using System.Linq;
+using XML_v2.ModelosXML.DesenhoIndustrial;
 
 namespace XML_v2
 {

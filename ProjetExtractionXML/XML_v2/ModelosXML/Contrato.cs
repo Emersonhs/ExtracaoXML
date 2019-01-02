@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace XML_v2.Model.Contrato
+namespace XML_v2.ModelosXML.Contrato
 {
 
     // OBSERVAÇÃO: o código gerado pode exigir pelo menos .NET Framework 4.5 ou .NET Core/Standard 2.0.

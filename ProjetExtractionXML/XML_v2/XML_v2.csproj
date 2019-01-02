@@ -43,18 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseMontarArquivo.cs" />
+    <Compile Include="MontarArquivosTXT\BaseMontarArquivo.cs" />
     <Compile Include="Constantes.cs" />
-    <Compile Include="Model\Contrato.cs" />
-    <Compile Include="Model\DesenhoIndustrial.cs" />
-    <Compile Include="Model\Patente.cs" />
-    <Compile Include="Model\ProgramaComputador.cs" />
-    <Compile Include="MontarArquivoContrato.cs" />
-    <Compile Include="MontarArquivoDesenhoIndustrial.cs" />
-    <Compile Include="MontarArquivoPatentes.cs" />
-    <Compile Include="MontarArquivoProgramaComputador.cs" />
+    <Compile Include="ModelosXML\Contrato.cs" />
+    <Compile Include="ModelosXML\DesenhoIndustrial.cs" />
+    <Compile Include="ModelosXML\Patente.cs" />
+    <Compile Include="ModelosXML\ProgramaComputador.cs" />
+    <Compile Include="MontarArquivosTXT\MontarArquivoContrato.cs" />
+    <Compile Include="MontarArquivosTXT\MontarArquivoDesenhoIndustrial.cs" />
+    <Compile Include="MontarArquivosTXT\MontarArquivoPatentes.cs" />
+    <Compile Include="MontarArquivosTXT\MontarArquivoProgramaComputador.cs" />
     <Compile Include="OrquestradorArquivo.cs" />
-    <Compile Include="OrquestradorTipos.cs" />
+    <Compile Include="DeserializerXML.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestHarness.cs" />
@@ -63,25 +63,25 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Arquivos\Contratos_2495.xml">
+    <Content Include="ArquivosXML\Contratos_2495.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Arquivos\Contratos_2502.xml">
+    <Content Include="ArquivosXML\Contratos_2502.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Arquivos\Contratos_2503.xml">
+    <Content Include="ArquivosXML\Contratos_2503.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Arquivos\DesenhoIndustrial_2502.xml">
+    <Content Include="ArquivosXML\DesenhoIndustrial_2502.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Arquivos\DesenhoIndustrial_2503.xml">
+    <Content Include="ArquivosXML\DesenhoIndustrial_2503.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Arquivos\Patente_2500.xml">
+    <Content Include="ArquivosXML\Patente_2500.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Arquivos\Programa_2503.xml">
+    <Content Include="ArquivosXML\Programa_2503.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

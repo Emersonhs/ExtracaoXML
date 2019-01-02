@@ -1,5 +1,4 @@
-﻿using XML_v2.Model;
-using XML_v2.Model.Contrato;
+﻿using XML_v2.ModelosXML.Contrato;
 
 namespace XML_v2
 {

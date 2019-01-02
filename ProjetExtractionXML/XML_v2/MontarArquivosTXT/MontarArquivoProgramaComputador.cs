@@ -1,5 +1,5 @@
 ﻿using System.Linq;
-using XML_v2.Model.ProgramaComputador;
+using XML_v2.ModelosXML.ProgramaComputador;
 
 namespace XML_v2
 {
@@ -44,9 +44,13 @@ namespace XML_v2
                     }
                     if (ItemDespacho.comentario != null)
                     {
-                        arquivo.WriteLine("(" + ItemDespacho.comentario.inid + ") " + ItemDespacho.comentario.Value);
+                        if (ItemDespacho.comentario.Value.Length > 182) {
+                            arquivo.WriteLine("(" + ItemDespacho.comentario.inid + ") " + ItemDespacho.comentario.Value.Substring(0, 70));
+                            arquivo.WriteLine(ItemDespacho.comentario.Value.Substring(70));
+                        }
+                        else
+                            arquivo.WriteLine("(" + ItemDespacho.comentario.inid + ") " + ItemDespacho.comentario.Value);
                     }
-
                 }
 
                 if (ItemDespacho.processoprograma.campoAplicacaoLista != null)
@@ -91,14 +95,14 @@ namespace XML_v2
                         StrLinguagem = string.Empty;
                     }
                     //lista dos campos de aplicação
-                    var NovaListaAplicacao = ItemDespacho.processoprograma.campoAplicacaoLista.GroupBy(O => O.inid).ToList();
+                    var NovaListaAplicacao = ItemDespacho.processoprograma.campoAplicacaoLista.GroupBy(O => O.codigo.inid).ToList();
                     string StrAplicacao = string.Empty;
                     StrAplicacao = string.Empty;
 
-                    foreach (var itemAplicacao in NovaListaAplicacao)
+                    foreach (var itemAplicacao in ItemDespacho.processoprograma.campoAplicacaoLista.GroupBy(O => O.codigo.inid).ToList())
                     {
 
-                        var AplicacaoList = ItemDespacho.processoprograma.campoAplicacaoLista.Where(o => o.inid == itemAplicacao.Key).ToList();
+                        var AplicacaoList = ItemDespacho.processoprograma.campoAplicacaoLista.Where(o => o.codigo.inid == itemAplicacao.Key).ToList();
                         StrAplicacao += "(" + itemAplicacao.Key + ") ";
                         foreach (var aplicacao in itemAplicacao)
                             StrAplicacao += aplicacao.codigo.Value + "; ";
@@ -107,13 +111,13 @@ namespace XML_v2
                         StrAplicacao = string.Empty;
                     }
                     //lista do tipo de programas
-                    var NovaListaTiposProgramas = ItemDespacho.processoprograma.tipoProgramaLista.GroupBy(O => O.inid).ToList();
+                    var NovaListaTiposProgramas = ItemDespacho.processoprograma.tipoProgramaLista.GroupBy(O => O.codigo.inid).ToList();
                     string StrTipoProgramas = string.Empty;
                     StrTipoProgramas = string.Empty;
 
                     foreach (var itemTipoPrograma in NovaListaTiposProgramas)
                     {
-                        var TiposProgramasList = ItemDespacho.processoprograma.tipoProgramaLista.Where(o => o.inid == itemTipoPrograma.Key).ToList();
+                        var TiposProgramasList = ItemDespacho.processoprograma.tipoProgramaLista.Where(o => o.codigo.inid == itemTipoPrograma.Key).ToList();
                         StrTipoProgramas += "(" + itemTipoPrograma.Key + ") ";
                         foreach (var tipoPrograma in itemTipoPrograma)
                             StrTipoProgramas += tipoPrograma.codigo.Value + "; ";
