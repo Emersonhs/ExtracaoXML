@@ -23,3 +23,4 @@ D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\XML_v2.pdb
 C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\Arquivos\Patente_2500.xml
 D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\Arquivos\Contratos_2503.xml
 D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\Arquivos\Programa_2503.xml
+D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.csprojAssemblyReference.cache

@@ -4,15 +4,17 @@ using XML_v2.Model.DesenhoIndustrial;
 
 namespace XML_v2.Model.ProgramaComputador
 {
+
+    // NOTE: Generated code may require at least .NET Framework 4.5 or .NET Core/Standard 2.0.
     /// <remarks/>
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(elementName:"revista", Namespace = "", IsNullable = false)]
+    [System.Xml.Serialization.XmlRootAttribute(elementName: "revista", Namespace = "", IsNullable = false)]
     public partial class ProgramaComputador
     {
 
-        private ProgramaComputadorDespacho[] despachoField;
+        private revistaDespacho[] despachoField;
 
         private ushort numeroField;
 
@@ -22,7 +24,7 @@ namespace XML_v2.Model.ProgramaComputador
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("despacho")]
-        public ProgramaComputadorDespacho[] despacho
+        public revistaDespacho[] despacho
         {
             get
             {
@@ -81,7 +83,7 @@ namespace XML_v2.Model.ProgramaComputador
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class ProgramaComputadorDespacho
+    public partial class revistaDespacho
     {
 
         private ushort codigoField;
@@ -407,7 +409,6 @@ namespace XML_v2.Model.ProgramaComputador
     {
 
         private revistaDespachoProcessoprogramaCampoAplicacaoCodigo codigoField;
-        private revistaDespachoProcessoprogramaCampoAplicacaoCodigo inidField;
 
         /// <remarks/>
         public revistaDespachoProcessoprogramaCampoAplicacaoCodigo codigo
@@ -421,20 +422,6 @@ namespace XML_v2.Model.ProgramaComputador
                 this.codigoField = value;
             }
         }
-
-        /// <remarks/>
-        public revistaDespachoProcessoprogramaCampoAplicacaoCodigo inid
-        {
-            get
-            {
-                return this.inidField;
-            }
-            set
-            {
-                this.inidField = value;
-            }
-        }
-
     }
 
     /// <remarks/>
@@ -525,7 +512,6 @@ namespace XML_v2.Model.ProgramaComputador
     {
 
         private revistaDespachoProcessoprogramaTipoProgramaCodigo codigoField;
-        private revistaDespachoProcessoprogramaTipoProgramaCodigo inidField;
 
         /// <remarks/>
         public revistaDespachoProcessoprogramaTipoProgramaCodigo codigo
@@ -539,22 +525,6 @@ namespace XML_v2.Model.ProgramaComputador
                 this.codigoField = value;
             }
         }
-
-        /// <remarks/>
-        public revistaDespachoProcessoprogramaTipoProgramaCodigo inid
-        {
-            get
-            {
-                return this.inidField;
-            }
-            set
-            {
-                this.inidField = value;
-            }
-        }
-
-
-
     }
 
     /// <remarks/>
@@ -652,163 +622,6 @@ namespace XML_v2.Model.ProgramaComputador
         }
     }
 
-
-    // OBSERVAÇÃO: o código gerado pode exigir pelo menos .NET Framework 4.5 ou .NET Core/Standard 2.0.
-    /// <remarks/>
-    [System.SerializableAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public partial class linguagemLista
-    {
-
-        private linguagemListaLinguagem[] linguagemField;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("linguagem")]
-        public linguagemListaLinguagem[] linguagem
-        {
-            get
-            {
-                return this.linguagemField;
-            }
-            set
-            {
-                this.linguagemField = value;
-            }
-        }
-    }
-
-    /// <remarks/>
-    [System.SerializableAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class linguagemListaLinguagem
-    {
-
-        private string inidField;
-
-        private string valueField;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string inid
-        {
-            get
-            {
-                return this.inidField;
-            }
-            set
-            {
-                this.inidField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlTextAttribute()]
-        public string Value
-        {
-            get
-            {
-                return this.valueField;
-            }
-            set
-            {
-                this.valueField = value;
-            }
-        }
-    }
-
-    /// <remarks/>
-    [System.SerializableAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public partial class tipoProgramaLista
-    {
-
-        private tipoProgramaListaTipoPrograma[] tipoProgramaField;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("tipoPrograma")]
-        public tipoProgramaListaTipoPrograma[] tipoPrograma
-        {
-            get
-            {
-                return this.tipoProgramaField;
-            }
-            set
-            {
-                this.tipoProgramaField = value;
-            }
-        }
-    }
-
-    /// <remarks/>
-    [System.SerializableAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class tipoProgramaListaTipoPrograma
-    {
-
-        private tipoProgramaListaTipoProgramaCodigo codigoField;
-
-        /// <remarks/>
-        public tipoProgramaListaTipoProgramaCodigo codigo
-        {
-            get
-            {
-                return this.codigoField;
-            }
-            set
-            {
-                this.codigoField = value;
-            }
-        }
-    }
-
-    /// <remarks/>
-    [System.SerializableAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class tipoProgramaListaTipoProgramaCodigo
-    {
-
-        private string inidField;
-
-        private string valueField;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string inid
-        {
-            get
-            {
-                return this.inidField;
-            }
-            set
-            {
-                this.inidField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlTextAttribute()]
-        public string Value
-        {
-            get
-            {
-                return this.valueField;
-            }
-            set
-            {
-                this.valueField = value;
-            }
-        }
-    }
-
-
-
     /// <remarks/>
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -868,7 +681,7 @@ namespace XML_v2.Model.ProgramaComputador
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class ProgramaComputadorDespachoComentario
+    public partial class revistaDespachoComentario
     {
 
         private string inidField;
@@ -903,5 +716,6 @@ namespace XML_v2.Model.ProgramaComputador
             }
         }
     }
+
 
 }
