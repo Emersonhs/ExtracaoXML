@@ -1,0 +1,1981 @@
+<revista numero="2503" dataPublicacao="26/12/2018" diretoria="Programa">
+  <despacho>
+    <codigo>111</codigo>
+    <titulo>Despacho Anulado</titulo>
+    <processo-programa>
+      <numero inid="Np">09029-6</numero>
+      <titulo inid="54">VISUAL HOTAL FULL/LITE</titulo>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>TQTVD SOFTWARE LTDA.</nome>
+        </titular>
+      </titularLista>
+    </processo-programa>
+    <comentario inid="co">Anulado o despacho 742 , publicado na RPI 2501 por ter sido indevido. Anulado o despacho 742 publicado na RPI 2501 por ter sido indevido. Publicação 742 anulada por ter sido indevido.</comentario>
+  </despacho>
+  <despacho>
+    <codigo>111</codigo>
+    <titulo>Despacho Anulado</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052289-0</numero>
+      <titulo inid="54">PORTAL CONSIGSIMPLES</titulo>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>SÃO PAULO CONSIG LTDA</nome>
+        </titular>
+      </titularLista>
+    </processo-programa>
+    <comentario inid="co">Anulado o despacho 742 , publicado na RPI 2502 por ter sido indevido. Anulado o despacho 742 publicado na RPI 2502 por ter sido indevido. Publicação 742 anulada por ter sido indevida.</comentario>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052289-0</numero>
+      <titulo inid="54">PORTAL CONSIGSIMPLES</titulo>
+      <dataCriacao inid="Dl">01/12/2009</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-07</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">.NET</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-02</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-03</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-04</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-05</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-06</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">IA-03</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>SÃO PAULO CONSIG LTDA</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>HUERTA FERREIRA DE MELO NETO</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052430-3</numero>
+      <titulo inid="54">PicMoney</titulo>
+      <dataCriacao inid="Dl">02/01/2017</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">AD-10</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">EC-07</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-09</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IN-02</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">JAVA</linguagem>
+        <linguagem inid="Lg">NODEJS</linguagem>
+        <linguagem inid="Lg">PYTHON</linguagem>
+        <linguagem inid="Lg">SWIFT</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">CD-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-04</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">IA-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">LG-07</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">SO-05</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">TC-03</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">TI-03</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>PICMONEY SERVIÇOS ELETRÔNICOS E INTERMEDIAÇÃO DE NEGÓCIOS LTDA</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>MONICA RIOS DE MACEDO</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052432-0</numero>
+      <titulo inid="54">N|Call Nexus</titulo>
+      <dataCriacao inid="Dl">01/03/2018</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">TC-01</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">JAVA SCRIPT</linguagem>
+        <linguagem inid="Lg">PHP</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">CT-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-02</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-04</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">PD-02</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">PD-03</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">PD-05</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">SO-05</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>NEXCORE TECNOLOGIA DA INFORMACAO LTDA</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>RICARDO ZANLORENZI</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052435-4</numero>
+      <titulo inid="54">Asptraqueal-app</titulo>
+      <dataCriacao inid="Dl">02/10/2018</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">SD-06</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">JAVA SCRIPT</linguagem>
+        <linguagem inid="Lg">PHP</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">TC-01</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>FUNDACAO DE ENSINO SUPERIOR DO VALE DO SAPUCAI</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>FIORITA GONZALES LOPES MUNDIM</nome>
+        </criador>
+        <criador sequencia="2" inid="Cr">
+          <nome>GERALDO MAGELA SALOMÉ</nome>
+        </criador>
+        <criador sequencia="3" inid="Cr">
+          <nome>GISLAINE CRISTINA MARTINS ROSA</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052437-0</numero>
+      <titulo inid="54">SIPEF - SISTEMA DE CONTROLE DE PRESTACAO DE CONTA FINANCEIRO CONTABIL E PATRIMONIAL</titulo>
+      <dataCriacao inid="Dl">01/01/2015</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">EC-05</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">FN-06</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">.NET</linguagem>
+        <linguagem inid="Lg">C#</linguagem>
+        <linguagem inid="Lg">T-SQL</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-03</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-04</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-05</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AV-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AV-02</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">CD-01</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>BRGAAP CORPORATION</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>MOISÉS JOSÉ MIRANDA</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052440-0</numero>
+      <titulo inid="54">Programas Sociais de Goiás</titulo>
+      <dataCriacao inid="Dl">15/06/2016</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">AD-04</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">.NET</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-01</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>SECRETARIA DE ESTADO DE GESTAO E PLANEJAMENTO</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>PAULO HENRIQUE BORGES DE MELO</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052443-5</numero>
+      <titulo inid="54">APP WHOQOL - aplicativo móvel para avaliação da qualidade de vida do idoso</titulo>
+      <dataCriacao inid="Dl">09/12/2018</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">AD-02</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-01</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-02</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-04</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IN-02</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">SD-01</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">JAVA SCRIPT</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AV-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">IT-03</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>ALESSANDRA BAPTISTA</nome>
+        </titular>
+        <titular sequencia="2" inid="73">
+          <nome>DANIEL SOUZA FERREIRA MAGALHÃES</nome>
+        </titular>
+        <titular sequencia="3" inid="73">
+          <nome>MARIA SÔNIA GRECHI</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>ALESSANDRA BAPTISTA</nome>
+        </criador>
+        <criador sequencia="2" inid="Cr">
+          <nome>DANIEL SOUZA FERREIRA MAGALHÃES</nome>
+        </criador>
+        <criador sequencia="3" inid="Cr">
+          <nome>MARIA SÔNIA GRECHI</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052444-3</numero>
+      <titulo inid="54">WEB ADMIN WHOQOL - sistema admistrativo para o APP WHOQOL</titulo>
+      <dataCriacao inid="Dl">09/12/2018</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-01</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-07</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-09</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IN-02</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">PS-03</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">SD-02</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">PHP</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AV-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">CD-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-04</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>ALESSANDRA BAPTISTA</nome>
+        </titular>
+        <titular sequencia="2" inid="73">
+          <nome>DANIEL SOUZA FERREIRA MAGALHÃES</nome>
+        </titular>
+        <titular sequencia="3" inid="73">
+          <nome>MARIA SONIA GRECHI</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>ALESSANDRA BAPTISTA</nome>
+        </criador>
+        <criador sequencia="2" inid="Cr">
+          <nome>DANIEL SOUZA FERREIRA MAGALHÃES</nome>
+        </criador>
+        <criador sequencia="3" inid="Cr">
+          <nome>MARIA SONIA GRECHI</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052445-1</numero>
+      <titulo inid="54">SEVENNOVA A.I. CLOUD SAAS</titulo>
+      <dataCriacao inid="Dl">02/01/2015</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-09</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">CSS</linguagem>
+        <linguagem inid="Lg">HTML</linguagem>
+        <linguagem inid="Lg">JAVA SCRIPT</linguagem>
+        <linguagem inid="Lg">MYSQL</linguagem>
+        <linguagem inid="Lg">PHP</linguagem>
+        <linguagem inid="Lg">PYTHON</linguagem>
+        <linguagem inid="Lg">SQL</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AT-01</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>SEVENNOVA TECNOLOGY LTDA - EPP</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>ALEJANDRO MIGUEL WOLOSEWICZ</nome>
+        </criador>
+        <criador sequencia="2" inid="Cr">
+          <nome>DANIEL RUBENS COHEN</nome>
+        </criador>
+        <criador sequencia="3" inid="Cr">
+          <nome>ROGERIO MARINHO MACIEL</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052446-0</numero>
+      <titulo inid="54">CG OPTIMUS EAD</titulo>
+      <dataCriacao inid="Dl">07/09/2018</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">ED-04</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">HTML</linguagem>
+        <linguagem inid="Lg">JAVA SCRIPT</linguagem>
+        <linguagem inid="Lg">PHP</linguagem>
+        <linguagem inid="Lg">XHTML</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">FA-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">IA-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">IA-02</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">SO-05</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">TI-01</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>CG OPTIMUS SOLUÇÕES &amp; TECNOLOGIA LTDA</nome>
+        </titular>
+        <titular sequencia="2" inid="73">
+          <nome>RODRIGO FERREIRA MOGLIA</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>RODRIGO FERREIRA MOGLIA</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052447-8</numero>
+      <titulo inid="54">Relatório de Sondagem à Percussão - SPT</titulo>
+      <dataCriacao inid="Dl">29/11/2017</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">CC-01</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">CC-02</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">CC-10</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">JAVA SCRIPT</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-01</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>UNIVERSIDADE FEDERAL DA PARAIBA</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>ALTAIR JUSSADIR DA SILVA PINTO</nome>
+        </criador>
+        <criador sequencia="2" inid="Cr">
+          <nome>GIOVANNA SOUTO MAIOR WANDERLEY</nome>
+        </criador>
+        <criador sequencia="3" inid="Cr">
+          <nome>HIDELBRANDO JOSÉ FARKAT DIÓGENES</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052448-6</numero>
+      <titulo inid="54">AGROSS</titulo>
+      <dataCriacao inid="Dl">03/09/2018</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">AD-01</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">AD-05</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">AD-10</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">AG-01</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">AG-04</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">EC-06</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">EC-10</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">EC-12</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">FN-02</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">FN-03</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">FN-05</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-01</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-09</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IN-02</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">SV-01</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">CSS</linguagem>
+        <linguagem inid="Lg">HTML</linguagem>
+        <linguagem inid="Lg">JSON</linguagem>
+        <linguagem inid="Lg">NODEJS</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-03</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-04</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">FA-04</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">IA-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">IA-02</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">SO-04</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>THIARLES FERNANDES DO PRADO 05921240966</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>THIARLES FERNANDES DO PRADO</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052449-4</numero>
+      <titulo inid="54">CONTROLADOR DO SCANNER SEMIESFÉRICO DE CAMPO COMPLETO</titulo>
+      <dataCriacao inid="Dl">13/12/2017</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-10</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IN-03</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">MT-01</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">MT-02</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">MT-03</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">C</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">SO-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">SO-02</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">SO-04</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">SO-06</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">SO-09</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>ASSOCIACAO PARANAENSE DE CULTURA - APC</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>EDSON JOSÉ RODRIGUES JUSTINO</nome>
+        </criador>
+        <criador sequencia="2" inid="Cr">
+          <nome>LUCAS MURBACH PIERIN</nome>
+        </criador>
+        <criador sequencia="3" inid="Cr">
+          <nome>MANOEL DE CAMPOS ALMEIDA</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052450-8</numero>
+      <titulo inid="54">Plataforma IoT de Conteúdo em Inovação e Empreendedorismo</titulo>
+      <dataCriacao inid="Dl">01/11/2018</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-07</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">JAVA SCRIPT</linguagem>
+        <linguagem inid="Lg">PHP</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-04</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-06</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-07</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">PD-05</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">SO-05</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">TC-04</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>GABRIELE RODRIGUES ALVES DA SILVA</nome>
+        </criador>
+        <criador sequencia="2" inid="Cr">
+          <nome>GUILHERME HAMMEL CATTANEO</nome>
+        </criador>
+        <criador sequencia="3" inid="Cr">
+          <nome>GUILHERME WOLFF BUENO</nome>
+        </criador>
+        <criador sequencia="4" inid="Cr">
+          <nome>PAULO NUNES ROCHA</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052451-6</numero>
+      <titulo inid="54">GERENCIADOR DO SCANNER SEMIESFÉRICO DE CAMPO COMPLETO</titulo>
+      <dataCriacao inid="Dl">13/07/2018</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">CO-04</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">CO-05</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-02</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-04</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IN-02</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">C++</linguagem>
+        <linguagem inid="Lg">PYTHON</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">CT-02</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">SO-02</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">SO-06</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">SO-07</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">TC-04</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>ASSOCIACAO PARANAENSE DE CULTURA - APC</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>DIOGO ROBERTO OLSEN</nome>
+        </criador>
+        <criador sequencia="2" inid="Cr">
+          <nome>EDSON JOSÉ RODRIGUES JUSTINO</nome>
+        </criador>
+        <criador sequencia="3" inid="Cr">
+          <nome>FLÁVIO DE ALMEIDA E SILVA</nome>
+        </criador>
+        <criador sequencia="4" inid="Cr">
+          <nome>LUCAS MURBACH PIERIN</nome>
+        </criador>
+        <criador sequencia="5" inid="Cr">
+          <nome>MANOEL DE CAMPOS ALMEIDA</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052452-4</numero>
+      <titulo inid="54">BUGA! - As aventuras de um neandertal</titulo>
+      <dataCriacao inid="Dl">22/11/2016</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">AN-02</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">CO-02</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">ED-03</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">CSS</linguagem>
+        <linguagem inid="Lg">JAVA SCRIPT</linguagem>
+        <linguagem inid="Lg">XML</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">ET-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">ET-02</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DO ESPIRITO SANTO</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>GIOVANY FROSSARD TEIXEIRA</nome>
+        </criador>
+        <criador sequencia="2" inid="Cr">
+          <nome>LUIZ FERNANDO REINOSO</nome>
+        </criador>
+        <criador sequencia="3" inid="Cr">
+          <nome>RENAN OSÓRIO RIOS</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052453-2</numero>
+      <titulo inid="54">APLICATIVO DA MESA DIGITAL PARA ESTUDO DA ANATOMIA HUMANA</titulo>
+      <dataCriacao inid="Dl">13/12/2018</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">BL-05</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-01</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-02</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-04</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">MT-06</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">C++</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">CD-04</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">FA-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-03</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">SM-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">SO-02</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>ASSOCIACAO PARANAENSE DE CULTURA - APC</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>ANDREI RAFAEL BRONGEL</nome>
+        </criador>
+        <criador sequencia="2" inid="Cr">
+          <nome>EDSON JOSÉ RODRIGUES JUSTINO</nome>
+        </criador>
+        <criador sequencia="3" inid="Cr">
+          <nome>MANOEL DE CAMPOS ALMEIDA</nome>
+        </criador>
+        <criador sequencia="4" inid="Cr">
+          <nome>WILLIAN JOHN PEREIRA BROBOUSKI</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052454-0</numero>
+      <titulo inid="54">SAMHA - Sistema de Apoio a Montagem de Horários Acadêmicos</titulo>
+      <dataCriacao inid="Dl">14/03/2018</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">AD-01</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">AD-02</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-02</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">JAVA</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AT-06</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">FA-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">IA-02</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">PD-05</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DO ESPIRITO SANTO</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>CHRYSTHIAN MOIZES</nome>
+        </criador>
+        <criador sequencia="2" inid="Cr">
+          <nome>GIOVANY FROSSARD TEIXEIRA</nome>
+        </criador>
+        <criador sequencia="3" inid="Cr">
+          <nome>VICTORIO ALBANI DE CARVALHO</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052455-9</numero>
+      <titulo inid="54">Inforlube System</titulo>
+      <dataCriacao inid="Dl">17/09/1998</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">AD-10</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">ED-04</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-02</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-04</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-07</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IN-03</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">ACCESS</linguagem>
+        <linguagem inid="Lg">C#</linguagem>
+        <linguagem inid="Lg">CSS</linguagem>
+        <linguagem inid="Lg">DELPHI</linguagem>
+        <linguagem inid="Lg">HTML</linguagem>
+        <linguagem inid="Lg">JAVA SCRIPT</linguagem>
+        <linguagem inid="Lg">JSON</linguagem>
+        <linguagem inid="Lg">OUTROS</linguagem>
+        <linguagem inid="Lg">SQL</linguagem>
+        <linguagem inid="Lg">XHTML</linguagem>
+        <linguagem inid="Lg">XML</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-02</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-03</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-04</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AT-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AT-03</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AT-06</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AV-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">CD-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">DS-07</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">FA-04</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-02</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-04</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-05</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-06</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-08</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">PD-04</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">SO-07</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">TC-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">TC-02</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>ABIS: AUTOMOTIVE BUSINESS INTELLIGENCE SYSTEM LTDA</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>REMO LUCIOLI DE ALMEIDA</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052456-7</numero>
+      <titulo inid="54">SAMHA Mobile</titulo>
+      <dataCriacao inid="Dl">Não informado</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">AD-01</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">AD-02</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-02</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">JAVA</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AT-06</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">FA-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">IA-02</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">PD-05</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DO ESPIRITO SANTO</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>CHRYSTHIAN MOIZES</nome>
+        </criador>
+        <criador sequencia="2" inid="Cr">
+          <nome>GIOVANY FROSSARD TEIXEIRA</nome>
+        </criador>
+        <criador sequencia="3" inid="Cr">
+          <nome>VICTORIO ALBANI DE CARVALHO</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052457-5</numero>
+      <titulo inid="54">Sistema de Gerenciamento de Pedidos de Transportes, Diárias e Passagens vinculados ao SCDP</titulo>
+      <dataCriacao inid="Dl">20/10/2018</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">AD-01</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">JAVA</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AT-06</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>MARCOS WAGNER DE SOUZA RIBEIRO</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>ANA CAROLINA GONDIM INOCÊNCIO</nome>
+        </criador>
+        <criador sequencia="2" inid="Cr">
+          <nome>GUILHERME DE ARAÚJO SILVA</nome>
+        </criador>
+        <criador sequencia="3" inid="Cr">
+          <nome>MARCOS WAGNER DE SOUZA RIBEIRO</nome>
+        </criador>
+        <criador sequencia="4" inid="Cr">
+          <nome>RONALDO NOGUEIRA DE SOUZA</nome>
+        </criador>
+        <criador sequencia="5" inid="Cr">
+          <nome>WEULER BORGES SANTOS</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052458-3</numero>
+      <titulo inid="54">Técnicas de programação e metodologia de trabalho para desenvolvimento de aplicativos mobile e softwares</titulo>
+      <dataCriacao inid="Dl">01/02/2016</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">AD-01</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">.NET</linguagem>
+        <linguagem inid="Lg">C#</linguagem>
+        <linguagem inid="Lg">JAVA SCRIPT</linguagem>
+        <linguagem inid="Lg">JQUERY</linguagem>
+        <linguagem inid="Lg">OUTROS</linguagem>
+        <linguagem inid="Lg">SQL</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-03</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AT-01</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>FERNANDO MARQUES DUQUE</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>FERNANDO DUQUE</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052459-1</numero>
+      <titulo inid="54">Healthbit Bl</titulo>
+      <dataCriacao inid="Dl">25/01/2015</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">SD-01</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">SD-02</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">FRAMEWORK</linguagem>
+        <linguagem inid="Lg">PHP</linguagem>
+        <linguagem inid="Lg">PYTHON</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-02</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-03</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-02</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>HEALTHBIT PERFORMASYS TECNOLOGIA E INTELIGENCIA LTDA</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>ROGERIO TOSHIO MATSUBARA MIYATA</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052460-5</numero>
+      <titulo inid="54">SPA - Sistema de Produtividade Acadêmica</titulo>
+      <dataCriacao inid="Dl">05/02/2018</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">AD-07</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-02</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-07</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">HTML</linguagem>
+        <linguagem inid="Lg">JAVA SCRIPT</linguagem>
+        <linguagem inid="Lg">PHP</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AV-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">GI-07</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>HUGO SABA PEREIRA CARDOSO</nome>
+        </titular>
+        <titular sequencia="2" inid="73">
+          <nome>VAGNER DE SOUZA FONSECA</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>HUGO SABA PEREIRA CARDOSO</nome>
+        </criador>
+        <criador sequencia="2" inid="Cr">
+          <nome>VAGNER DE SOUZA FONSECA</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052461-3</numero>
+      <titulo inid="54">BuffetMax</titulo>
+      <dataCriacao inid="Dl">01/02/2015</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">AD-06</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">AD-08</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-07</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">HTML</linguagem>
+        <linguagem inid="Lg">JAVA SCRIPT</linguagem>
+        <linguagem inid="Lg">JQUERY</linguagem>
+        <linguagem inid="Lg">JSON</linguagem>
+        <linguagem inid="Lg">PHP</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-02</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-03</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AT-03</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">AT-06</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>HEIDEKER INFORMATICA</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>ALEXANDRE HEIDEKER</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052462-1</numero>
+      <titulo inid="54">3DMol - Friendly enviroment for visualizing proteins</titulo>
+      <dataCriacao inid="Dl">Não informado</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">BL-07</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">JAVA</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-01</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>UNIVERSIDADE FEDERAL DE SÃO PAULO - UNIFESP</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>LUIZ LEDUINO DE SALLES NETO</nome>
+        </criador>
+        <criador sequencia="2" inid="Cr">
+          <nome>RENAN BRITO BUTKERAITES</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052463-0</numero>
+      <titulo inid="54">ACID</titulo>
+      <dataCriacao inid="Dl">01/08/2017</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">AD-05</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">AG-04</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-02</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">JAVA</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-03</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">CD-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">IA-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">SO-07</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">TC-03</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>UNIVERSIDADE DO VALE DO RIO DOS SINOS - UNISINOS</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>CRISTIANO ANDRÉ DA COSTA</nome>
+        </criador>
+        <criador sequencia="2" inid="Cr">
+          <nome>GABRIEL SOUTO FISCHER</nome>
+        </criador>
+        <criador sequencia="3" inid="Cr">
+          <nome>RODRIGO DA ROSA RIGHI</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052464-8</numero>
+      <titulo inid="54">ProElastic</titulo>
+      <dataCriacao inid="Dl">01/12/2017</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">AD-05</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">AG-04</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-02</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">JAVA</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-03</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">CD-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">IA-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">SO-07</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">TC-03</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>UNIVERSIDADE DO VALE DO RIO DOS SINOS - UNISINOS</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>CRISTIANO ANDRÉ DA COSTA</nome>
+        </criador>
+        <criador sequencia="2" inid="Cr">
+          <nome>IGOR FONTANA DE NARDIN</nome>
+        </criador>
+        <criador sequencia="3" inid="Cr">
+          <nome>RODRIGO DA ROSA RIGHI</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052465-6</numero>
+      <titulo inid="54">Proliot</titulo>
+      <dataCriacao inid="Dl">01/08/2017</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">AD-05</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">AG-04</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">IF-02</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">JAVA</linguagem>
+        <linguagem inid="Lg">R</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-03</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">CD-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">IA-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">SO-07</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">TC-03</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>UNIVERSIDADE DO VALE DO RIO DOS SINOS - UNISINOS</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>CRISTIANO ANDRÉ DA COSTA</nome>
+        </criador>
+        <criador sequencia="2" inid="Cr">
+          <nome>MÁRCIO MIGUEL GOMES</nome>
+        </criador>
+        <criador sequencia="3" inid="Cr">
+          <nome>RODRIGO DA ROSA RIGHI</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052466-4</numero>
+      <titulo inid="54">DERMAHAIR</titulo>
+      <dataCriacao inid="Dl">Não informado</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">SD-07</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">SD-08</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">JAVA</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-01</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>UNIVERSIDADE FEDERAL DE SÃO PAULO - UNIFESP</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>ALESSANDRA HADDAD</nome>
+        </criador>
+        <criador sequencia="2" inid="Cr">
+          <nome>ELAINE KAWANO HORIBE</nome>
+        </criador>
+        <criador sequencia="3" inid="Cr">
+          <nome>GLAYCE JOSY SASAKI ACÁCIO SEDREZ</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>730</codigo>
+    <titulo>Expedição do Certificado de Registro</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052467-2</numero>
+      <titulo inid="54">APLICATIVO PARA ESTRATIFICAÇÃO DE RISCO E PREVENÇÃO DE TROMBOEMBOLISMO VENOSO EM CIRURGIA PLÁSTICA</titulo>
+      <dataCriacao inid="Dl">Não informado</dataCriacao>
+      <campoAplicacaoLista>
+        <campoAplicacao>
+          <codigo inid="Cp">SD-01</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">SD-05</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">SD-07</codigo>
+        </campoAplicacao>
+        <campoAplicacao>
+          <codigo inid="Cp">SD-08</codigo>
+        </campoAplicacao>
+      </campoAplicacaoLista>
+      <linguagemLista>
+        <linguagem inid="Lg">HTML</linguagem>
+        <linguagem inid="Lg">JAVA</linguagem>
+        <linguagem inid="Lg">JAVA SCRIPT</linguagem>
+        <linguagem inid="Lg">JQUERY</linguagem>
+        <linguagem inid="Lg">SQL</linguagem>
+      </linguagemLista>
+      <tipoProgramaLista>
+        <tipoPrograma>
+          <codigo inid="Tp">AP-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">FA-01</codigo>
+        </tipoPrograma>
+        <tipoPrograma>
+          <codigo inid="Tp">IA-02</codigo>
+        </tipoPrograma>
+      </tipoProgramaLista>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>UNIVERSIDADE FEDERAL DE SÃO PAULO - UNIFESP</nome>
+        </titular>
+      </titularLista>
+      <criadorLista>
+        <criador sequencia="1" inid="Cr">
+          <nome>EDUARDO FAVARIN</nome>
+        </criador>
+        <criador sequencia="2" inid="Cr">
+          <nome>ELVIO BIENO GARCIA</nome>
+        </criador>
+        <criador sequencia="3" inid="Cr">
+          <nome>HEITOR FRANCISCO DE CARVALHO GOMES</nome>
+        </criador>
+      </criadorLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>734</codigo>
+    <titulo>Transferência de Titularidade</titulo>
+    <processo-programa>
+      <numero inid="Np">05026-1</numero>
+      <titulo inid="54">Q-WARE</titulo>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>PADRÃO IX INFORMÁTICA SISTEMAS ABERTOS SA</nome>
+        </titular>
+      </titularLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>734</codigo>
+    <titulo>Transferência de Titularidade</titulo>
+    <processo-programa>
+      <numero inid="Np">09029-6</numero>
+      <titulo inid="54">VISUAL HOTAL FULL/LITE</titulo>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>TQTVD SOFTWARE LTDA.</nome>
+        </titular>
+      </titularLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>734</codigo>
+    <titulo>Transferência de Titularidade</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 001340-6</numero>
+      <titulo inid="54">ABC Fônico</titulo>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>PEDRO DE MOURA GARCIA</nome>
+        </titular>
+        <titular sequencia="2" inid="73">
+          <nome>UNIVERSIDADE FEDERAL DE SANTA MARIA</nome>
+        </titular>
+      </titularLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>734</codigo>
+    <titulo>Transferência de Titularidade</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 001359-7</numero>
+      <titulo inid="54">TECNOL SAFE REGISTER CAR</titulo>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>CLARICE DA ROCHA HERINGER</nome>
+        </titular>
+        <titular sequencia="2" inid="73">
+          <nome>TECNOL SISTEMAS DE AUTOMAÇÃO S/A</nome>
+        </titular>
+      </titularLista>
+    </processo-programa>
+  </despacho>
+  <despacho>
+    <codigo>742</codigo>
+    <titulo>Petição não conhecida</titulo>
+    <processo-programa>
+      <numero inid="Np">09579-6</numero>
+      <titulo inid="54">EJM</titulo>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>HST EQUIPAMENTOS ELETRÔNICOS LTDA</nome>
+        </titular>
+      </titularLista>
+    </processo-programa>
+    <comentario inid="co">Protocolo 870180164819 não solicitado pelo titular do registro.</comentario>
+  </despacho>
+  <despacho>
+    <codigo>742</codigo>
+    <titulo>Petição não conhecida</titulo>
+    <processo-programa>
+      <numero inid="Np">13764-5</numero>
+      <titulo inid="54">E-TCE</titulo>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>G.L. BOSSO INFORMÁTICA EIRELI</nome>
+        </titular>
+      </titularLista>
+    </processo-programa>
+    <comentario inid="co">Protocolo 870180165493 não solicitado pelo titular do registro.</comentario>
+  </despacho>
+  <despacho>
+    <codigo>742</codigo>
+    <titulo>Petição não conhecida</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2013 000053-0</numero>
+      <titulo inid="54">HST ATMCENTRE - MMS (MEDIA MANAGER SYSTEM)</titulo>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>HST EQUIPAMENTOS ELETRÔNICOS LTDA</nome>
+        </titular>
+      </titularLista>
+    </processo-programa>
+    <comentario inid="co">Protocolo 870180164810 não solicitado pelo titular do registro.</comentario>
+  </despacho>
+  <despacho>
+    <codigo>742</codigo>
+    <titulo>Petição não conhecida</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2013 000055-6</numero>
+      <titulo inid="54">HST ATMCENTRE - ETMS (ELECTRONICS TERMINAL MONITOR SYSTEM)</titulo>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>HST EQUIPAMENTOS ELETRÔNICOS LTDA</nome>
+        </titular>
+      </titularLista>
+    </processo-programa>
+    <comentario inid="co">Protocolo 870180164802 não solicitado pelo titular do registro.</comentario>
+  </despacho>
+  <despacho>
+    <codigo>742</codigo>
+    <titulo>Petição não conhecida</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2013 000056-4</numero>
+      <titulo inid="54">HST ATMCENTRE - KMS (KEY MANAGEMENT SYSTEM)</titulo>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>HST EQUIPAMENTOS ELETRÔNICOS LTDA</nome>
+        </titular>
+      </titularLista>
+    </processo-programa>
+    <comentario inid="co">Protocolo 870180164814 não solicitado pelo titular do registro.</comentario>
+  </despacho>
+  <despacho>
+    <codigo>742</codigo>
+    <titulo>Petição não conhecida</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 000519-5</numero>
+      <titulo inid="54">e-TCE</titulo>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>G.L. BOSSO INFORMÁTICA EIRELI</nome>
+        </titular>
+      </titularLista>
+    </processo-programa>
+    <comentario inid="co">Protocolo 870180165489 não solicitado pelo titular do registro.</comentario>
+  </despacho>
+  <despacho>
+    <codigo>742</codigo>
+    <titulo>Petição não conhecida</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052303-0</numero>
+      <titulo inid="54">NITGEST</titulo>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>UNIVERSIDADE ESTADUAL DA PARAIBA</nome>
+        </titular>
+      </titularLista>
+    </processo-programa>
+    <comentario inid="co">Pagamento da GRU fora do prazo ou não realizado referente ao protocolo 870180159477</comentario>
+  </despacho>
+  <despacho>
+    <codigo>742</codigo>
+    <titulo>Petição não conhecida</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052345-5</numero>
+      <titulo inid="54">Smart Totem</titulo>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>FUNDAÇÃO UNIVERSIDADE DO AMAZONAS</nome>
+        </titular>
+      </titularLista>
+    </processo-programa>
+    <comentario inid="co">Pagamento da GRU fora do prazo ou não realizado referente ao protocolo 870180159924</comentario>
+  </despacho>
+  <despacho>
+    <codigo>742</codigo>
+    <titulo>Petição não conhecida</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052373-0</numero>
+      <titulo inid="54">ERPLAY</titulo>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>LEYRISON OLIVERIA DOS SANTOS SALLES</nome>
+        </titular>
+        <titular sequencia="2" inid="73">
+          <nome>SG SOFTWARE SERVICOS DE ASSESSORAMENTO EIRELI</nome>
+        </titular>
+      </titularLista>
+    </processo-programa>
+    <comentario inid="co">Pagamento da GRU fora do prazo ou não realizado referente ao protocolo 870180160763</comentario>
+  </despacho>
+  <despacho>
+    <codigo>747</codigo>
+    <titulo>Correção de dados no Certificado de Registro devido à falha do interessado</titulo>
+    <processo-programa>
+      <numero inid="Np">BR 51 2018 052110-0</numero>
+      <titulo inid="54">DataNote Android</titulo>
+      <titularLista>
+        <titular sequencia="1" inid="73">
+          <nome>EMBRAPA-EMPRESA BRASILEIRA DE PESQUISA AGROPECUARIA</nome>
+        </titular>
+        <titular sequencia="2" inid="73">
+          <nome>INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MATO GROSSO DO SUL</nome>
+        </titular>
+      </titularLista>
+    </processo-programa>
+  </despacho>
+</revista>

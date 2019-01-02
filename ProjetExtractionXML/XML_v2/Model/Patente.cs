@@ -73,6 +73,8 @@
                 this.diretoriaField = value;
             }
         }
+
+
     }
 
     /// <remarks/>
@@ -159,6 +161,8 @@
 
         private processopatenteDivisaopedido divisaopedidoField;
 
+        private ProcessopatentePedidointernacional PedidointernacionalField;
+
         private processopatenteTitularlista[] titularlistaField;
         private PatentesDespachoProcessopatenteInventorlistaInventor[] inventorlistaField;
 
@@ -187,6 +191,20 @@
             set
             {
                 this.datadepositoField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("pedido-internacional")]
+        public ProcessopatentePedidointernacional pedidointernacional
+        {
+            get
+            {
+                return this.PedidointernacionalField;
+            }
+            set
+            {
+                this.PedidointernacionalField = value;
             }
         }
 
@@ -1135,7 +1153,7 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatentePedidointernacional
+    public partial class ProcessopatentePedidointernacional
     {
 
         private string numeropctField;
