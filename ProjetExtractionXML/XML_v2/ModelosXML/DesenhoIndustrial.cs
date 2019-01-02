@@ -1,4 +1,4 @@
-﻿namespace XML_v2.Model.DesenhoIndustrial
+﻿namespace XML_v2.ModelosXML.DesenhoIndustrial
 {// OBSERVAÇÃO: o código gerado pode exigir pelo menos .NET Framework 4.5 ou .NET Core/Standard 2.0.
  /// <remarks/>
 

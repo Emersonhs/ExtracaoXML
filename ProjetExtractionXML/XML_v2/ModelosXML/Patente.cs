@@ -1,4 +1,4 @@
-﻿namespace XML_v2.Model.Patente
+﻿namespace XML_v2.ModelosXML.Patente
 {
 
     // OBSERVAÇÃO: o código gerado pode exigir pelo menos .NET Framework 4.5 ou .NET Core/Standard 2.0.

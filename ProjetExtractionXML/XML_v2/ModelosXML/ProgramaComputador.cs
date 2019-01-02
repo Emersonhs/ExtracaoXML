@@ -1,8 +1,8 @@
 ﻿
 // OBSERVAÇÃO: o código gerado pode exigir pelo menos .NET Framework 4.5 ou .NET Core/Standard 2.0.
-using XML_v2.Model.DesenhoIndustrial;
+using XML_v2.ModelosXML.DesenhoIndustrial;
 
-namespace XML_v2.Model.ProgramaComputador
+namespace XML_v2.ModelosXML.ProgramaComputador
 {
 
     // NOTE: Generated code may require at least .NET Framework 4.5 or .NET Core/Standard 2.0.

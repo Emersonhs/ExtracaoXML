@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using XML_v2.Model;
-using XML_v2.Model.Contrato;
-using XML_v2.Model.DesenhoIndustrial;
-using XML_v2.Model.Patente;
-using XML_v2.Model.ProgramaComputador;
+﻿using XML_v2.ModelosXML.Contrato;
+using XML_v2.ModelosXML.DesenhoIndustrial;
+using XML_v2.ModelosXML.Patente;
+using XML_v2.ModelosXML.ProgramaComputador;
 
 namespace XML_v2
 {

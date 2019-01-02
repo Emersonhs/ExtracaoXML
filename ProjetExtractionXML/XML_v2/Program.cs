@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using XML_v2.Model;
-using XML_v2.Model.Contrato;
-using XML_v2.Model.Patente;
-using XML_v2.Model.ProgramaComputador;
+using XML_v2.ModelosXML.Contrato;
+using XML_v2.ModelosXML.Patente;
+using XML_v2.ModelosXML.ProgramaComputador;
 
 namespace XML_v2
 {
@@ -16,7 +15,7 @@ namespace XML_v2
         {
 
 
-            OrquestradorTipos orquestrador = new OrquestradorTipos();
+            DeserializerXML orquestrador = new DeserializerXML();
             // orquestrador.Orquestrar<revista>(); //DesenhoIndustrial
 
            // orquestrador.Orquestrar<Contrato>();
@@ -25,7 +24,7 @@ namespace XML_v2
              //orquestrador.Orquestrar<Patente>();
             Console.WriteLine("Patente.txt PRONTO.");
 
-            orquestrador.Orquestrar<ProgramaComputador>();
+            orquestrador.Deserializer<ProgramaComputador>();
             //Console.WriteLine("Programa Computador.txt PRONTO.");
 
             //Console.ReadKey();

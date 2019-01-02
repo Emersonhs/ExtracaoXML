@@ -1,26 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using XML_v2.Model;
-using XML_v2.Model.Contrato;
-using XML_v2.Model.DesenhoIndustrial;
-using XML_v2.Model.Patente;
-using XML_v2.Model.ProgramaComputador;
+﻿using System.IO;
+using XML_v2.ModelosXML.Contrato;
+using XML_v2.ModelosXML.DesenhoIndustrial;
+using XML_v2.ModelosXML.Patente;
+using XML_v2.ModelosXML.ProgramaComputador;
 using static XML_v2.TestHarness;
 
 namespace XML_v2
 {
-    public class OrquestradorTipos
+    public class DeserializerXML
     {
 
         Serializer ser = new Serializer();
         string xmlInputData = string.Empty;
         OrquestradorArquivo GerarArquivo = new OrquestradorArquivo();
 
-        public void Orquestrar<T>() where T : class
+        public void Deserializer<T>() where T : class
         {
             if (typeof(T).Name == typeof(DesenhoIndustrial).Name)
             {

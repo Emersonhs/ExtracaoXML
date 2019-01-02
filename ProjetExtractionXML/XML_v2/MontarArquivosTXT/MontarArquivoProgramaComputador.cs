@@ -1,5 +1,5 @@
 ﻿using System.Linq;
-using XML_v2.Model.ProgramaComputador;
+using XML_v2.ModelosXML.ProgramaComputador;
 
 namespace XML_v2
 {
