@@ -22,10 +22,10 @@ namespace XML_v2
            // orquestrador.Orquestrar<Contrato>();
             //  Console.WriteLine("Desenho Industrial.txt PRONTO.");
 
-             orquestrador.Orquestrar<Patente>();
+             //orquestrador.Orquestrar<Patente>();
             Console.WriteLine("Patente.txt PRONTO.");
 
-            //orquestrador.Orquestrar<ProgramaComputador>();
+            orquestrador.Orquestrar<ProgramaComputador>();
             //Console.WriteLine("Programa Computador.txt PRONTO.");
 
             //Console.ReadKey();
