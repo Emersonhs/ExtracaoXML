@@ -25,7 +25,7 @@ namespace XML_v2
             // orquestrador.Orquestrar<ProgramaComputador>();
 
 
-            Console.ReadKey();
+            //Console.ReadKey();
 
         }
     }
