@@ -1,7 +1,3 @@
-C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\Arquivos\Contratos_2495.xml
-C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\Arquivos\Contratos_2502.xml
-C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\Arquivos\DesenhoIndustrial_2502.xml
-C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\Arquivos\DesenhoIndustrial_2503.xml
 C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\XML_v2.exe.config
 C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\XML_v2.exe
 C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\XML_v2.pdb
@@ -15,7 +11,6 @@ D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\obj\Debug\XML_v2.pdb
 D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\XML_v2.exe.config
 D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\XML_v2.exe
 D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\XML_v2.pdb
-C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\Arquivos\Patente_2500.xml
 D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\ArquivosXML\Contratos_2495.xml
 D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\ArquivosXML\Contratos_2502.xml
 D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\ArquivosXML\Contratos_2503.xml
@@ -23,3 +18,10 @@ D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\ArquivosXML\DesenhoIn
 D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\ArquivosXML\DesenhoIndustrial_2503.xml
 D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\ArquivosXML\Patente_2500.xml
 D:\Freela\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\ArquivosXML\Programa_2503.xml
+C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\ArquivosXML\Contratos_2495.xml
+C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\ArquivosXML\Contratos_2502.xml
+C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\ArquivosXML\Contratos_2503.xml
+C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\ArquivosXML\DesenhoIndustrial_2502.xml
+C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\ArquivosXML\DesenhoIndustrial_2503.xml
+C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\ArquivosXML\Patente_2500.xml
+C:\Users\italo\Desktop\Projeto\ExtracaoXML\ProjetExtractionXML\XML_v2\bin\Debug\ArquivosXML\Programa_2503.xml

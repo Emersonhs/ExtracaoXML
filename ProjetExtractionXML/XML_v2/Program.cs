@@ -18,16 +18,16 @@ namespace XML_v2
             DeserializerXML orquestrador = new DeserializerXML();
             // orquestrador.Orquestrar<revista>(); //DesenhoIndustrial
 
-           // orquestrador.Orquestrar<Contrato>();
+            // orquestrador.Orquestrar<Contrato>();
             //  Console.WriteLine("Desenho Industrial.txt PRONTO.");
 
-             //orquestrador.Orquestrar<Patente>();
+            orquestrador.Deserializer<Patente>();
             Console.WriteLine("Patente.txt PRONTO.");
 
-            orquestrador.Deserializer<ProgramaComputador>();
+            //  orquestrador.Deserializer<ProgramaComputador>();
             //Console.WriteLine("Programa Computador.txt PRONTO.");
 
-            //Console.ReadKey();
+            Console.ReadKey();
 
         }
     }

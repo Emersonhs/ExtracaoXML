@@ -41,6 +41,7 @@ namespace XML_v2
 
 
 
+
                 if (ItemDespacho.processopatente != null)
                 {
                     arquivo.WriteLine("(" + ItemDespacho.processopatente.numero.inid + ") " + ItemDespacho.processopatente.numero.Value + " " + ItemDespacho.processopatente.numero.kindcode);
@@ -53,18 +54,41 @@ namespace XML_v2
                     }
 
                     //   if (ItemDespacho.processopatente.)
-                    /*
-                    //classificação nacional
-                    if (ItemDespacho.processopatente.classificacaonacionallista != null)
+
+
+                    //classificação internacional
+                    if (ItemDespacho.processopatente.classificacaointernacionallista != null)
                     {
-                        var NovaLista = ItemDespacho.processopatente.classificacaonacionallista.classificacaonacional.GroupBy(O => O.inid).ToList();
+                        var NovaLista = ItemDespacho.processopatente.classificacaointernacionallista.GroupBy(O => O.inid).ToList();
                         string StrClassificacao = string.Empty; ;
                         StrClassificacao = string.Empty;
                         foreach (var itemNovo in NovaLista)
                         {
-                            if (ItemDespacho.processopatente.classificacaonacionallista != null)
+                            if (ItemDespacho.processopatente.classificacaointernacionallista != null)
                             {
-                                var PrioridadeList = ItemDespacho.processopatente.classificacaonacionallista.classificacaonacional.Where(o => o.inid == itemNovo.Key).ToList();
+                                var PrioridadeList = ItemDespacho.processopatente.classificacaointernacionallista.Where(o => o.inid == itemNovo.Key).ToList();
+                                StrClassificacao += "(" + itemNovo.Key + ") ";
+                                foreach (var internacional in PrioridadeList)
+                                    StrClassificacao += internacional.Value + " " + internacional.ano + ", ";
+                                arquivo.WriteLine(StrClassificacao.Substring(0, StrClassificacao.Trim().Length - 1));
+                                StrClassificacao = string.Empty;
+                            }
+                        }
+
+                    }
+
+
+                    //classificação nacional
+                    if (ItemDespacho.processopatente. clasificacaoNacionalLista != null)
+                    {
+                        var NovaLista = ItemDespacho.processopatente.clasificacaoNacionalLista.classificacaonacional.GroupBy(O => O.inid).ToList();
+                        string StrClassificacao = string.Empty; ;
+                        StrClassificacao = string.Empty;
+                        foreach (var itemNovo in NovaLista)
+                        {
+                            if (ItemDespacho.processopatente.clasificacaoNacionalLista!= null)
+                            {
+                                var PrioridadeList = ItemDespacho.processopatente.clasificacaoNacionalLista.classificacaonacional.Where(o => o.inid == itemNovo.Key).ToList();
                                 StrClassificacao += "(" + itemNovo.Key + ") ";
                                 foreach (var Nacional in PrioridadeList)
                                     StrClassificacao += Nacional.Value + ", ";
@@ -73,20 +97,21 @@ namespace XML_v2
                             }
                         }
 
-                    }     */
+                    }
 
-                    /*
+
+
                     //prioridade unionista começa depois dos trem internacional
-                    if (ItemDespacho.processopatente.Prioridadeunionistalista != null)
+                    if (ItemDespacho.processopatente.prioridadeunionistalista != null)
                     {
-                        var NovaLista = ItemDespacho.processopatente.Prioridadeunionistalista.prioridadeunionista.GroupBy(O => O.inid).ToList();
+                        var NovaLista = ItemDespacho.processopatente.prioridadeunionistalista.GroupBy(O => O.inid).ToList();
                         string StrPrioridade = string.Empty; ;
                         StrPrioridade = string.Empty;
                         foreach (var itemNovo in NovaLista)
                         {
-                            if (ItemDespacho.processopatente.Prioridadeunionistalista != null)
+                            if (ItemDespacho.processopatente.prioridadeunionistalista != null)
                             {
-                                var PrioridadeList = ItemDespacho.processopatente.Prioridadeunionistalista.prioridadeunionista.Where(o => o.inid == itemNovo.Key).ToList();
+                                var PrioridadeList = ItemDespacho.processopatente.prioridadeunionistalista.Where(o => o.inid == itemNovo.Key).ToList();
                                 StrPrioridade += "(" + itemNovo.Key + ") ";
                                 foreach (var Prioridade in PrioridadeList)
                                     StrPrioridade += Prioridade.dataprioridade.Value + " " + Prioridade.siglapais.Value + " " + Prioridade.numeroprioridade.Value + "; ";
@@ -96,7 +121,7 @@ namespace XML_v2
                         }
                     }
                     //prioridade unionista término ^^^^^^^^
-                    */
+
 
 
                     //lista de inventores inventor
@@ -117,20 +142,27 @@ namespace XML_v2
                         }
                     }
 
-                    if (ItemDespacho.processopatente.datadeposito != null)
+                    if (ItemDespacho.processopatente.dataDeposito != null)
                     {
-                        arquivo.WriteLine("(" + ItemDespacho.processopatente.datadeposito.inid + ") " + ItemDespacho.processopatente.datadeposito.Value);
+                        arquivo.WriteLine("(" + ItemDespacho.processopatente.dataDeposito.inid + ") " + ItemDespacho.processopatente.dataDeposito.Value);
                     }
 
                     // if(ItemDespacho.processopatente.)
 
-                    if (ItemDespacho.processopatente.divisaopedido != null)
+                    if (ItemDespacho.processopatente.divisaoPedido != null)
                     {
-                        arquivo.WriteLine("(" + ItemDespacho.processopatente.divisaopedido.inid + ") " + ItemDespacho.processopatente.divisaopedido.numero + " " + ItemDespacho.processopatente.divisaopedido.datadeposito);
+                        arquivo.WriteLine("(" + ItemDespacho.processopatente.divisaoPedido.inid + ") " + ItemDespacho.processopatente.divisaoPedido.numero + " " + ItemDespacho.processopatente.divisaoPedido.datadeposito);
                     }
 
 
-                    /*
+
+                    //dentro de despacho pode haver um atributo chamado título que vai antes da lista de titulares,
+                    //a linha abaixo serve para colocar este título
+                    if (ItemDespacho.titulo != null)
+                    {
+                        arquivo.WriteLine("(" + ItemDespacho.processopatente.titulo + ItemDespacho.titulo);
+                    }
+
 
                     //lista de titulares
                     if (ItemDespacho.processopatente.titularlista != null)
@@ -165,31 +197,31 @@ namespace XML_v2
 
                     }
 
-                    */
 
 
-                    if (ItemDespacho.processopatente.titularlista != null)
-                    {
-                        foreach (var item in ItemDespacho.processopatente.titularlista)
-                        {
-                            string strEndereco = string.Empty;
-                            strEndereco = "(" + item.titular.inid + ") " + item.titular.nomecompleto;
 
-                            if (item.titular.endereco != null)
-                            {
+                    //if (ItemDespacho.processopatente.titularlista != null)
+                    //{
+                    //    foreach (var item in ItemDespacho.processopatente.titularlista)
+                    //    {
+                    //        string strEndereco = string.Empty;
+                    //        strEndereco = "(" + item.inid + ") " + item.nomecompleto;
 
-                                if (item.titular.endereco.pais != null && item.titular.endereco.pais.sigla != null)
-                                    strEndereco += " (" + item.titular.endereco.pais.sigla;
-                                else
-                                    strEndereco += " (";
-                                if (item.titular.endereco.uf != null)
-                                    strEndereco += "/" + item.titular.endereco.uf + ") ";
-                                else
-                                    strEndereco += ") ";
-                                arquivo.WriteLine(strEndereco);
-                            }
-                        }
-                    }
+                    //        if (item.endereco != null)
+                    //        {
+
+                    //            if (item.endereco.pais != null && item.endereco.pais.sigla != null)
+                    //                strEndereco += " (" + item.endereco.pais.sigla;
+                    //            else
+                    //                strEndereco += " (";
+                    //            if (item.endereco.uf != null)
+                    //                strEndereco += "/" + item.endereco.uf + ") ";
+                    //            else
+                    //                strEndereco += ") ";
+                    //            arquivo.WriteLine(strEndereco);
+                    //        }
+                    //    }
+                    //}
 
                     if (ItemDespacho.processopatente.Inventorlista != null)
                     {
