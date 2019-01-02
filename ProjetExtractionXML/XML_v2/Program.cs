@@ -19,14 +19,14 @@ namespace XML_v2
             OrquestradorTipos orquestrador = new OrquestradorTipos();
             // orquestrador.Orquestrar<revista>(); //DesenhoIndustrial
 
-           // orquestrador.Orquestrar<Contrato>();
+            // orquestrador.Orquestrar<Contrato>();
             //  Console.WriteLine("Desenho Industrial.txt PRONTO.");
 
-             //orquestrador.Orquestrar<Patente>();
+            orquestrador.Orquestrar<Patente>();
             Console.WriteLine("Patente.txt PRONTO.");
 
             orquestrador.Orquestrar<ProgramaComputador>();
-            //Console.WriteLine("Programa Computador.txt PRONTO.");
+            Console.WriteLine("Programa Computador.txt PRONTO.");
 
             //Console.ReadKey();
 
