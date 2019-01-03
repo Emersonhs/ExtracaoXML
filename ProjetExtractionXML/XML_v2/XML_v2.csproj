@@ -81,6 +81,9 @@
     <Content Include="ArquivosXML\Patente_2500.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="ArquivosXML\Patente_2503.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="ArquivosXML\Programa_2503.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
