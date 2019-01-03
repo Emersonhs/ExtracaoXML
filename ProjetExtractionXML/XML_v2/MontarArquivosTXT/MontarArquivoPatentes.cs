@@ -23,17 +23,18 @@ namespace XML_v2
             {
 
                 //verificações para o (Cd)
-                if (ItemDespacho.titulo.Substring(0, 7) == "Recurso" || ItemDespacho.titulo == "Tome Conhecimento do Parecer Técnico" || ItemDespacho.titulo == "Exigência")
-                {
-                    arquivo.WriteLine("(Cd) PR - Recursos");
-                    arquivo.WriteLine("(Di) DIRPA");
-                }
-                else if (ItemDespacho.titulo == "Intimação para manifestação por parte do titular e do requerente")
-                {
-                    arquivo.WriteLine("(Cd) PR - Nulidades");
-                    arquivo.WriteLine("(Di) DIRPA");
-                }
-                else if (ItemDespacho.codigo != null)
+                //if (ItemDespacho.titulo.Substring(0, 7) == "Recurso" || ItemDespacho.titulo == "Tome Conhecimento do Parecer Técnico" || ItemDespacho.titulo == "Exigência")
+                //{
+                //    arquivo.WriteLine("(Cd) PR - Recursos");
+                //    arquivo.WriteLine("(Di) DIRPA");
+                //}
+                
+                //else if (ItemDespacho.titulo == "Intimação para manifestação por parte do titular e do requerente")
+                //{
+                //    arquivo.WriteLine("(Cd) PR - Nulidades");
+                //    arquivo.WriteLine("(Di) DIRPA");
+                //}
+                 if (ItemDespacho.codigo != null)
                 {
                     arquivo.WriteLine("(Cd) " + ItemDespacho.codigo.ToString().Replace(',', '.'));
                 }
@@ -79,16 +80,16 @@ namespace XML_v2
 
 
                     //classificação nacional
-                    if (ItemDespacho.processopatente. clasificacaoNacionalLista != null)
+                    if (ItemDespacho.processopatente.classificacaonacionallista != null)
                     {
-                        var NovaLista = ItemDespacho.processopatente.clasificacaoNacionalLista.classificacaonacional.GroupBy(O => O.inid).ToList();
+                        var NovaLista = ItemDespacho.processopatente.classificacaonacionallista.GroupBy(O => O.inid).ToList();
                         string StrClassificacao = string.Empty; ;
                         StrClassificacao = string.Empty;
                         foreach (var itemNovo in NovaLista)
                         {
-                            if (ItemDespacho.processopatente.clasificacaoNacionalLista!= null)
+                            if (ItemDespacho.processopatente.classificacaonacionallista!= null)
                             {
-                                var PrioridadeList = ItemDespacho.processopatente.clasificacaoNacionalLista.classificacaonacional.Where(o => o.inid == itemNovo.Key).ToList();
+                                var PrioridadeList = ItemDespacho.processopatente.classificacaonacionallista.Where(o => o.inid == itemNovo.Key).ToList();
                                 StrClassificacao += "(" + itemNovo.Key + ") ";
                                 foreach (var Nacional in PrioridadeList)
                                     StrClassificacao += Nacional.Value + ", ";
@@ -125,14 +126,14 @@ namespace XML_v2
 
 
                     //lista de inventores inventor
-                    if (ItemDespacho.processopatente.Inventorlista != null)
+                    if (ItemDespacho.processopatente.inventorlista != null)
                     {
-                        var NovaLista = ItemDespacho.processopatente.Inventorlista.GroupBy(O => O.inid).ToList();
+                        var NovaLista = ItemDespacho.processopatente.inventorlista.GroupBy(O => O.inid).ToList();
                         string StrInventor = string.Empty; ;
                         StrInventor = string.Empty;
                         foreach (var item in NovaLista)
                         {
-                            var InventorList = ItemDespacho.processopatente.Inventorlista.Where(o => o.inid == item.Key).ToList();
+                            var InventorList = ItemDespacho.processopatente.inventorlista.Where(o => o.inid == item.Key).ToList();
                             StrInventor += "(" + item.Key + ") ";
                             foreach (var inventor in InventorList)
                                 StrInventor += inventor.nomecompleto + "; ";
@@ -142,16 +143,18 @@ namespace XML_v2
                         }
                     }
 
-                    if (ItemDespacho.processopatente.dataDeposito != null)
+                    if (ItemDespacho.processopatente.datadeposito != null)
                     {
-                        arquivo.WriteLine("(" + ItemDespacho.processopatente.dataDeposito.inid + ") " + ItemDespacho.processopatente.dataDeposito.Value);
+                        arquivo.WriteLine("(" + ItemDespacho.processopatente.datadeposito.inid + ") " 
+                            + ItemDespacho.processopatente.datadeposito.Value);
                     }
 
                     // if(ItemDespacho.processopatente.)
 
-                    if (ItemDespacho.processopatente.divisaoPedido != null)
+                    if (ItemDespacho.processopatente.divisaopedido != null)
                     {
-                        arquivo.WriteLine("(" + ItemDespacho.processopatente.divisaoPedido.inid + ") " + ItemDespacho.processopatente.divisaoPedido.numero + " " + ItemDespacho.processopatente.divisaoPedido.datadeposito);
+                        arquivo.WriteLine("(" + ItemDespacho.processopatente.divisaopedido.inid + ") " 
+                            + ItemDespacho.processopatente.divisaopedido.numero + " " + ItemDespacho.processopatente.divisaopedido.datadeposito);
                     }
 
 
@@ -223,14 +226,14 @@ namespace XML_v2
                     //    }
                     //}
 
-                    if (ItemDespacho.processopatente.Inventorlista != null)
+                    if (ItemDespacho.processopatente.inventorlista != null)
                     {
-                        var NovaLista = ItemDespacho.processopatente.Inventorlista.GroupBy(O => O.inid).ToList();
+                        var NovaLista = ItemDespacho.processopatente.inventorlista.GroupBy(O => O.inid).ToList();
                         string StrInventor = string.Empty; ;
                         StrInventor = string.Empty;
                         foreach (var item in NovaLista)
                         {
-                            var InventorList = ItemDespacho.processopatente.Inventorlista.Where(o => o.inid == item.Key).ToList();
+                            var InventorList = ItemDespacho.processopatente.inventorlista.Where(o => o.inid == item.Key).ToList();
                             StrInventor += "(" + item.Key + ") ";
                             foreach (var inventor in InventorList)
                                 StrInventor += inventor.nomecompleto + "; ";
