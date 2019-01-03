@@ -18,7 +18,7 @@ namespace XML_v2
 
             DeserializerXML orquestrador = new DeserializerXML();
 
-           // orquestrador.Deserializer<DesenhoIndustrial>();//DesenhoIndustrial
+            //orquestrador.Deserializer<DesenhoIndustrial>();//DesenhoIndustrial
 
             //orquestrador.Deserializer<Contrato>();
 
