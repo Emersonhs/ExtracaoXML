@@ -12,6 +12,7 @@ namespace XML_v2.ModelosXML.Patente
     public partial class Patente
     {
 
+
         private revistaDespacho[] despachoField;
 
         private ushort numeroField;
@@ -324,7 +325,7 @@ namespace XML_v2.ModelosXML.Patente
             }
             set
             {
-                this.classificacaonacionallistaField= value;
+                this.classificacaonacionallistaField = value;
             }
         }
 
@@ -341,7 +342,7 @@ namespace XML_v2.ModelosXML.Patente
 
         /// <remarks/>
         [XmlElementAttribute("classificacao-nacional")]
-            public ProcessopatenteClassificacaonacionallistaClassificacaonacional[] classificacaonacional
+        public ProcessopatenteClassificacaonacionallistaClassificacaonacional[] classificacaonacional
         {
             get
             {

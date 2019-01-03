@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using XML_v2.ModelosXML.Contrato;
 using XML_v2.ModelosXML.DesenhoIndustrial;
 using XML_v2.ModelosXML.Patente;
@@ -18,27 +19,63 @@ namespace XML_v2
         {
             if (typeof(T).Name == typeof(DesenhoIndustrial).Name)
             {
-                xmlInputData = File.ReadAllText(Constantes.Arquivos.DesenhoIndustrial);
-                T Retorno = ser.Deserialize<T>(xmlInputData);
-                GerarArquivo.Gerar<T>(Retorno);
+                try
+                {
+                    xmlInputData = File.ReadAllText(Constantes.Arquivos.DesenhoIndustrial);
+                    T Retorno = ser.Deserialize<T>(xmlInputData);
+                    GerarArquivo.Gerar<T>(Retorno);
+                    Console.WriteLine("Desenho Industrial.txt PRONTO.");
+                }
+                catch (Exception msg)
+                {
+                    Console.WriteLine("Arquivo XML DesenhoIndustrial não encontrado.", msg);
+                }
             }
             else if (typeof(T).Name == typeof(Contrato).Name)
             {
-                xmlInputData = File.ReadAllText(Constantes.Arquivos.Contrato);
-                T Retorno = ser.Deserialize<T>(xmlInputData);
-                GerarArquivo.Gerar<T>(Retorno);
+                try
+                {
+                    xmlInputData = File.ReadAllText(Constantes.Arquivos.Contrato);
+                    T Retorno = ser.Deserialize<T>(xmlInputData);
+                    GerarArquivo.Gerar<T>(Retorno);
+                    Console.WriteLine("Contrato.txt PRONTO.");
+
+                }
+                catch (Exception msg)
+                {
+                    Console.WriteLine("Arquivo XML Contrato não encontrado.", msg);
+                }
             }
             else if (typeof(T).Name == typeof(Patente).Name)
             {
-                xmlInputData = File.ReadAllText(Constantes.Arquivos.Patente);
-                T Retorno = ser.Deserialize<T>(xmlInputData);
-                GerarArquivo.Gerar<T>(Retorno);
+                try
+                {
+                    xmlInputData = File.ReadAllText(Constantes.Arquivos.Patente);
+                    T Retorno = ser.Deserialize<T>(xmlInputData);
+                    GerarArquivo.Gerar<T>(Retorno);
+                    Console.WriteLine("Patente.txt PRONTO.");
+
+                }
+                catch (Exception msg)
+                {
+                    Console.WriteLine("Arquivo XML Patente não encontrado.", msg);
+                }
             }
             else if (typeof(T).Name == typeof(ProgramaComputador).Name)
             {
-                xmlInputData = File.ReadAllText(Constantes.Arquivos.ProgramaComputador);
-                T Retorno = ser.Deserialize<T>(xmlInputData);
-                GerarArquivo.Gerar<T>(Retorno);
+                try
+                {
+                    xmlInputData = File.ReadAllText(Constantes.Arquivos.ProgramaComputador);
+                    T Retorno = ser.Deserialize<T>(xmlInputData);
+                    GerarArquivo.Gerar<T>(Retorno);
+                    Console.WriteLine("Programa Computador.txt PRONTO.");
+
+                }
+                catch (Exception msg)
+                {
+                    Console.WriteLine("Arquivo XML Programa Computador não encontrado.", msg);
+                }
+
             }
         }
     }
