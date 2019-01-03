@@ -1,4 +1,6 @@
-﻿namespace XML_v2.ModelosXML.Patente
+﻿using System.Xml.Serialization;
+
+namespace XML_v2.ModelosXML.Patente
 {
 
     // OBSERVAÇÃO: o código gerado pode exigir pelo menos .NET Framework 4.5 ou .NET Core/Standard 2.0.
@@ -6,11 +8,13 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(elementName:"revista", Namespace = "", IsNullable = false)]
+    [System.Xml.Serialization.XmlRootAttribute(ElementName = "revista", Namespace = "", IsNullable = false)]
     public partial class Patente
     {
+        
 
-        private PatentesDespacho[] despachoField;
+
+        private revistaDespacho[] despachoField;
 
         private ushort numeroField;
 
@@ -20,7 +24,7 @@
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("despacho")]
-        public PatentesDespacho[] despacho
+        public revistaDespacho[] despacho
         {
             get
             {
@@ -73,15 +77,13 @@
                 this.diretoriaField = value;
             }
         }
-
-
     }
 
     /// <remarks/>
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespacho
+    public partial class revistaDespacho
     {
 
         private string codigoField;
@@ -90,7 +92,7 @@
 
         private processopatente processopatenteField;
 
-        private PatentesDespachoComentario comentarioField;
+        private revistaDespachoComentario comentarioField;
 
         /// <remarks/>
         public string codigo
@@ -133,7 +135,7 @@
         }
 
         /// <remarks/>
-        public PatentesDespachoComentario comentario
+        public revistaDespachoComentario comentario
         {
             get
             {
@@ -154,18 +156,23 @@
     [System.Xml.Serialization.XmlRootAttribute("processo-patente", Namespace = "", IsNullable = false)]
     public partial class processopatente
     {
-
+        private ProcessopatenteDatadeposito datadepositoField;
+        private ProcessopatenteDivisaopedido divisaoPedidoField;
         private processopatenteNumero numeroField;
+        private ProcessopatenteTitulo tituloField;
 
-        private processopatenteDatadeposito datadepositoField;
+        private processopatentePedidointernacional pedidointernacionalField;
 
-        private processopatenteDivisaopedido divisaopedidoField;
+        private processopatentePublicacaointernacional publicacaointernacionalField;
 
-        private ProcessopatentePedidointernacional PedidointernacionalField;
+        private ProcessopatenteClassificacaonacionallista classificacaonacionallistaField;
 
-        private processopatenteTitularlista[] titularlistaField;
 
-        private PatentesDespachoProcessopatenteInventorlistaInventor[] inventorlistaField;
+        private processopatenteClassificacaointernacional[] classificacaointernacionallistaField;
+
+        private processopatentePrioridadeunionista[] prioridadeunionistalistaField;
+        private revistaDespachoProcessopatenteInventorlistaInventor[] InventorlistaField;
+        private revistaDespachoProcessopatenteTitularlistaTitular[] titularlistaField;
 
         /// <remarks/>
         public processopatenteNumero numero
@@ -180,10 +187,23 @@
             }
         }
 
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("pedido-internacional")]
+        public processopatentePedidointernacional pedidointernacional
+        {
+            get
+            {
+                return this.pedidointernacionalField;
+            }
+            set
+            {
+                this.pedidointernacionalField = value;
+            }
+        }
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("data-deposito")]
-        public processopatenteDatadeposito datadeposito
+        public ProcessopatenteDatadeposito dataDeposito
         {
             get
             {
@@ -195,37 +215,96 @@
             }
         }
 
+
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("pedido-internacional")]
-        public ProcessopatentePedidointernacional pedidointernacional
+        [System.Xml.Serialization.XmlElementAttribute("titulo")]
+        public ProcessopatenteTitulo titulo
         {
             get
             {
-                return this.PedidointernacionalField;
+                return this.tituloField;
             }
             set
             {
-                this.PedidointernacionalField = value;
+                this.tituloField = value;
             }
         }
-
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("divisao-pedido")]
-        public processopatenteDivisaopedido divisaopedido
+        public ProcessopatenteDivisaopedido divisaoPedido
         {
             get
             {
-                return this.divisaopedidoField;
+                return this.divisaoPedidoField;
             }
             set
             {
-                this.divisaopedidoField = value;
+                this.divisaoPedidoField = value;
             }
         }
 
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("titular-lista")]
-        public processopatenteTitularlista[] titularlista
+        [System.Xml.Serialization.XmlElementAttribute("publicacao-internacional")]
+        public processopatentePublicacaointernacional publicacaointernacional
+        {
+            get
+            {
+                return this.publicacaointernacionalField;
+            }
+            set
+            {
+                this.publicacaointernacionalField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute("classificacao-internacional-lista")]
+        [System.Xml.Serialization.XmlArrayItemAttribute("classificacao-internacional", IsNullable = false)]
+        public processopatenteClassificacaointernacional[] classificacaointernacionallista
+        {
+            get
+            {
+                return this.classificacaointernacionallistaField;
+            }
+            set
+            {
+                this.classificacaointernacionallistaField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute("prioridade-unionista-lista")]
+        [System.Xml.Serialization.XmlArrayItemAttribute("prioridade-unionista", IsNullable = false)]
+        public processopatentePrioridadeunionista[] prioridadeunionistalista
+        {
+            get
+            {
+                return this.prioridadeunionistalistaField;
+            }
+            set
+            {
+                this.prioridadeunionistalistaField = value;
+            }
+        }
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute("inventor-lista")]
+        [System.Xml.Serialization.XmlArrayItemAttribute("inventor", IsNullable = false)]
+        public revistaDespachoProcessopatenteInventorlistaInventor[] Inventorlista
+        {
+            get
+            {
+                return this.InventorlistaField;
+            }
+            set
+            {
+                this.InventorlistaField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlArrayAttribute("titular-lista")]
+        [System.Xml.Serialization.XmlArrayItemAttribute("titular", IsNullable = false)]
+        public revistaDespachoProcessopatenteTitularlistaTitular[] titularlista
         {
             get
             {
@@ -236,21 +315,144 @@
                 this.titularlistaField = value;
             }
         }
+
         /// <remarks/>
-        [System.Xml.Serialization.XmlArrayAttribute("inventor-lista")]
-        [System.Xml.Serialization.XmlArrayItemAttribute("inventor", IsNullable = false)]
-        public PatentesDespachoProcessopatenteInventorlistaInventor[] Inventorlista
+        [System.Xml.Serialization.XmlArrayAttribute("classificacao-nacional-lista")]
+        public ProcessopatenteClassificacaonacionallista clasificacaoNacionalLista
         {
             get
             {
-                return this.inventorlistaField;
+                return this.classificacaonacionallistaField;
             }
             set
             {
-                this.inventorlistaField = value;
+                this.classificacaonacionallistaField = value;
+            }
+        }
+
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ProcessopatenteClassificacaonacionallista
+    {
+
+        private ProcessopatenteClassificacaonacionallistaClassificacaonacional[] classificacaonacionalField;
+
+        /// <remarks/>
+        [XmlElementAttribute("classificacao-nacional")]
+        public ProcessopatenteClassificacaonacionallistaClassificacaonacional[] classificacaonacional
+        {
+            get
+            {
+                return this.classificacaonacionalField;
+            }
+            set
+            {
+                this.classificacaonacionalField = value;
             }
         }
     }
+
+
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ProcessopatenteClassificacaonacionallistaClassificacaonacional
+    {
+
+        private byte inidField;
+
+        private byte sequenciaField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public byte inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public byte sequencia
+        {
+            get
+            {
+                return this.sequenciaField;
+            }
+            set
+            {
+                this.sequenciaField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
+        {
+            get
+            {
+                return this.valueField;
+            }
+            set
+            {
+                this.valueField = value;
+            }
+        }
+    }
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class ProcessopatenteTitulo
+    {
+
+        private byte inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public byte inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
+        {
+            get
+            {
+                return this.valueField;
+            }
+            set
+            {
+                this.valueField = value;
+            }
+        }
+    }
+
 
     // OBSERVAÇÃO: o código gerado pode exigir pelo menos .NET Framework 4.5 ou .NET Core/Standard 2.0.
     /// <remarks/>
@@ -261,10 +463,11 @@
     public partial class inventorlista
     {
 
-        private inventorlistaInventor inventorField;
+        private inventorlistaInventor[] inventorField;
 
         /// <remarks/>
-        public inventorlistaInventor inventor
+        [System.Xml.Serialization.XmlElementAttribute("inventor")]
+        public inventorlistaInventor[] inventor
         {
             get
             {
@@ -334,7 +537,6 @@
     }
 
 
-
     /// <remarks/>
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -343,7 +545,6 @@
     {
 
         private byte inidField;
-
         private string kindcodeField;
 
         private string valueField;
@@ -363,6 +564,19 @@
         }
 
         /// <remarks/>
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
+        {
+            get
+            {
+                return this.valueField;
+            }
+            set
+            {
+                this.valueField = value;
+            }
+        }
+        /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string kindcode
         {
@@ -375,99 +589,46 @@
                 this.kindcodeField = value;
             }
         }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlTextAttribute()]
-        public string Value
-        {
-            get
-            {
-                return this.valueField;
-            }
-            set
-            {
-                this.valueField = value;
-            }
-        }
     }
 
     /// <remarks/>
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class processopatenteDatadeposito
+    public partial class processopatentePedidointernacional
     {
 
-        private byte inidField;
+        private string numeropctField;
 
-        private string valueField;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public byte inid
-        {
-            get
-            {
-                return this.inidField;
-            }
-            set
-            {
-                this.inidField = value;
-            }
-        }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlTextAttribute()]
-        public string Value
-        {
-            get
-            {
-                return this.valueField;
-            }
-            set
-            {
-                this.valueField = value;
-            }
-        }
-    }
-
-    /// <remarks/>
-    [System.SerializableAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class processopatenteDivisaopedido
-    {
-
-        private string datadepositoField;
-
-        private string numeroField;
+        private string datapctField;
 
         private byte inidField;
 
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("data-deposito")]
-        public string datadeposito
+        [System.Xml.Serialization.XmlElementAttribute("numero-pct")]
+        public string numeropct
         {
             get
             {
-                return this.datadepositoField;
+                return this.numeropctField;
             }
             set
             {
-                this.datadepositoField = value;
+                this.numeropctField = value;
             }
         }
 
         /// <remarks/>
-        public string numero
+        [System.Xml.Serialization.XmlElementAttribute("data-pct")]
+        public string datapct
         {
             get
             {
-                return this.numeroField;
+                return this.datapctField;
             }
             set
             {
-                this.numeroField = value;
+                this.datapctField = value;
             }
         }
 
@@ -490,64 +651,40 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class processopatenteTitularlista
+    public partial class processopatentePublicacaointernacional
     {
 
-        private processopatenteTitularlistaTitular titularField;
+        private string numeroompiField;
 
-        /// <remarks/>
-        public processopatenteTitularlistaTitular titular
-        {
-            get
-            {
-                return this.titularField;
-            }
-            set
-            {
-                this.titularField = value;
-            }
-        }
-    }
-
-    /// <remarks/>
-    [System.SerializableAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class processopatenteTitularlistaTitular
-    {
-
-        private string nomecompletoField;
-
-        private processopatenteTitularlistaTitularEndereco enderecoField;
+        private string dataompiField;
 
         private byte inidField;
 
-        private byte sequenciaField;
-
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("nome-completo")]
-        public string nomecompleto
+        [System.Xml.Serialization.XmlElementAttribute("numero-ompi")]
+        public string numeroompi
         {
             get
             {
-                return this.nomecompletoField;
+                return this.numeroompiField;
             }
             set
             {
-                this.nomecompletoField = value;
+                this.numeroompiField = value;
             }
         }
 
         /// <remarks/>
-        public processopatenteTitularlistaTitularEndereco endereco
+        [System.Xml.Serialization.XmlElementAttribute("data-ompi")]
+        public string dataompi
         {
             get
             {
-                return this.enderecoField;
+                return this.dataompiField;
             }
             set
             {
-                this.enderecoField = value;
+                this.dataompiField = value;
             }
         }
 
@@ -564,111 +701,13 @@
                 this.inidField = value;
             }
         }
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public byte sequencia
-        {
-            get
-            {
-                return this.sequenciaField;
-            }
-            set
-            {
-                this.sequenciaField = value;
-            }
-        }
     }
 
     /// <remarks/>
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class processopatenteTitularlistaTitularEndereco
-    {
-        private string ufField{get;set;}
-        private processopatenteTitularlistaTitularEnderecoPais paisField;
-        public string uf
-        {
-            get
-            {
-                return this.ufField;
-            }
-            set
-            {
-                this.ufField = value;
-            }
-        }
-
-        /// <remarks/>
-        public processopatenteTitularlistaTitularEnderecoPais pais
-        {
-            get
-            {
-                return this.paisField;
-            }
-            set
-            {
-                this.paisField = value;
-            }
-        }
-    }
-
-    /// <remarks/>
-    [System.SerializableAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class processopatenteTitularlistaTitularEnderecoPais
-    {
-
-        private string siglaField;
-
-        /// <remarks/>
-        public string sigla
-        {
-            get
-            {
-                return this.siglaField;
-            }
-            set
-            {
-                this.siglaField = value;
-            }
-        }
-    }
-
-
-   
-
-    /// <remarks/>
-    [System.SerializableAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatenteClassificacaointernacionallista
-    {
-
-        private PatentesDespachoProcessopatenteClassificacaointernacionallistaClassificacaointernacional[] classificacaointernacionalField;
-
-        /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("classificacao-internacional")]
-        public PatentesDespachoProcessopatenteClassificacaointernacionallistaClassificacaointernacional[] classificacaointernacional
-        {
-            get
-            {
-                return this.classificacaointernacionalField;
-            }
-            set
-            {
-                this.classificacaointernacionalField = value;
-            }
-        }
-    }
-
-    /// <remarks/>
-    [System.SerializableAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatenteClassificacaointernacionallistaClassificacaointernacional
+    public partial class processopatenteClassificacaointernacional
     {
 
         private byte inidField;
@@ -740,14 +779,359 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatenteClassificacaonacionallista
+    public partial class processopatentePrioridadeunionista
     {
 
-        private PatentesDespachoProcessopatenteClassificacaonacionallistaClassificacaonacional[] classificacaonacionalField;
+        private processopatentePrioridadeunionistaSiglapais siglapaisField;
+
+        private processopatentePrioridadeunionistaNumeroprioridade numeroprioridadeField;
+
+        private processopatentePrioridadeunionistaDataprioridade dataprioridadeField;
+
+        private byte inidField;
+
+        private byte sequenciaField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("sigla-pais")]
+        public processopatentePrioridadeunionistaSiglapais siglapais
+        {
+            get
+            {
+                return this.siglapaisField;
+            }
+            set
+            {
+                this.siglapaisField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("numero-prioridade")]
+        public processopatentePrioridadeunionistaNumeroprioridade numeroprioridade
+        {
+            get
+            {
+                return this.numeroprioridadeField;
+            }
+            set
+            {
+                this.numeroprioridadeField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("data-prioridade")]
+        public processopatentePrioridadeunionistaDataprioridade dataprioridade
+        {
+            get
+            {
+                return this.dataprioridadeField;
+            }
+            set
+            {
+                this.dataprioridadeField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public byte inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public byte sequencia
+        {
+            get
+            {
+                return this.sequenciaField;
+            }
+            set
+            {
+                this.sequenciaField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class processopatentePrioridadeunionistaSiglapais
+    {
+
+        private byte inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public byte inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
+        {
+            get
+            {
+                return this.valueField;
+            }
+            set
+            {
+                this.valueField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class processopatentePrioridadeunionistaNumeroprioridade
+    {
+
+        private byte inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public byte inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
+        {
+            get
+            {
+                return this.valueField;
+            }
+            set
+            {
+                this.valueField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class processopatentePrioridadeunionistaDataprioridade
+    {
+
+        private byte inidField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public byte inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
+        {
+            get
+            {
+                return this.valueField;
+            }
+            set
+            {
+                this.valueField = value;
+            }
+        }
+    }
+
+
+    ///// <remarks/>
+    //[System.SerializableAttribute()]
+    //[System.ComponentModel.DesignerCategoryAttribute("code")]
+    //[System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    //public partial class revistaDespachoProcessopatente
+    //{
+
+    //    private object[] itemsField;
+
+    //    /// <remarks/>
+    //    [System.Xml.Serialization.XmlElementAttribute("classificacao-internacional-lista", typeof(revistaDespachoProcessopatenteClassificacaointernacionallista))]
+    //    [System.Xml.Serialization.XmlElementAttribute("classificacao-nacional-lista", typeof(revistaDespachoProcessopatenteClassificacaonacionallista))]
+    //    [System.Xml.Serialization.XmlElementAttribute("complemento-figura-rosto", typeof(revistaDespachoProcessopatenteComplementofigurarosto))]
+    //    [System.Xml.Serialization.XmlElementAttribute("concessao", typeof(revistaDespachoProcessopatenteConcessao))]
+    //    [System.Xml.Serialization.XmlElementAttribute("data-deposito", typeof(revistaDespachoProcessopatenteDatadeposito))]
+    //    [System.Xml.Serialization.XmlElementAttribute("data-fase-nacional", typeof(revistaDespachoProcessopatenteDatafasenacional))]
+    //    [System.Xml.Serialization.XmlElementAttribute("divisao-pedido", typeof(revistaDespachoProcessopatenteDivisaopedido))]
+    //    [System.Xml.Serialization.XmlElementAttribute("inventor-lista", typeof(revistaDespachoProcessopatenteInventorlista))]
+    //    [System.Xml.Serialization.XmlElementAttribute("numero", typeof(revistaDespachoProcessopatenteNumero))]
+    //    [System.Xml.Serialization.XmlElementAttribute("pedido-internacional", typeof(revistaDespachoProcessopatentePedidointernacional))]
+    //    [System.Xml.Serialization.XmlElementAttribute("pedido-principal", typeof(revistaDespachoProcessopatentePedidoprincipal))]
+    //    [System.Xml.Serialization.XmlElementAttribute("prioridade-interna-lista", typeof(revistaDespachoProcessopatentePrioridadeinternalista))]
+    //    [System.Xml.Serialization.XmlElementAttribute("prioridade-unionista-lista", typeof(revistaDespachoProcessopatentePrioridadeunionistalista))]
+    //    [System.Xml.Serialization.XmlElementAttribute("publicacao-internacional", typeof(revistaDespachoProcessopatentePublicacaointernacional))]
+    //    [System.Xml.Serialization.XmlElementAttribute("publicacao-nacional", typeof(revistaDespachoProcessopatentePublicacaonacional))]
+    //    [System.Xml.Serialization.XmlElementAttribute("titular-lista", typeof(revistaDespachoProcessopatenteTitularlista))]
+    //    [System.Xml.Serialization.XmlElementAttribute("titulo", typeof(revistaDespachoProcessopatenteTitulo))]
+    //    public object[] Items
+    //    {
+    //        get
+    //        {
+    //            return this.itemsField;
+    //        }
+    //        set
+    //        {
+    //            this.itemsField = value;
+    //        }
+    //    }
+    //}
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class revistaDespachoProcessopatenteClassificacaointernacionallista
+    {
+
+        private revistaDespachoProcessopatenteClassificacaointernacionallistaClassificacaointernacional[] classificacaointernacionalField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlElementAttribute("classificacao-internacional")]
+        public revistaDespachoProcessopatenteClassificacaointernacionallistaClassificacaointernacional[] classificacaointernacional
+        {
+            get
+            {
+                return this.classificacaointernacionalField;
+            }
+            set
+            {
+                this.classificacaointernacionalField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class revistaDespachoProcessopatenteClassificacaointernacionallistaClassificacaointernacional
+    {
+
+        private byte inidField;
+
+        private byte sequenciaField;
+
+        private decimal anoField;
+
+        private string valueField;
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public byte inid
+        {
+            get
+            {
+                return this.inidField;
+            }
+            set
+            {
+                this.inidField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public byte sequencia
+        {
+            get
+            {
+                return this.sequenciaField;
+            }
+            set
+            {
+                this.sequenciaField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public decimal ano
+        {
+            get
+            {
+                return this.anoField;
+            }
+            set
+            {
+                this.anoField = value;
+            }
+        }
+
+        /// <remarks/>
+        [System.Xml.Serialization.XmlTextAttribute()]
+        public string Value
+        {
+            get
+            {
+                return this.valueField;
+            }
+            set
+            {
+                this.valueField = value;
+            }
+        }
+    }
+
+    /// <remarks/>
+    [System.SerializableAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
+    public partial class revistaDespachoProcessopatenteClassificacaonacionallista
+    {
+
+        private revistaDespachoProcessopatenteClassificacaonacionallistaClassificacaonacional[] classificacaonacionalField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("classificacao-nacional")]
-        public PatentesDespachoProcessopatenteClassificacaonacionallistaClassificacaonacional[] classificacaonacional
+        public revistaDespachoProcessopatenteClassificacaonacionallistaClassificacaonacional[] classificacaonacional
         {
             get
             {
@@ -764,7 +1148,7 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatenteClassificacaonacionallistaClassificacaonacional
+    public partial class revistaDespachoProcessopatenteClassificacaonacionallistaClassificacaonacional
     {
 
         private byte inidField;
@@ -820,7 +1204,7 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatenteComplementofigurarosto
+    public partial class revistaDespachoProcessopatenteComplementofigurarosto
     {
 
         private string inidField;
@@ -844,7 +1228,7 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatenteConcessao
+    public partial class revistaDespachoProcessopatenteConcessao
     {
 
         private string dataField;
@@ -883,7 +1267,7 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatenteDatadeposito
+    public partial class ProcessopatenteDatadeposito
     {
 
         private byte inidField;
@@ -923,7 +1307,7 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatenteDatafasenacional
+    public partial class revistaDespachoProcessopatenteDatafasenacional
     {
 
         private byte inidField;
@@ -963,7 +1347,7 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatenteDivisaopedido
+    public partial class ProcessopatenteDivisaopedido
     {
 
         private string datadepositoField;
@@ -1018,14 +1402,14 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatenteInventorlista
+    public partial class revistaDespachoProcessopatenteInventorlista
     {
 
-        private PatentesDespachoProcessopatenteInventorlistaInventor inventorField;
+        private revistaDespachoProcessopatenteInventorlistaInventor[] inventorField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("inventor")]
-        public PatentesDespachoProcessopatenteInventorlistaInventor inventor
+        public revistaDespachoProcessopatenteInventorlistaInventor[] inventor
         {
             get
             {
@@ -1042,7 +1426,7 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatenteInventorlistaInventor
+    public partial class revistaDespachoProcessopatenteInventorlistaInventor
     {
 
         private string nomecompletoField;
@@ -1098,7 +1482,7 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatenteNumero
+    public partial class revistaDespachoProcessopatenteNumero
     {
 
         private byte inidField;
@@ -1154,7 +1538,7 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class ProcessopatentePedidointernacional
+    public partial class revistaDespachoProcessopatentePedidointernacional
     {
 
         private string numeropctField;
@@ -1210,7 +1594,7 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatentePedidoprincipal
+    public partial class revistaDespachoProcessopatentePedidoprincipal
     {
 
         private string datadepositoField;
@@ -1265,14 +1649,14 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatentePrioridadeinternalista
+    public partial class revistaDespachoProcessopatentePrioridadeinternalista
     {
 
-        private PatentesDespachoProcessopatentePrioridadeinternalistaPrioridadeinterna prioridadeinternaField;
+        private revistaDespachoProcessopatentePrioridadeinternalistaPrioridadeinterna prioridadeinternaField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("prioridade-interna")]
-        public PatentesDespachoProcessopatentePrioridadeinternalistaPrioridadeinterna prioridadeinterna
+        public revistaDespachoProcessopatentePrioridadeinternalistaPrioridadeinterna prioridadeinterna
         {
             get
             {
@@ -1289,7 +1673,7 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatentePrioridadeinternalistaPrioridadeinterna
+    public partial class revistaDespachoProcessopatentePrioridadeinternalistaPrioridadeinterna
     {
 
         private string dataprioridadeField;
@@ -1361,14 +1745,14 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatentePrioridadeunionistalista
+    public partial class revistaDespachoProcessopatentePrioridadeunionistalista
     {
 
-        private PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionista[] prioridadeunionistaField;
+        private revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionista[] prioridadeunionistaField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("prioridade-unionista")]
-        public PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionista[] prioridadeunionista
+        public revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionista[] prioridadeunionista
         {
             get
             {
@@ -1385,14 +1769,14 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionista
+    public partial class revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionista
     {
 
-        private PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaSiglapais siglapaisField;
+        private revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaSiglapais siglapaisField;
 
-        private PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaNumeroprioridade numeroprioridadeField;
+        private revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaNumeroprioridade numeroprioridadeField;
 
-        private PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaDataprioridade dataprioridadeField;
+        private revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaDataprioridade dataprioridadeField;
 
         private byte inidField;
 
@@ -1400,7 +1784,7 @@
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("sigla-pais")]
-        public PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaSiglapais siglapais
+        public revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaSiglapais siglapais
         {
             get
             {
@@ -1414,7 +1798,7 @@
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("numero-prioridade")]
-        public PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaNumeroprioridade numeroprioridade
+        public revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaNumeroprioridade numeroprioridade
         {
             get
             {
@@ -1428,7 +1812,7 @@
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("data-prioridade")]
-        public PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaDataprioridade dataprioridade
+        public revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaDataprioridade dataprioridade
         {
             get
             {
@@ -1473,7 +1857,7 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaSiglapais
+    public partial class revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaSiglapais
     {
 
         private byte inidField;
@@ -1513,7 +1897,7 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaNumeroprioridade
+    public partial class revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaNumeroprioridade
     {
 
         private byte inidField;
@@ -1553,7 +1937,7 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaDataprioridade
+    public partial class revistaDespachoProcessopatentePrioridadeunionistalistaPrioridadeunionistaDataprioridade
     {
 
         private byte inidField;
@@ -1593,7 +1977,7 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatentePublicacaointernacional
+    public partial class revistaDespachoProcessopatentePublicacaointernacional
     {
 
         private string numeroompiField;
@@ -1649,7 +2033,7 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatentePublicacaonacional
+    public partial class revistaDespachoProcessopatentePublicacaonacional
     {
 
         private string datarpiField;
@@ -1689,14 +2073,14 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatenteTitularlista
+    public partial class revistaDespachoProcessopatenteTitularlista
     {
 
-        private PatentesDespachoProcessopatenteTitularlistaTitular[] titularField;
+        private revistaDespachoProcessopatenteTitularlistaTitular[] titularField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("titular")]
-        public PatentesDespachoProcessopatenteTitularlistaTitular[] titular
+        public revistaDespachoProcessopatenteTitularlistaTitular[] titular
         {
             get
             {
@@ -1713,12 +2097,12 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatenteTitularlistaTitular
+    public partial class revistaDespachoProcessopatenteTitularlistaTitular
     {
 
         private string nomecompletoField;
 
-        private PatentesDespachoProcessopatenteTitularlistaTitularEndereco enderecoField;
+        private revistaDespachoProcessopatenteTitularlistaTitularEndereco enderecoField;
 
         private byte inidField;
 
@@ -1739,7 +2123,7 @@
         }
 
         /// <remarks/>
-        public PatentesDespachoProcessopatenteTitularlistaTitularEndereco endereco
+        public revistaDespachoProcessopatenteTitularlistaTitularEndereco endereco
         {
             get
             {
@@ -1784,12 +2168,12 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatenteTitularlistaTitularEndereco
+    public partial class revistaDespachoProcessopatenteTitularlistaTitularEndereco
     {
 
         private string ufField;
 
-        private PatentesDespachoProcessopatenteTitularlistaTitularEnderecoPais paisField;
+        private revistaDespachoProcessopatenteTitularlistaTitularEnderecoPais paisField;
 
         /// <remarks/>
         public string uf
@@ -1805,7 +2189,7 @@
         }
 
         /// <remarks/>
-        public PatentesDespachoProcessopatenteTitularlistaTitularEnderecoPais pais
+        public revistaDespachoProcessopatenteTitularlistaTitularEnderecoPais pais
         {
             get
             {
@@ -1822,7 +2206,7 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatenteTitularlistaTitularEnderecoPais
+    public partial class revistaDespachoProcessopatenteTitularlistaTitularEnderecoPais
     {
 
         private string siglaField;
@@ -1845,7 +2229,7 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoProcessopatenteTitulo
+    public partial class revistaDespachoProcessopatenteTitulo
     {
 
         private byte inidField;
@@ -1885,7 +2269,7 @@
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    public partial class PatentesDespachoComentario
+    public partial class revistaDespachoComentario
     {
 
         private string inidField;
