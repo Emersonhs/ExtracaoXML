@@ -19,16 +19,12 @@ namespace XML_v2
             DeserializerXML orquestrador = new DeserializerXML();
 
             orquestrador.Deserializer<DesenhoIndustrial>();//DesenhoIndustrial
-            
 
             orquestrador.Deserializer<Contrato>();
-            Console.WriteLine("Contrato.txt PRONTO.");
 
             orquestrador.Deserializer<Patente>();
-            Console.WriteLine("Patente.txt PRONTO.");
 
             orquestrador.Deserializer<ProgramaComputador>();
-            Console.WriteLine("Programa Computador.txt PRONTO.");
 
             Console.ReadKey();
 

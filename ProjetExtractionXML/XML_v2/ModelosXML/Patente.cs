@@ -11,6 +11,7 @@ namespace XML_v2.ModelosXML.Patente
     [System.Xml.Serialization.XmlRootAttribute(ElementName = "revista", Namespace = "", IsNullable = false)]
     public partial class Patente
     {
+        
 
 
         private revistaDespacho[] despachoField;
@@ -316,7 +317,7 @@ namespace XML_v2.ModelosXML.Patente
         }
 
         /// <remarks/>
-        [System.Xml.Serialization.XmlAttribute("classificacao-nacional-lista")]
+        [System.Xml.Serialization.XmlArrayAttribute("classificacao-nacional-lista")]
         public ProcessopatenteClassificacaonacionallista clasificacaoNacionalLista
         {
             get

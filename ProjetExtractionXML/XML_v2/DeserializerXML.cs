@@ -48,18 +48,18 @@ namespace XML_v2
             }
             else if (typeof(T).Name == typeof(Patente).Name)
             {
-                try
-                {
-                    xmlInputData = File.ReadAllText(Constantes.Arquivos.Patente);
-                    T Retorno = ser.Deserialize<T>(xmlInputData);
-                    GerarArquivo.Gerar<T>(Retorno);
-                    Console.WriteLine("Patente.txt PRONTO.");
+                //         try
+                //      {
+                xmlInputData = File.ReadAllText(Constantes.Arquivos.Patente);
+                T Retorno = ser.Deserialize<T>(xmlInputData);
+                GerarArquivo.Gerar<T>(Retorno);
+                Console.WriteLine("Patente.txt PRONTO.");
 
-                }
-                catch (Exception msg)
-                {
-                    Console.WriteLine("Arquivo XML Patente não encontrado.", msg);
-                }
+                /*       }
+                       catch (Exception msg)
+                       {
+                           Console.WriteLine("Arquivo XML Patente não encontrado.", msg);
+                       }*/
             }
             else if (typeof(T).Name == typeof(ProgramaComputador).Name)
             {
@@ -69,7 +69,6 @@ namespace XML_v2
                     T Retorno = ser.Deserialize<T>(xmlInputData);
                     GerarArquivo.Gerar<T>(Retorno);
                     Console.WriteLine("Programa Computador.txt PRONTO.");
-
                 }
                 catch (Exception msg)
                 {
